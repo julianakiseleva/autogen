@@ -1,0 +1,27 @@
+
+{
+    "Accuracy": {
+        "description": "The correctness of the final answer provided by the agents.",
+        "accepted_values": ["incorrect", "partially correct", "correct"]
+    },
+    "Coherence": {
+        "description": "The logical and grammatical sense of the sentences formed by the agents.",
+        "accepted_values": ["nonsensical", "partly coherent", "coherent"]
+    },
+    "Efficiency": {
+        "description": "The number of steps and the amount of time taken to solve the puzzle relative to the optimal path.",
+        "accepted_values": ["inefficient", "moderately efficient", "highly efficient"]
+    },
+    "Reasoning Traceability": {
+        "description": "The ability to follow the thought process of the agents through the steps they take.",
+        "accepted_values": ["untraceable", "partly traceable", "fully traceable"]
+    },
+    "Resourcefulness": {
+        "description": "The use of agents' own skills and expertise to solve the problem without external help.",
+        "accepted_values": ["not resourceful", "somewhat resourceful", "highly resourceful"]
+    },
+    "Completeness": {
+        "description": "Whether the solution provided by the agents addresses all aspects of the task including all instructions and constraints.",
+        "accepted_values": ["incomplete", "mostly complete", "complete"]
+    }
+}

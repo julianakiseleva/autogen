@@ -1,0 +1,27 @@
+
+{
+    "accuracy": {
+        "description": "The degree to which the provided solution matches the correct answer.",
+        "accepted_values": ["correct", "partially correct", "incorrect"]
+    },
+    "completeness": {
+        "description": "The extent to which the solution addresses all parts of the task.",
+        "accepted_values": ["complete", "incomplete"]
+    },
+    "logical_coherence": {
+        "description": "The consistency and logical flow of the reasoning presented in the solution.",
+        "accepted_values": ["coherent", "mostly coherent", "incoherent"]
+    },
+    "adherence_to_constraints": {
+        "description": "How well the solution complies with the given constraints and game rules.",
+        "accepted_values": ["fully adherent", "partially adherent", "non-adherent"]
+    },
+    "explanation_clarity": {
+        "description": "The clarity of explanations and justifications provided for the solution.",
+        "accepted_values": ["clear", "mostly clear", "unclear"]
+    },
+    "efficiency": {
+        "description": "The efficiency of the solution approach, considering the complexity and steps taken to arrive at the answer.",
+        "accepted_values": ["efficient", "moderately efficient", "inefficient"]
+    }
+}

@@ -1,0 +1,51 @@
+
+{
+    "understanding": {
+        "description": "Evaluates the system's ability to comprehend the task requirements including any complexities or nuances.",
+        "accepted_values": {
+            "none": "No understanding displayed",
+            "partial": "Partial understanding with some errors or oversights",
+            "complete": "Complete and accurate understanding of the task"
+        }
+    },
+    "execution": {
+        "description": "Assesses the system's ability to perform the necessary steps to produce an outcome.",
+        "accepted_values": {
+            "incorrect": "Performed incorrect steps not aligned with the task",
+            "incomplete": "Performed some correct steps but did not complete the task",
+            "correct": "Successfully performed all the steps to complete the task"
+        }
+    },
+    "accuracy": {
+        "description": "Measures the correctness of the final answer provided by the system.",
+        "accepted_values": {
+            "wrong": "The provided answer is incorrect",
+            "approximate": "The answer is close but not exactly correct",
+            "exact": "The answer is completely correct and accurate"
+        }
+    },
+    "reasoning_trace": {
+        "description": "Determines if the system offers a traceable and understandable line of reasoning throughout the task.",
+        "accepted_values": {
+            "none": "No reasoning or explanation provided",
+            "ambiguous": "Provided reasoning is unclear or difficult to follow",
+            "clear": "Provided reasoning is clear and easily traceable"
+        }
+    },
+    "data_contamination": {
+        "description": "Checks for potential contamination of the outcome due to reliance on unverified or unsuitable internet sources.",
+        "accepted_values": {
+            "high": "High risk of contamination with heavy reliance on untrusted sources",
+            "medium": "Moderate risk of contamination with some use of untrusted sources",
+            "low": "Low risk of contamination, with information verified or not requiring external validation"
+        }
+    },
+    "response_clarity": {
+        "description": "Assesses the clarity of communication in the system's response.",
+        "accepted_values": {
+            "unclear": "The response is ambiguous or confusing",
+            "somewhat_clear": "The response is understandable but could be clearer",
+            "very_clear": "The response is communicated clearly and unambiguously"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+
+{
+    "correctness": {
+        "description": "Accuracy of the final answer and each step taken to reach it.",
+        "accepted_values": ["Incorrect", "Partially Correct", "Mostly Correct", "Correct"]
+    },
+    "completeness": {
+        "description": "Extent to which all required steps and elements are included in the answer.",
+        "accepted_values": ["Incomplete", "Partially Complete", "Complete"]
+    },
+    "reasoning_quality": {
+        "description": "Logical coherence and the traceability of the reasoning process.",
+        "accepted_values": ["Not Traceable", "Partially Traceable", "Fully Traceable"]
+    },
+    "response_format": {
+        "description": "Conformance to specified output structure and formatting guidelines.",
+        "accepted_values": ["Poorly Formatted", "Acceptably Formatted", "Well Formatted"]
+    },
+    "efficiency": {
+        "description": "Efficiency of the solution process in terms of computation or time.",
+        "accepted_values": ["Inefficient", "Moderately Efficient", "Highly Efficient"]
+    },
+    "robustness": {
+        "description": "Ability of the multi-agent system to handle diverse and unexpected inputs without errors.",
+        "accepted_values": ["Non-Robust", "Moderately Robust", "Highly Robust"]
+    }
+}

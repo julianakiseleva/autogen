@@ -1,0 +1,35 @@
+
+{
+    "Accuracy of Answer": {
+        "description": "The correctness of the final answer provided by the agent after completing the necessary steps.",
+        "accepted_values": ["incorrect", "partially correct", "correct"]
+    },
+    "Completeness of the Answer": {
+        "description": "Whether the answer provided addresses the full scope of the question or only parts of it.",
+        "accepted_values": ["incomplete", "mostly complete", "complete"]
+    },
+    "Efficiency of Information Retrieval": {
+        "description": "How quickly and directly the agent identifies and uses the required information to formulate an answer.",
+        "accepted_values": ["inefficient", "moderately efficient", "efficient"]
+    },
+    "Number of Steps to Solution": {
+        "description": "The number of steps the agent takes to arrive at the final answer, with fewer steps being better.",
+        "accepted_values": ["many steps (>5)", "several steps (3-5)", "few steps (1-2)"]
+    },
+    "Evidence of Learning or Improvement": {
+        "description": "Indications that the agent is learning from previous steps or is getting better at solving similar problems over time.",
+        "accepted_values": ["no improvement", "some improvement", "significant improvement"]
+    },
+    "Reasoning Traceability": {
+        "description": "The ability to follow the agent's logic and reasoning process throughout the task.",
+        "accepted_values": ["not traceable", "partially traceable", "fully traceable"]
+    },
+    "Robustness to Errors": {
+        "description": "The system's capability to handle errors, issues, or unexpected input during the execution of tasks.",
+        "accepted_values": ["not robust", "moderately robust", "very robust"]
+    },
+    "Collaboration Efficiency": {
+        "description": "How effectively the agents work together, if there are multiple agents in the system.",
+        "accepted_values": ["ineffective collaboration", "moderate collaboration", "highly effective collaboration"]
+    }
+}

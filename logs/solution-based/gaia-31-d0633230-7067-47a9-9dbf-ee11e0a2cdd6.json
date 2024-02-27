@@ -1,0 +1,43 @@
+
+{
+    "Reasoning Traceability": {
+        "description": "The ability to follow the logical reasoning and steps taken to arrive at the final answer.",
+        "accepted_values": {
+            "none": "No reasoning trace is provided.",
+            "partial": "A partial reasoning trace is provided, but some steps or logic are unclear.",
+            "complete": "A complete and clear reasoning trace is provided for all steps."
+        }
+    },
+    "Solution Accuracy": {
+        "description": "The correctness of the final answer provided with respect to the question asked.",
+        "accepted_values": {
+            "incorrect": "The solution is incorrect.",
+            "partially_correct": "The solution is partially correct but incomplete or has minor errors.",
+            "correct": "The solution is fully correct."
+        }
+    },
+    "Diversity and Complexity Coverage": {
+        "description": "The extent to which the solution covers diverse and complex aspects inherent in the task.",
+        "accepted_values": {
+            "low": "The solution covers only simple or a limited range of aspects.",
+            "medium": "The solution covers a moderate range of diverse and complex aspects.",
+            "high": "The solution thoroughly covers a wide range of diverse and complex aspects."
+        }
+    },
+    "Internet Independence": {
+        "description": "The degree to which the solution can be derived without reliance on plain text answers from the internet.",
+        "accepted_values": {
+            "dependent": "The solution is derived from plain text found directly on the internet.",
+            "partially_independent": "The solution references the internet but also demonstrates independent reasoning or computations.",
+            "independent": "The solution is independent of internet search results and demonstrates original reasoning or computations."
+        }
+    },
+    "Steps Completeness": {
+        "description": "Whether all the required steps to reach the answer have been successfully completed.",
+        "accepted_values": {
+            "incomplete": "Some required steps are missing or not executed.",
+            "mostly_complete": "Most of the required steps are completed with minor gaps.",
+            "complete": "All required steps are successfully completed."
+        }
+    }
+}

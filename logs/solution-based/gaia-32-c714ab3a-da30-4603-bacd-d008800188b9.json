@@ -1,0 +1,59 @@
+
+{
+    "accuracy": {
+        "description": "The correctness of the final answer provided by the system.",
+        "accepted_values": {
+            "1": "Completely accurate and correct response.",
+            "0.5": "Partially correct, but some details are inaccurate or missing.",
+            "0": "Incorrect or irrelevant response."
+        }
+    },
+    "reasoning_traceability": {
+        "description": "The ability to follow the logical steps or reasoning of the system to understand how the final answer was derived.",
+        "accepted_values": {
+            "clear": "The reasoning process is clearly and explicitly stated.",
+            "partial": "Some reasoning steps are provided, but not all are clear or complete.",
+            "none": "No reasoning trace is provided or it is not comprehensible."
+        }
+    },
+    "completeness": {
+        "description": "The extent to which the solution addresses all components of the question.",
+        "accepted_values": {
+            "complete": "All aspects of the question are addressed in the solution.",
+            "partial": "Some aspects of the question are addressed, but others are omitted.",
+            "incomplete": "The solution does not adequately address the question posed."
+        }
+    },
+    "non_redundancy": {
+        "description": "The degree to which the system's output contains information that is non-redundant, precise, and to the point.",
+        "accepted_values": {
+            "none": "No redundant information is present.",
+            "some": "There is some redundant information, but it does not obscure the message.",
+            "high": "The response contains a lot of redundant information that makes it difficult to extract useful insights."
+        }
+    },
+    "efficiency": {
+        "description": "How efficiently the system reaches the solution in terms of computational resources and time.",
+        "accepted_values": {
+            "high": "Solution is reached with optimal use of resources and in minimal time.",
+            "medium": "Solution uses a reasonable amount of resources but may not be optimal.",
+            "low": "Solution requires excessive resources or time to achieve."
+        }
+    },
+    "data_contamination_prevention": {
+        "description": "The extent to which the system prevents the use of incorrect or unverified data, including avoiding plagiarism from internet sources.",
+        "accepted_values": {
+            "full": "The system shows full prevention of data contamination and no plagiarism.",
+            "partial": "The system shows some prevention of data contamination but may not be fully effective.",
+            "none": "The system does not prevent data contamination or plagiarism."
+        }
+    },
+    "agent_collaboration": {
+        "description": "The quality and effectiveness of the interactions among different agents working on the task.",
+        "accepted_values": {
+            "excellent": "Agents collaborate seamlessly, with each contributing effectively to the task.",
+            "good": "Agents mostly collaborate well, with some minor issues in interaction.",
+            "poor": "Agents do not collaborate effectively, leading to disjointed or conflicting actions."
+        }
+    }
+}

@@ -1,0 +1,31 @@
+
+{
+    "answer_correctness": {
+        "description": "Accuracy of the answer relative to the actual information required",
+        "accepted_values": ["incorrect", "partially_correct", "correct"]
+    },
+    "answer_completeness": {
+        "description": "The degree to which the answer addresses all parts of the question",
+        "accepted_values": ["incomplete", "mostly_complete", "complete"]
+    },
+    "retrieval_efficiency": {
+        "description": "Effectiveness in finding the necessary information in the minimum number of steps",
+        "accepted_values": ["inefficient", "moderately_efficient", "efficient"]
+    },
+    "step_diversity": {
+        "description": "Variety of different steps performed in the process of finding the answer",
+        "accepted_values": ["monotonous", "moderately_varied", "diverse"]
+    },
+    "reasoning_traceability": {
+        "description": "Ability to follow the logical reasoning and sequence of steps taken to arrive at the answer",
+        "accepted_values": ["untraceable", "traceable_with_difficulty", "clearly_traceable"]
+    },
+    "process_automation": {
+        "description": "Degree to which the solution relies on automation as opposed to manual intervention",
+        "accepted_values": ["manual", "semi-automated", "fully_automated"]
+    },
+    "data_contamination": {
+        "description": "Presence of irrelevant or misleading information that could bias or contaminate the answer",
+        "accepted_values": ["high_contamination", "some_contamination", "no_contamination"]
+    }
+}

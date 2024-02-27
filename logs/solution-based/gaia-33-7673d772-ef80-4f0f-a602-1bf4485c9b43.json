@@ -1,0 +1,31 @@
+
+{
+    "accuracy": {
+        "description": "The correctness of the system's solution, as evaluated against the expected results.",
+        "accepted_values": {"low": "Below 60%", "medium": "60-79%", "high": "80-94%", "very high": "95-100%"}
+    },
+    "completeness": {
+        "description": "The extent to which all required steps or components of the task have been addressed by the agent system.",
+        "accepted_values": {"partial": "Some steps are missing", "complete": "All steps are present"}
+    },
+    "efficiency": {
+        "description": "Resource utilization and time taken by the system to reach a solution, considering the complexity of tasks.",
+        "accepted_values": {"inefficient": "Unnecessary steps performed", "moderate": "Acceptable resource usage", "efficient": "Minimal resources used for solution"}
+    },
+    "robustness": {
+        "description": "The resilience of the system in dealing with diverse and difficult tasks, and its adaptability to change.",
+        "accepted_values": {"brittle": "Fails with complexity", "resilient": "Handles complexity well"}
+    },
+    "transparency": {
+        "description": "How understandable and traceable the decision-making process of the system is to an outside observer.",
+        "accepted_values": {"opaque": "Reasoning not clear", "translucent": "Some reasoning is clear", "transparent": "Full transparent reasoning"}
+    },
+    "reasoning_depth": {
+        "description": "The level of detailed analysis and logical reasoning exhibited by the multi-agent system.",
+        "accepted_values": {"shallow": "Superficial reasoning", "deep": "In-depth logical analysis"}
+    },
+    "failure_handling": {
+        "description": "The capability of the system to recognize, address, and learn from failures during task execution.",
+        "accepted_values": {"poor": "No recovery from errors", "average": "Some error recognition and handling", "excellent": "Quick error recovery and learning"}
+    }
+}

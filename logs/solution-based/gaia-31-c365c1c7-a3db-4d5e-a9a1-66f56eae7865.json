@@ -1,0 +1,31 @@
+
+{
+    "accuracy": {
+        "description": "The level of correctness of the final answer provided by the system.",
+        "accepted_values": {"incorrect": 0, "partially_correct": 0.5, "fully_correct": 1}
+    },
+    "completeness": {
+        "description": "The extent to which the solution covers all necessary steps and information to fully address the task.",
+        "accepted_values": {"not_complete": 0, "partially_complete": 0.5, "fully_complete": 1}
+    },
+    "relevancy": {
+        "description": "How relevant and on-point the information provided by the agents is with respect to the question asked.",
+        "accepted_values": {"not_relevant": 0, "somewhat_relevant": 0.5, "highly_relevant": 1}
+    },
+    "efficiency": {
+        "description": "The ability of the system to provide the correct answer using the least amount of time and resources.",
+        "accepted_values": {"inefficient": 0, "moderately_efficient": 0.5, "highly_efficient": 1}
+    },
+    "explainability": {
+        "description": "The clarity of the reasoning trace showing the steps taken to reach the final answer.",
+        "accepted_values": {"not_explainable": 0, "partially_explainable": 0.5, "fully_explainable": 1}
+    },
+    "robustness": {
+        "description": "The system's ability to handle varied types of questions and its resilience to errors during processing.",
+        "accepted_values": {"not_robust": 0, "moderately_robust": 0.5, "highly_robust": 1}
+    },
+    "adaptability": {
+        "description": "The degree to which the system can adjust its processing to account for new information or unexpected scenarios.",
+        "accepted_values": {"not_adaptable": 0, "moderately_adaptable": 0.5, "highly_adaptable": 1}
+    }
+}

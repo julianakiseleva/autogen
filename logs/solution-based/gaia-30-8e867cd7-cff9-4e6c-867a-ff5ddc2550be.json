@@ -1,0 +1,43 @@
+
+{
+    "accuracy": {
+        "description": "Correctness of the final answer provided by the agent.",
+        "accepted_values": ["Completely correct", "Partially correct", "Incorrect", "Not provided"]
+    },
+    "completeness": {
+        "description": "The degree to which all required steps were completed to reach the answer.",
+        "accepted_values": ["All steps completed", "Some steps skipped", "No steps completed"]
+    },
+    "source_reliability": {
+        "description": "How reliable and authoritative the sources used for information retrieval are.",
+        "accepted_values": ["Highly reliable", "Moderately reliable", "Unreliable", "No sources provided"]
+    },
+    "reasoning_traceability": {
+        "description": "Whether the intermediate reasoning steps can be traced and verified.",
+        "accepted_values": ["Fully traceable", "Partially traceable", "Not traceable"]
+    },
+    "answer_uniqueness": {
+        "description": "The degree to which the answer provided diverges from readily available sources online (e.g., direct copy-paste from the internet).",
+        "accepted_values": ["Unique, non-obvious answer", "Some common information, partially unique", "Common, widely available information"]
+    },
+    "execution_efficiency": {
+        "description": "How efficiently the system's steps are executed without redundant or unnecessary actions.",
+        "accepted_values": ["High efficiency", "Moderate efficiency", "Low efficiency"]
+    },
+    "data_contamination_avoidance": {
+        "description": "The ability of the agent to avoid incorporating compromised, biased, or incorrect data into the final answer.",
+        "accepted_values": ["No contamination", "Some contamination detected", "High contamination"]
+    },
+    "progress_reporting": {
+        "description": "How clearly and frequently the system reports progress towards answering the question.",
+        "accepted_values": ["Clear and frequent", "Occasional and vague", "Absent or misleading"]
+    },
+    "context_appropriateness": {
+        "description": "The extent to which the agent's actions and answers are appropriate to the context of the question.",
+        "accepted_values": ["Highly appropriate", "Somewhat appropriate", "Inappropriate"]
+    },
+    "answer_clarity": {
+        "description": "How clear and comprehensible the final answer is.",
+        "accepted_values": ["Very clear", "Somewhat clear", "Unclear"]
+    }
+}

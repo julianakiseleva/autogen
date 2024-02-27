@@ -1,0 +1,43 @@
+
+{
+    "accuracy": {
+        "description": "Accuracy of the final answer provided in relation to the question posed.",
+        "accepted_values": {
+            "correct": "The provided answer is completely correct and on point.",
+            "partially_correct": "The provided answer is correct but not complete or lacking details.",
+            "incorrect": "The provided answer is not correct or irrelevant to the question."
+        }
+    },
+    "reasoning_traceability": {
+        "description": "The ability to follow the reasoning process and steps the agent took to arrive at the answer.",
+        "accepted_values": {
+            "full_trace": "The reasoning process and steps are fully detailed and comprehensible.",
+            "partial_trace": "The reasoning process is outlined but some steps are not fully detailed.",
+            "no_trace": "The reasoning process is not provided or is incomprehensible."
+        }
+    },
+    "efficiency": {
+        "description": "The number of steps and time taken to arrive at the final answer, indicating the system's performance efficiency.",
+        "accepted_values": {
+            "high_efficiency": "The system took the minimal necessary steps and time to provide an answer.",
+            "moderate_efficiency": "The system took more steps and time than necessary, but it was still reasonable.",
+            "low_efficiency": "The system took an excessive amount of steps or time to provide an answer."
+        }
+    },
+    "compliance_with_data_policies": {
+        "description": "Adherence to copyright and content sharing policies, especially regarding the use of external sources like YouTube videos.",
+        "accepted_values": {
+            "compliant": "The process was entirely compliant with data and copyright policies.",
+            "partially_compliant": "There were minor issues with compliance, but they did not significantly affect the process.",
+            "non_compliant": "The process had significant compliance issues affecting its legitimacy or legality."
+        }
+    },
+    "completion_status": {
+        "description": "Indicates whether the task at hand was completed or not.",
+        "accepted_values": {
+            "completed": "The task was fully completed as requested.",
+            "partially_completed": "The task was partially completed. Some aspects were not addressed or finalized.",
+            "not_completed": "The task was not completed. The request was not fulfilled."
+        }
+    }
+}     

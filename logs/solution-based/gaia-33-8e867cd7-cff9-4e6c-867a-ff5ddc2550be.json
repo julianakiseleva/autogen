@@ -1,0 +1,31 @@
+
+{
+    "Accuracy": {
+        "description": "How correctly does the agent's answer match the true, real-world answer to the question posed?",
+        "accepted_values": ["incorrect", "partially correct", "mostly correct", "fully correct"]
+    },
+    "Completeness": {
+        "description": "Has the task been fully completed with all required steps properly executed?",
+        "accepted_values": ["not started", "incomplete", "complete but with issues", "fully complete"]
+    },
+    "Efficiency": {
+        "description": "Was the task performed in a streamlined manner without unnecessary steps or wasted resources?",
+        "accepted_values": ["inefficient", "moderately efficient", "efficient", "highly efficient"]
+    },
+    "Adherence to Instructions": {
+        "description": "Did the actions taken by the agents align with the instructions provided at each step of the task?",
+        "accepted_values": ["did not follow", "partially followed", "mostly followed", "strictly followed"]
+    },
+    "Reasoning Traceability": {
+        "description": "Can the reasoning process of the agents be followed step by step, and is this reasoning process well-documented?",
+        "accepted_values": ["not traceable", "traceable with effort", "clearly traceable", "meticulously documented"]
+    },
+    "Data Reliability": {
+        "description": "How reliable are the sources the agents used to gather information to answer the question?",
+        "accepted_values": ["unreliable", "somewhat reliable", "reliable", "highly reliable"]
+    },
+    "Problem-Solving": {
+        "description": "How effectively did the agents address and overcome obstacles or problems encountered during the task?",
+        "accepted_values": ["not solved", "partially solved", "mostly solved", "completely solved"]
+    }
+}

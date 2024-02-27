@@ -1,0 +1,51 @@
+
+{
+    "accuracy": {
+        "description": "The correctness of the final answer provided by the GAIA system.",
+        "accepted_values": {
+            "correct": "The answer is fully correct and complete.",
+            "partially_correct": "The answer is partially correct; some details may be missing or incorrect.",
+            "incorrect": "The answer is incorrect or not relevant to the question asked."
+        }
+    },
+    "completeness": {
+        "description": "The level of detail and comprehensiveness of the response, including all necessary steps and reasoning.",
+        "accepted_values": {
+            "complete": "The response includes all relevant details and steps.",
+            "mostly_complete": "Key details are present, but minor steps or information are missing.",
+            "incomplete": "Major details or steps are missing from the response."
+        }
+    },
+    "reasoning_traceability": {
+        "description": "The ability to follow the agents' reasoning steps and understand the logic behind the conclusions.",
+        "accepted_values": {
+            "clear": "The reasoning process is transparent and easy to follow.",
+            "somewhat_clear": "Most of the reasoning is understandable, but some aspects are opaque or unclear.",
+            "unclear": "The reasoning process is not accessible or discernible."
+        }
+    },
+    "response_time": {
+        "description": "The time taken from task initiation to delivery of the final answer.",
+        "accepted_values": {
+            "fast": "The answer is produced in a time period considered quick for the given task complexity.",
+            "average": "The answer is produced in a moderate amount of time, as expected for the task complexity.",
+            "slow": "The answer takes longer than expected given the task complexity."
+        }
+    },
+    "data_reliability": {
+        "description": "The reliability of data sources used by the agents to infer the answer.",
+        "accepted_values": {
+            "highly_reliable": "Data derived from authoritative and trustworthy sources.",
+            "moderately_reliable": "Most data is reliable, though some sources may be less authoritative.",
+            "unreliable": "Data is taken from sources that are not trustworthy or authoritative."
+        }
+    },
+    "resource_efficiency": {
+        "description": "Efficient use of computational and informational resources during the task.",
+        "accepted_values": {
+            "highly_efficient": "Minimal resources used with maximum output.",
+            "moderately_efficient": "Reasonable resource usage, could be optimized.",
+            "inefficient": "Excessive resource usage for the output provided."
+        }
+    }
+}

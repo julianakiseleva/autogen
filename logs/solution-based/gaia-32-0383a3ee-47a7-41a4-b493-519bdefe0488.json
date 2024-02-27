@@ -1,0 +1,35 @@
+
+{
+    "accuracy": {
+        "description": "The correctness of the identified species of bird from the specified video.",
+        "accepted_values": ["incorrect", "partially correct", "correct"]
+    },
+    "completeness": {
+        "description": "Whether the solution fully addressed the task's requirements, such as identifying the species and providing reasoning.",
+        "accepted_values": ["not addressed", "partially addressed", "fully addressed"]
+    },
+    "efficiency": {
+        "description": "How effectively the multi-agent system used resources, such as time or computational steps, to arrive at the solution.",
+        "accepted_values": ["inefficient", "moderately efficient", "highly efficient"]
+    },
+    "traceability": {
+        "description": "The ability to follow the reasoning path of the agents to understand how the solution was reached.",
+        "accepted_values": ["not traceable", "partially traceable", "fully traceable"]
+    },
+    "relevance": {
+        "description": "How relevant the steps taken by the agents were to addressing the question.",
+        "accepted_values": ["not relevant", "somewhat relevant", "highly relevant"]
+    },
+    "robustness": {
+        "description": "The system's ability to handle various types of questions and adapt to different scenarios.",
+        "accepted_values": ["not robust", "moderately robust", "highly robust"]
+    },
+    "transparency": {
+        "description": "How clear and understandable the actions and responses of the agents are.",
+        "accepted_values": ["opaque", "partially transparent", "transparent"]
+    },
+    "novelty": {
+        "description": "The degree to which the solution approach or reasoning was original or innovative.",
+        "accepted_values": ["not novel", "somewhat novel", "highly novel"]
+    }
+}

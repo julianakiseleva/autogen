@@ -1,0 +1,35 @@
+
+{
+    "Completeness_of_Solution": {
+        "description": "The extent to which the solution addresses all parts of the question.",
+        "accepted_values": {"partial": "Addressed some aspects", "complete": "Fully addressed"}
+    },
+    "Correctness_of_Solution": {
+        "description": "The accuracy of the solution provided.",
+        "accepted_values": {"incorrect": "No elements correct", "partially_correct": "Some elements correct", "correct": "All elements correct"}
+    },
+    "Reasoning_Traceability": {
+        "description": "The ability to follow the logical process that led to the solution.",
+        "accepted_values": {"non_traceable": "No reasoning provided", "partially_traceable": "Some reasoning provided", "fully_traceable": "Full reasoning trace available"}
+    },
+    "Time_Efficiency": {
+        "description": "The promptness of the solution provided.",
+        "accepted_values": {"slow": "Longer than expected", "medium": "Reasonable time", "fast": "Quicker than expected"}
+    },
+    "Resource_Efficiency": {
+        "description": "The system's efficiency at using computational and information resources.",
+        "accepted_values": {"inefficient": "High resource consumption", "moderate": "Average resource consumption", "efficient": "Low resource consumption"}
+    },
+    "Robustness": {
+        "description": "The system's ability to handle various question types and unforeseen issues.",
+        "accepted_values": {"non_robust": "Fails with variability", "moderately_robust": "Handles some variability", "highly_robust": "Handles variability well"}
+    },
+    "Relevance_of_Information": {
+        "description": "The pertinence of sourced information to the question at hand.",
+        "accepted_values": {"irrelevant": "No relevant information", "somewhat_relevant": "Partially relevant information", "highly_relevant": "Fully relevant information"}
+    },
+    "Originality": {
+        "description": "The degree to which the answer is free from data contamination.",
+        "accepted_values": {"derivative": "Directly taken from external sources", "partially_original": "Partially inferred or analyzed", "fully_original": "Completely inferred or analyzed from base principles"}
+    }
+}

@@ -1,0 +1,31 @@
+
+{
+    "complexity": {
+        "description": "Assess the level of complexity of the problem, ensuring it aligns with the real-world and challenging nature required by GAIA.",
+        "accepted_values": {1: "basic", 2: "intermediate", 3: "advanced", 4: "expert"}
+    },
+    "multi_agent_functionality": {
+        "description": "Evaluate the effectiveness and coordination of the multi-agent system in generating the proposed solution.",
+        "accepted_values": {1: "not functional", 2: "partially functional", 3: "fully functional", 4: "exceptionally functional and coordinated"}
+    },
+    "step_completion": {
+        "description": "Determine if the multi-agent system successfully completed all necessary steps to reach a solution.",
+        "accepted_values": {1: "none", 2: "some", 3: "most", 4: "all"}
+    },
+    "answer_correctness": {
+        "description": "Assess the accuracy of the final answer provided by the multi-agent system.",
+        "accepted_values": {1: "incorrect", 2: "partially correct", 3: "correct", 4: "correct with high confidence"}
+    },
+    "reasoning_traceability": {
+        "description": "Evaluate if the reasoning trace is provided, clear, and logical, displaying how the final answer was reached.",
+        "accepted_values": {1: "no trace", 2: "opaque trace", 3: "clear trace", 4: "clear and detailed trace"}
+    },
+    "data_contamination": {
+        "description": "Check for potential data contamination by ensuring that the answer is not simply retrieved from the internet in plain text.",
+        "accepted_values": {1: "high risk of contamination", 2: "some risk", 3: "low risk", 4: "no risk"}
+    },
+    "step_diversity_handling": {
+        "description": "Examine how well the multi-agent system handles the diversity of steps required to answer the question.",
+        "accepted_values": {1: "poor handling", 2: "fair handling", 3: "good handling", 4: "excellent handling"}
+    }
+}

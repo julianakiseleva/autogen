@@ -1,0 +1,22 @@
+{
+    "Accuracy": {
+        "description": "The correctness of the final answer provided by the agent system.",
+        "accepted_values": ["100% Correct", "Partially Correct", "Incorrect"]
+    },
+    "Reasoning Trace Clarity": {
+        "description": "How clearly the agent system's reasoning process can be followed and understood from the logs provided.",
+        "accepted_values": ["Fully Clear", "Partially Clear", "Not Clear"]
+    },
+    "Task Completion Time": {
+        "description": "The amount of time it takes for the agent system to complete the task.",
+        "accepted_values": ["< 1 minute", "1-3 minutes", "3-5 minutes", "> 5 minutes"]
+    },
+    "Compliance with Instructions": {
+        "description": "The degree to which the agent system's output adheres to the format and structure requested in the instructions.",
+        "accepted_values": ["Fully Compliant", "Partially Compliant", "Non-Compliant"]
+    },
+    "Error Handling": {
+        "description": "The agent system's ability to handle anomalies or errors in input or during processing.",
+        "accepted_values": ["Graceful", "With Minor Issues", "Failed"]
+    }
+}

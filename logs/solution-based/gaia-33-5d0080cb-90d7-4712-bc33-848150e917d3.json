@@ -1,0 +1,92 @@
+
+{
+    "completeness_of_answer": {
+        "description": "Assesses whether the agents' output fully addresses the task's requirements by providing a complete answer.",
+        "accepted_values": {
+            "complete_answer_provided": 1,
+            "partial_answer_provided": 0.5,
+            "no_answer_provided": 0
+        }
+    },
+    "accuracy_of_information": {
+        "description": "Evaluates if the information provided is correct and as per the specifications of the task.",
+        "accepted_values": {
+            "completely_accurate": 1,
+            "partially_accurate_with_minor_errors": 0.75,
+            "partially_accurate_with_major_errors": 0.25,
+            "inaccurate_information": 0
+        }
+    },
+    "reasoning_traceability": {
+        "description": "Determines how well the agent's reasoning process can be traced and understood.",
+        "accepted_values": {
+            "clear_and_detailed_trace": 1,
+            "mostly_clear_with_some_ambiguous_steps": 0.75,
+            "vague_reasoning_trace": 0.25,
+            "indiscernible_reasoning_path": 0
+        }
+    },
+    "source_reliability": {
+        "description": "Gauges the reliability of the sources used to find the information.",
+        "accepted_values": {
+            "highly_reliable_sources_only": 1,
+            "mostly_reliable_sources": 0.75,
+            "mix_of_reliable_and_unreliable_sources": 0.5,
+            "unreliable_sources": 0
+        }
+    },
+    "execution_of_methodology": {
+        "description": "Measures how well the agent followed the intended methodology for the task.",
+        "accepted_values": {
+            "methodology_perfectly_executed": 1,
+            "small_deviations_from_methodology": 0.75,
+            "significant_deviations_from_methodology": 0.25,
+            "did_not_follow_methodology": 0
+        }
+    },
+    "data_contamination_avoidance": {
+        "description": "Checks that the solution is free from copied or plagiarized content and uses unique data processing.",
+        "accepted_values": {
+            "no_data_contamination": 1,
+            "insignificant_contamination": 0.75,
+            "noticeable_contamination": 0.25,
+            "high_level_of_contamination": 0
+        }
+    },
+    "task_efficiency": {
+        "description": "Evaluates the efficiency with which the agents completed the task in terms of time and resources used.",
+        "accepted_values": {
+            "highly_efficient": 1,
+            "moderately_efficient": 0.75,
+            "inefficient": 0.25,
+            "highly_inefficient": 0
+        }
+    },
+    "adaptability": {
+        "description": "Assesses how well the agent adapts to unforeseen challenges or changes in the task.",
+        "accepted_values": {
+            "highly_adaptable": 1,
+            "somewhat_adaptable": 0.75,
+            "struggles_to_adapt": 0.25,
+            "unable_to_adapt": 0
+        }
+    },
+    "communication_clarity": {
+        "description": "Measures the clarity and effectiveness of communication between the agents and with the end-user.",
+        "accepted_values": {
+            "very_clear": 1,
+            "mostly_clear_with_some_ambiguities": 0.75,
+            "occasionally_confusing": 0.5,
+            "very_confusing": 0
+        }
+    },
+    "robustness": {
+        "description": "Evaluates the ability of the agents to handle various scenarios without failure.",
+        "accepted_values": {
+            "extremely_robust": 1,
+            "generally_robust_with_minor_issues": 0.75,
+            "some_robustness_with_occasional_failures": 0.5,
+            "not_robust": 0
+        }
+    }
+}

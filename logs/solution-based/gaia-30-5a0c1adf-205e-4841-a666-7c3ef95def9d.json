@@ -1,0 +1,34 @@
+{
+    "accuracy_of_information": {
+        "description": "The correctness of the information provided in the final answer.",
+        "accepted_values": ["Completely Correct", "Partially Correct", "Incorrect", "Not Applicable"]
+    },
+    "completeness_of_reasoning": {
+        "description": "The extent to which the agent has fully traced the steps needed to answer the question.",
+        "accepted_values": ["Full Reasoning Trace", "Partial Reasoning Trace", "No Reasoning Trace", "Not Applicable"]
+    },
+    "relevance_of_research": {
+        "description": "How on-topic the agent's research steps and gathered information are.",
+        "accepted_values": ["Highly Relevant", "Somewhat Relevant", "Irrelevant", "Not Applicable"]
+    },
+    "ability_to_adapt": {
+        "description": "The system's capability to shift strategies when initial attempts fail to provide results.",
+        "accepted_values": ["High Adaptability", "Moderate Adaptability", "Low Adaptability", "Not Applicable"]
+    },
+    "use_of_resources": {
+        "description": "The efficiency and effectiveness in using available resources (e.g., web searches, databases).",
+        "accepted_values": ["Optimal Use", "Adequate Use", "Inefficient Use", "Not Used"]
+    },
+    "response_time": {
+        "description": "The amount of time taken by the agent to provide a satisfactory answer.",
+        "accepted_values": ["Fast (<2 minutes)", "Moderate (2-5 minutes)", "Slow (>5 minutes)", "No Response"]
+    },
+    "process_transparency": {
+        "description": "The clarity and detail provided about the steps taken and the reasoning process.",
+        "accepted_values": ["Highly Transparent", "Somewhat Transparent", "Not Transparent", "Not Applicable"]
+    },
+    "conformity_to_instructions": {
+        "description": "How closely the actions of the agent align with the instructions given.",
+        "accepted_values": ["Full Conformity", "Partial Conformity", "Non-conformity", "Not Applicable"]
+    }
+}

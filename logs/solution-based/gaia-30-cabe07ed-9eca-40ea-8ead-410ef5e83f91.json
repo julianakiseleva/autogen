@@ -1,0 +1,47 @@
+
+{
+    "accuracy": {
+        "description": "The correctness of the final answer provided by the system.",
+        "accepted_values": ["correct", "incorrect", "partially_correct"]
+    },
+    "completeness": {
+        "description": "The extent to which the response addresses all aspects of the question.",
+        "accepted_values": ["complete", "incomplete", "partially_complete"]
+    },
+    "efficiency": {
+        "description": "The amount of computational resources and time taken to achieve the task.",
+        "accepted_values": ["high", "medium", "low"]
+    },
+    "reasoning_depth": {
+        "description": "The level of complexity and depth of the system's reasoning process.",
+        "accepted_values": ["deep", "shallow", "moderate"]
+    },
+    "steps_required": {
+        "description": "The number of steps or actions taken by the agents to answer the question.",
+        "accepted_values": ["few", "average", "many"]
+    },
+    "solution_traceability": {
+        "description": "The ability to follow and understand the reasoning trace of the solution process.",
+        "accepted_values": ["traceable", "partially_traceable", "untraceable"]
+    },
+    "use_of_external_resources": {
+        "description": "The extent to which the system utilizes external resources to derive the answer.",
+        "accepted_values": ["extensive", "moderate", "minimal"]
+    },
+    "adaptability": {
+        "description": "The system's ability to handle a wide range of questions and adapt to new information.",
+        "accepted_values": ["highly_adaptable", "moderately_adaptable", "not_adaptable"]
+    },
+    "error_recovery": {
+        "description": "The system's ability to recognize and correct its own errors during the problem-solving process.",
+        "accepted_values": ["excellent_recovery", "partial_recovery", "no_recovery"]
+    },
+    "collaboration_effectiveness": {
+        "description": "How effectively the different agents work together to achieve the task.",
+        "accepted_values": ["highly_effective", "moderately_effective", "ineffective"]
+    },
+    "data_contamination_prevention": {
+        "description": "The system's ability to prevent data contamination, i.e., not using incorrect or biased information.",
+        "accepted_values": ["fully_prevented", "partially_prevented", "not_prevented"]
+    }
+}

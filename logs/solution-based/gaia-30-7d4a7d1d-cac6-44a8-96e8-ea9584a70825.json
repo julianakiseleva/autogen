@@ -1,0 +1,31 @@
+
+{
+    "accuracy_of_final_answer": {
+        "description": "The correctness of the final answer given by the multi-agent system.",
+        "accepted_values": ["Correct", "Partially Correct", "Incorrect"]
+    },
+    "completeness_of_task_execution": {
+        "description": "Whether all necessary steps required to complete the task were executed.",
+        "accepted_values": ["Complete", "Incomplete", "Partially Complete"]
+    },
+    "quality_of_information_sources": {
+        "description": "The reliability and authoritativeness of the sources used to gather information.",
+        "accepted_values": ["Authoritative/High-quality", "Mixed-quality", "Unreliable/Low-quality"]
+    },
+    "collaboration_efficiency": {
+        "description": "The effectiveness of cooperation among agents to complete the task.",
+        "accepted_values": ["Highly Efficient", "Moderately Efficient", "Inefficient"]
+    },
+    "reasoning_traceability": {
+        "description": "The ability to follow the reasoning and thought process of the agents.",
+        "accepted_values": ["Traceable", "Partially Traceable", "Not Traceable"]
+    },
+    "responsiveness_to_request_changes": {
+        "description": "The system's adaptability to request changes based on new or additional information.",
+        "accepted_values": ["Highly Responsive", "Somewhat Responsive", "Not Responsive"]
+    },
+    "time_efficiency": {
+        "description": "The speed at which the system completed the task.",
+        "accepted_values": ["Fast", "Reasonable", "Slow"]
+    }
+}

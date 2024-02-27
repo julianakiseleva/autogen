@@ -1,0 +1,59 @@
+
+{
+    "accuracy": {
+        "description": "The correctness of the final answer provided by the agent.",
+        "accepted_values": {
+            0: "Incorrect",
+            1: "Partially correct/Correct with insignificant errors",
+            2: "Fully correct and complete"
+        }
+    },
+    "completeness": {
+        "description": "The extent to which the multi-agent system addressed all parts of the question.",
+        "accepted_values": {
+            0: "The response did not address the question.",
+            1: "The response partially addressed the question.",
+            2: "The response fully addressed the question."
+        }
+    },
+    "efficiency": {
+        "description": "The number of steps taken to arrive at the answer and the relevance of each step.",
+        "accepted_values": {
+            0: "Inefficient with irrelevant or redundant steps.",
+            1: "Moderate efficiency with some relevant steps.",
+            2: "Highly efficient with no wasted steps."
+        }
+    },
+    "reasoning_traceability": {
+        "description": "The clarity of the agent's reasoning process and whether it can be followed and understood.",
+        "accepted_values": {
+            0: "Illogical or incomprehensible reasoning.",
+            1: "Reasoning traceable with some effort.",
+            2: "Clear and easily traceable reasoning."
+        }
+    },
+    "data_veracity": {
+        "description": "The reliability of the data sources used by the agent and the avoidance of data contamination.",
+        "accepted_values": {
+            0: "Unreliable data sources and presence of data contamination.",
+            1: "Mainly reliable data sources but with some potential data contamination.",
+            2: "Completely reliable data sources with no data contamination."
+        }
+    },
+    "robustness": {
+        "description": "The agent's ability to handle diverse and complex parts of the question without failure.",
+        "accepted_values": {
+            0: "The system fails with complex/diverse steps.",
+            1: "The system manages complexity/diversity with occasional failure.",
+            2: "The system consistently handles complexity/diversity with no failure."
+        }
+    },
+    "response_time": {
+        "description": "The time taken by the agent to provide the final answer from when the question was posed.",
+        "accepted_values": {
+            0: "Long response time, significantly above average.",
+            1: "Moderate response time, around average.",
+            2: "Quick response time, significantly below average."
+        }
+    }
+}

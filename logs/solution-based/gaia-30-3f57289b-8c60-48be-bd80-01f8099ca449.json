@@ -1,0 +1,63 @@
+
+{
+    "Accuracy": {
+        "description": "The correctness of the provided answer when compared with factual data.",
+        "accepted_values": {
+            "Perfect": "The answer exactly matches the correct factual data.",
+            "High": "The answer is mostly correct with minor inaccuracies.",
+            "Medium": "The answer contains significant inaccuracies but still conveys the general idea.",
+            "Low": "The answer is mostly incorrect with few correct details.",
+            "None": "The answer is completely incorrect."
+        }
+    },
+    "Completeness": {
+        "description": "The degree to which the answer covers all aspects of the question.",
+        "accepted_values": {
+            "All-encompassing": "Answer fully covers all aspects of the question.",
+            "Mostly complete": "Answer covers most aspects but lacks one or two minor details.",
+            "Partial": "Answer covers approximately half of the aspects of the question.",
+            "Limited": "Answer covers only a few aspects of the question.",
+            "Negligible": "Answer provides no meaningful coverage of the question's aspects."
+        }
+    },
+    "Efficiency": {
+        "description": "The number of steps or the amount of time taken to arrive at the answer.",
+        "accepted_values": {
+            "Instant": "Answer is provided immediately or in a very few steps.",
+            "Rapid": "Answer is provided quickly with a reasonable number of steps.",
+            "Moderate": "Answer is provided in a moderate amount of time and steps.",
+            "Slow": "Answer takes many steps and a longer amount of time to produce.",
+            "Excessive": "Answer requires an excessive amount of time and steps to arrive at."
+        }
+    },
+    "Relevance": {
+        "description": "How relevant the information provided is to the question asked.",
+        "accepted_values": {
+            "Highly relevant": "Information provided is directly related to the question.",
+            "Relevant": "Most of the information is related to the question.",
+            "Somewhat relevant": "Some of the information relates to the question.",
+            "Not very relevant": "Little of the information is related to the question.",
+            "Irrelevant": "None of the information provided relates to the question."
+        }
+    },
+    "Source Reliability": {
+        "description": "Credibility of the sources used to gather information for the answer.",
+        "accepted_values": {
+            "Very reliable": "Information is gathered from authoritative and reliable sources.",
+            "Reliable": "Most information is from reliable sources with some information from less credible sources.",
+            "Moderately reliable": "Information is gathered from a mix of reliable and unreliable sources.",
+            "Questionable": "Most information is gathered from sources that lack credibility.",
+            "Unreliable": "Information is gathered from sources with no credibility."
+        }
+    },
+    "Reasoning Traceability": {
+        "description": "The ability to follow the logical steps or reasoning process taken by the GAIA system to arrive at the answer.",
+        "accepted_values": {
+            "Fully traceable": "Each step in the reasoning process is clear and easy to follow.",
+            "Mostly traceable": "The majority of the reasoning steps are documented and follow a logical order.",
+            "Somewhat traceable": "Some reasoning steps are documented, but the logic is difficult to follow.",
+            "Barely traceable": "Few reasoning steps are provided, and the logic is unclear.",
+            "Untraceable": "No logical reasoning steps provided; the process is completely opaque."
+        }
+    }
+}

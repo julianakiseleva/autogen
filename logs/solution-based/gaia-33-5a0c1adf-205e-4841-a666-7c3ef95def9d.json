@@ -1,0 +1,43 @@
+
+{
+    "correctness": {
+        "description": "The degree to which the final answer is accurate and correct.",
+        "accepted_values": ["incorrect", "partially_correct", "correct"]
+    },
+    "completeness": {
+        "description": "How fully the answer addresses all aspects of the question.",
+        "accepted_values": ["incomplete", "mostly_complete", "complete"]
+    },
+    "reasoning_traceability": {
+        "description": "The ability to follow and understand the logical steps the system took to arrive at the answer.",
+        "accepted_values": ["not_traceable", "somewhat_traceable", "fully_traceable"]
+    },
+    "reliability": {
+        "description": "The consistency of the system in providing correct answers to different questions over time.",
+        "accepted_values": ["unreliable", "mostly_reliable", "reliable"]
+    },
+    "efficiency": {
+        "description": "The system's effectiveness in reaching the solution using the least amount of time and resources.",
+        "accepted_values": ["inefficient", "moderate_efficiency", "high_efficiency"]
+    },
+    "adaptability": {
+        "description": "The system's ability to handle a variety of questions and adapt to the complexity and diversity of tasks.",
+        "accepted_values": ["non_adaptable", "somewhat_adaptable", "highly_adaptable"]
+    },
+    "verifiability": {
+        "description": "The degree to which external sources can confirm the information provided by the system.",
+        "accepted_values": ["not_verifiable", "partially_verifiable", "fully_verifiable"]
+    },
+    "historical_context_understanding": {
+        "description": "The system's capability to understand and apply historical context to the question where necessary.",
+        "accepted_values": ["lacks_context", "moderate_context_understanding", "strong_context_understanding"]
+    },
+    "source_reliability_assessment": {
+        "description": "How well the system evaluates and determines the reliability of its information sources.",
+        "accepted_values": ["poor_assessment", "fair_assessment", "excellent_assessment"]
+    },
+    "response_clarity": {
+        "description": "The clarity and conciseness of the final answer provided by the system.",
+        "accepted_values": ["not_clear", "moderately_clear", "very_clear"]
+    }
+}

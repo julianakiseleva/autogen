@@ -1,0 +1,27 @@
+
+{
+    "completeness": {
+        "description": "The degree to which the task has been fully completed.",
+        "accepted_values": {"0": "Not at all", "1": "Partially", "2": "Mostly", "3": "Fully"}
+    },
+    "accuracy": {
+        "description": "The correctness of the final answer provided by the system.",
+        "accepted_values": {"0": "Incorrect", "1": "Partly correct", "2": "Correct"}
+    },
+    "efficiency": {
+        "description": "The amount of resources (e.g., time, computational power) used to complete the task.",
+        "accepted_values": {"0": "Inefficient", "1": "Moderately efficient", "2": "Highly efficient"}
+    },
+    "reasoning_traceability": {
+        "description": "The ability to follow the system's reasoning process or steps.",
+        "accepted_values": {"0": "Not traceable", "1": "Partly traceable", "2": "Fully traceable"}
+    },
+    "data_verification": {
+        "description": "The system's capability to confirm the veracity of external data sources.",
+        "accepted_values": {"0": "No verification", "1": "Partial verification", "2": "Full verification"}
+    },
+    "adaptability": {
+        "description": "The system's ability to handle task variations and unforeseen challenges.",
+        "accepted_values": {"0": "Not adaptable", "1": "Moderately adaptable", "2": "Highly adaptable"}
+    }
+}

@@ -1,0 +1,43 @@
+
+{
+    "accuracy_of_answer": {
+        "description": "The correctness of the response given by the system.",
+        "accepted_values": ["incorrect", "partially correct", "correct"]
+    },
+    "completeness_of_answer": {
+        "description": "The degree to which the answer fully addresses the question.",
+        "accepted_values": ["incomplete", "partially complete", "complete"]
+    },
+    "relevance_of_information_presented": {
+        "description": "The relevance of the information included in the response to the question asked.",
+        "accepted_values": ["irrelevant", "somewhat relevant", "highly relevant"]
+    },
+    "reasoning_traceability": {
+        "description": "The ability to follow the system's reasoning process to understand how the answer was derived.",
+        "accepted_values": ["untraceable", "partially traceable", "fully traceable"]
+    },
+    "research_efficiency": {
+        "description": "The efficiency with which the system can gather and synthesize necessary information to formulate an answer.",
+        "accepted_values": ["inefficient", "moderately efficient", "highly efficient"]
+    },
+    "procedural_correctness": {
+        "description": "Adherence to the steps outlined in the multi-agent plan when addressing the request.",
+        "accepted_values": ["non-adherent", "partially adherent", "fully adherent"]
+    },
+    "time_taken_to_answer": {
+        "description": "The amount of time required by the system to provide a final answer.",
+        "accepted_values": ["slow", "reasonable", "fast"]
+    },
+    "uniqueness_of_information": {
+        "description": "The extent to which the information provided is not a direct copy from readily available internet sources, indicating originality in the response.",
+        "accepted_values": ["not unique", "somewhat unique", "highly unique"]
+    },
+    "progress_tracking": {
+        "description": "The system's ability to track and communicate its progress toward answering the question.",
+        "accepted_values": ["no tracking", "intermittent tracking", "continuous tracking"]
+    },
+    "collaboration_effectiveness": {
+        "description": "How well different agents within the system work together to achieve the task.",
+        "accepted_values": ["ineffective", "moderately effective", "highly effective"]
+    }
+}

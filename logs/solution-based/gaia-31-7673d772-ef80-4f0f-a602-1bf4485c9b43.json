@@ -1,0 +1,35 @@
+
+{
+    "completeness": {
+        "description": "Extent to which the task has been fully executed based on the specified goals and steps",
+        "accepted_values": ["not_started", "partially_complete", "complete"]
+    },
+    "correctness": {
+        "description": "Accuracy of the information retrieved and the final answer provided",
+        "accepted_values": ["incorrect", "partially_correct", "correct"]
+    },
+    "reasoning_trace": {
+        "description": "Availability and clarity of the logical steps taken by the multi-agent system to arrive at the solution",
+        "accepted_values": ["not_traceable", "partially_traceable", "fully_traceable"]
+    },
+    "compliance_with_instructions": {
+        "description": "Adherence to the initial instructions and steps outlined for the task",
+        "accepted_values": ["non_compliant", "partially_compliant", "fully_compliant"]
+    },
+    "resolution_time": {
+        "description": "Total time taken by the multi-agent system from start to finish to complete the task",
+        "accepted_values": ["slow", "moderate", "fast"]
+    },
+    "resource_efficiency": {
+        "description": "Efficiency in the use of computational and informational resources during task execution",
+        "accepted_values": ["inefficient", "average_efficiency", "high_efficiency"]
+    },
+    "diversity_of_sources": {
+        "description": "Variety and trustworthiness of sources used to gather information",
+        "accepted_values": ["limited_sources", "moderate_sources", "diverse_sources"]
+    },
+    "response_clarity": {
+        "description": "How clearly and understandably the answer is conveyed",
+        "accepted_values": ["unclear", "somewhat_clear", "very_clear"]
+    }
+}

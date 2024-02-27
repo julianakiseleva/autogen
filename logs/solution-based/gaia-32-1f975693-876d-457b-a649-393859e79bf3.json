@@ -1,0 +1,58 @@
+
+{
+    "accuracy": {
+        "description": "The degree to which the provided answers are correct and complete.",
+        "accepted_values": {
+            "0%": "No correct answers provided.",
+            "25%": "Some parts of the task are correctly addressed, but the majority is incorrect or incomplete.",
+            "50%": "Half of the task is correctly addressed.",
+            "75%": "Most of the task is correctly addressed, with some minor errors or omissions.",
+            "100%": "The task is fully and correctly addressed."
+        }
+    },
+    "relevance": {
+        "description": "The relevance of the provided answers to the given question.",
+        "accepted_values": {
+            "not_relevant": "The answers provided are not relevant to the question.",
+            "partially_relevant": "The answers provided are partially relevant to the question.",
+            "mostly_relevant": "The answers provided are mostly relevant to the question with some irrelevant parts.",
+            "fully_relevant": "The answers provided are fully relevant and on-topic."
+        }
+    },
+    "reasoning_trace_clarity": {
+        "description": "The clarity and traceability of the reasoning steps taken to reach the final answer.",
+        "accepted_values": {
+            "not_traceable": "No reasoning steps can be identified.",
+            "partially_traceable": "Some reasoning steps are identified, but the trace is incomplete or unclear.",
+            "mostly_traceable": "Most reasoning steps are clear and traceable with some lapses.",
+            "fully_traceable": "All reasoning steps are explicitly stated and easy to follow."
+        }
+    },
+    "completeness": {
+        "description": "The extent to which the multi-agent system's solution addresses all aspects of the task.",
+        "accepted_values": {
+            "fragmented": "The answer addresses only a small part of the task.",
+            "partly_complete": "The answer addresses a good part but not all aspects of the task.",
+            "nearly_complete": "The answer addresses most aspects of the task with only trivial aspects missing.",
+            "complete": "The answer addresses every aspect of the task fully."
+        }
+    },
+    "efficiency": {
+        "description": "The efficiency of the process in terms of steps taken to reach a solution relative to the minimal number of steps possible.",
+        "accepted_values": {
+            "inefficient": "Many more steps than necessary are taken, indicating inefficiency.",
+            "moderately_efficient": "Some extra unnecessary steps are taken.",
+            "efficient": "Nearly all steps taken are necessary, with minimal redundancy.",
+            "highly_efficient": "All steps taken are necessary, with no redundancy."
+        }
+    },
+    "robustness": {
+        "description": "The ability of the system to cope with errors or unexpected inputs.",
+        "accepted_values": {
+            "non_robust": "The system fails at the first sign of an error or unexpected input.",
+            "somewhat_robust": "The system can handle minor errors or unexpected inputs but fails with anything more.",
+            "robust": "The system can handle a range of errors or unexpected inputs reasonably well.",
+            "highly_robust": "The system can handle nearly all errors or unexpected inputs without failing."
+        }
+    }
+}

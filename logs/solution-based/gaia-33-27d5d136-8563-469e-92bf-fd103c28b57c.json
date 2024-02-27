@@ -1,0 +1,43 @@
+
+{
+    "logical_accuracy": {
+        "description": "Accuracy of the logical analysis provided by the agent.",
+        "accepted_values": ["incorrect", "partially_correct", "mostly_correct", "correct"]
+    },
+    "reasoning_traceability": {
+        "description": "The ability to follow the reasoning process of the agent.",
+        "accepted_values": ["not_traceable", "somewhat_traceable", "traceable", "fully_traceable"]
+    },
+    "step_efficiency": {
+        "description": "The number of steps taken to reach the answer compared to the minimum number needed.",
+        "accepted_values": ["inefficient", "below_average", "average", "optimal"]
+    },
+    "response_time": {
+        "description": "The time it takes for the agent to provide an answer.",
+        "accepted_values": ["very_slow", "slow", "acceptable", "fast", "very_fast"]
+    },
+    "agent_collaboration": {
+        "description": "Effectiveness of the interaction between different agents to solve the task.",
+        "accepted_values": ["no_collaboration", "minimal_collaboration", "good_collaboration", "excellent_collaboration"]
+    },
+    "reliance_on_external_data": {
+        "description": "The degree to which the agent relies on external data vs. its own knowledge base.",
+        "accepted_values": ["fully_reliant", "mostly_reliant", "minimally_reliant", "not_reliant"]
+    },
+    "comprehensiveness": {
+        "description": "The thoroughness of the answer provided, including all relevant details.",
+        "accepted_values": ["lacking", "somewhat_comprehensive", "comprehensive", "highly_comprehensive"]
+    },
+    "novelty_of_approach": {
+        "description": "Degree of innovation in the agent's approach to solving the question.",
+        "accepted_values": ["conventional", "somewhat_novel", "novel", "highly_innovative"]
+    },
+    "correctness_of_conclusion": {
+        "description": "Whether the agent's final conclusion is correct in the context of the question.",
+        "accepted_values": ["false", "misleading", "mostly_true", "true"]
+    },
+    "misconceptions": {
+        "description": "Presence of any logical misconceptions or errors in the reasoning process.",
+        "accepted_values": ["multiple_misconceptions", "some_misconceptions", "minor_misconceptions", "no_misconceptions"]
+    }
+}

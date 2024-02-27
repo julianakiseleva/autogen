@@ -1,0 +1,43 @@
+
+{
+    "completeness_of_answer": {
+        "description": "The extent to which the given answer addresses all aspects of the question",
+        "accepted_values": ["complete", "partial", "missing"]
+    },
+    "correctness_of_answer": {
+        "description": "The accuracy of the answer provided by the system",
+        "accepted_values": ["correct", "incorrect"]
+    },
+    "relevance_of_information_retrieved": {
+        "description": "The relevance of the information retrieved by the agents to the question asked",
+        "accepted_values": ["highly relevant", "somewhat relevant", "not relevant"]
+    },
+    "error_handling": {
+        "description": "The ability of the system to handle errors or dead-ends (e.g., 404 error) encountered during the process",
+        "accepted_values": ["effective", "ineffective"]
+    },
+    "efficiency_of_process": {
+        "description": "The efficiency of the steps taken by the agents to reach an answer",
+        "accepted_values": ["highly efficient", "moderately efficient", "inefficient"]
+    },
+    "traceability_of_reasoning": {
+        "description": "The clarity and traceability of the reasoning steps taken by the multi-agent system",
+        "accepted_values": ["fully traceable", "partially traceable", "not traceable"]
+    },
+    "communication_clarity": {
+        "description": "The clarity of communication between agents and to the user",
+        "accepted_values": ["very clear", "somewhat clear", "unclear"]
+    },
+    "adaptability_to_unexpected_events": {
+        "description": "The system's capacity to adapt its approach in response to unexpected events or outcomes",
+        "accepted_values": ["highly adaptable", "somewhat adaptable", "not adaptable"]
+    },
+    "usage_of_resources": {
+        "description": "The appropriateness and optimality of resource usage in the problem-solving process",
+        "accepted_values": ["optimal", "reasonable", "excessive"]
+    },
+    "timeliness_of_response": {
+        "description": "The speed with which the system arrives at a solution",
+        "accepted_values": ["fast", "moderate", "slow"]
+    }
+}

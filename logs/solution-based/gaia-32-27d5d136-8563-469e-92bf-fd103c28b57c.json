@@ -1,0 +1,23 @@
+
+{
+    "correctness": {
+        "description": "Accuracy of the answers provided by the system.",
+        "accepted_values": ["incorrect", "partially correct", "mostly correct", "correct"]
+    },
+    "reasoning_traceability": {
+        "description": "Ability to follow and understand the steps and logic used by the system to reach the conclusion.",
+        "accepted_values": ["not traceable", "somewhat traceable", "mostly traceable", "fully traceable"]
+    },
+    "step_efficiency": {
+        "description": "Number of steps taken to arrive at an answer, indicating the process's efficiency.",
+        "accepted_values": ["inefficient", "average efficiency", "high efficiency", "optimal"]
+    },
+    "diverse_problem_solving": {
+        "description": "Capability of the system to handle a wide range of questions and problem types.",
+        "accepted_values": ["not diverse", "somewhat diverse", "very diverse", "extremely diverse"]
+    },
+    "originality": {
+        "description": "The degree to which the system's answers are original and not replicated from existing internet sources.",
+        "accepted_values": ["not original", "somewhat original", "mostly original", "completely original"]
+    }
+}

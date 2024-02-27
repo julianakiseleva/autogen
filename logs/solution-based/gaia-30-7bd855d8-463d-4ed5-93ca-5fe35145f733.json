@@ -1,0 +1,39 @@
+
+{
+    "correctness": {
+        "description": "The accuracy of the final answer (total sales from food items, excluding drinks) in the context of the problem statement.",
+        "accepted_values": ["Correct", "Incorrect", "Partially correct"]
+    },
+    "completeness": {
+        "description": "The degree to which the solution covers all necessary steps for calculation and considers all relevant information from the data set provided.",
+        "accepted_values": ["Complete", "Incomplete", "Partially complete"]
+    },
+    "efficiency": {
+        "description": "The effectiveness of the process used to extract data and perform calculations, considering the use of resources such as time and computational power.",
+        "accepted_values": ["Optimal", "Acceptable", "Inefficient"]
+    },
+    "robustness": {
+        "description": "The ability of the process to handle different datasets and potential data errors or anomalies.",
+        "accepted_values": ["Robust", "Non-robust", "Partially robust"]
+    },
+    "scalability": {
+        "description": "The capacity of the solution to handle larger datasets or more complex queries without significant degradation in performance.",
+        "accepted_values": ["Scalable", "Non-scalable", "Moderately scalable"]
+    },
+    "traceability": {
+        "description": "The ability to track the reasoning process and steps taken by the agents to ensure the solution's validity.",
+        "accepted_values": ["Traceable", "Non-traceable", "Partially traceable"]
+    },
+    "readability": {
+        "description": "The clarity and understandability of the code and explanations provided by the agents.",
+        "accepted_values": ["High readability", "Average readability", "Low readability"]
+    },
+    "usability": {
+        "description": "How user-friendly the solution is, including the ease of running the script and understanding the output.",
+        "accepted_values": ["High usability", "Medium usability", "Low usability"]
+    },
+    "documentation": {
+        "description": "The presence and quality of documentation accompanying the solution, including comments in the script and explicit assumptions.",
+        "accepted_values": ["Well-documented", "Partially documented", "Poorly documented or not documented"]
+    }
+}

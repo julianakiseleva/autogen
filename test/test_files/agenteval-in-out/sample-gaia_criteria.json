@@ -1,0 +1,26 @@
+{
+    "accuracy_of_answer": {
+        "description": "The degree to which the model's provided answer matches the expected answer.",
+        "accepted_values": ["exact match", "partial match", "incorrect"]
+    },
+    "completeness_of_reasoning_trace": {
+        "description": "How completely the model explains the steps it took to arrive at the answer.",
+        "accepted_values": ["complete trace", "partial trace", "no trace"]
+    },
+    "correct_execution_of_steps": {
+        "description": "The accuracy of each logical or computational step conducted by the multi-agent system.",
+        "accepted_values": ["all steps correct", "some steps incorrect", "all steps incorrect"]
+    },
+    "response_time": {
+        "description": "The amount of time taken for the model to provide a final answer after the question is posed.",
+        "accepted_values": ["<1 min", "1-5 min", "5-10 min", ">10 min"]
+    },
+    "adherence_to_task_constraints": {
+        "description": "The model's ability to follow the specific instructions and constraints given for the task.",
+        "accepted_values": ["fully adherent", "partially adherent", "non-adherent"]
+    },
+    "ability_to_handle_complexity": {
+        "description": "The model's capability to process and answer questions with multiple components or requiring complex reasoning.",
+        "accepted_values": ["handles complex tasks", "handles moderate complexity", "unable to handle complexity"]
+    }
+}

@@ -1,0 +1,47 @@
+
+{
+    "clarity_of_reasoning": {
+        "description": "The extent to which the agent's reasoning steps are understandable and logical.",
+        "accepted_values": {
+            "none": "The reasoning provided is incoherent or absent.",
+            "low": "The reasoning is present but hard to follow or understand.",
+            "moderate": "The reasoning is fairly clear and logical.",
+            "high": "The reasoning is very clear, well-structured, and logical."
+        }
+    },
+    "adherence_to_instructions": {
+        "description": "How closely the agent follows the given set of instructions.",
+        "accepted_values": {
+            "none": "Instructions not followed at all.",
+            "partial": "Instructions followed partially; some elements are missing or incorrect.",
+            "complete": "All instructions are followed correctly."
+        }
+    },
+    "accuracy": {
+        "description": "The correctness of the answers provided by the agent to the posed questions.",
+        "accepted_values": {
+            "0%": "No correct answers.",
+            "25%": "Fewer than half of the answers are correct.",
+            "50%": "Half of the answers are correct.",
+            "75%": "Most of the answers are correct.",
+            "100%": "All answers are correct."
+        }
+    },
+    "problem_solving_efficiency": {
+        "description": "How efficiently the agent navigates through the steps required to answer questions.",
+        "accepted_values": {
+            "inefficient": "The agent takes unnecessary or convoluted steps to solve the problem.",
+            "moderately_efficient": "The agent solves the problem with a reasonable amount of steps.",
+            "highly_efficient": "The agent takes the most direct and efficient steps to solve the problem."
+        }
+    },
+    "data_contamination_prevention": {
+        "description": "The ability of the agent to provide answers without relying on possibly contaminated external data sources.",
+        "accepted_values": {
+            "none": "Relies solely on external data which may be contaminated.",
+            "low": "Mostly relies on external data with minimal internal reasoning.",
+            "moderate": "Balances use of internal reasoning and external data.",
+            "high": "Primary reliance on internal reasoning and knowledge to minimize contamination."
+        }
+    }
+}

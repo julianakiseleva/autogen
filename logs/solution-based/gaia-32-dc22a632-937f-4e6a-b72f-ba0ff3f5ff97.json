@@ -1,0 +1,27 @@
+
+{
+    "accuracy_of_information": {
+        "description": "The information should be factually accurate and suitable for answering the specific task at hand.",
+        "accepted_values": ["accurate", "inaccurate", "completely accurate", "mostly accurate", "somewhat accurate", "not accurate"]
+    },
+    "completeness_of_response": {
+        "description": "The response should cover all necessary aspects of the question without omissions.",
+        "accepted_values": ["complete", "incomplete", "fully complete", "mostly complete", "partially complete", "not complete"]
+    },
+    "reasoning_clarity": {
+        "description": "The reasoning should be logical, coherent, and easily followed by the end-user.",
+        "accepted_values": ["very clear", "clear", "somewhat clear", "unclear"]
+    },
+    "resource_efficiency": {
+        "description": "The solution should make efficient use of time and computational resources while minimizing unnecessary steps.",
+        "accepted_values": ["efficient", "inefficient", "very efficient", "moderately efficient", "somewhat efficient", "not efficient"]
+    },
+    "innovation_of_approach": {
+        "description": "The solution provided should demonstrate an innovative or creative approach to problem-solving that goes beyond standard procedures.",
+        "accepted_values": ["highly innovative", "innovative", "somewhat innovative", "not innovative"]
+    },
+    "reliability_of_solution": {
+        "description": "The reliability criterion is meant to ensure that the results can be replicated consistently under similar conditions.",
+        "accepted_values": ["reliable", "unreliable", "always reliable", "usually reliable", "sometimes reliable", "never reliable"]
+    }
+}

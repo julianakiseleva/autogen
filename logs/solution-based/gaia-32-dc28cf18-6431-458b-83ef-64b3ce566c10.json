@@ -1,0 +1,35 @@
+
+{
+    "Completeness_of_Reasoning": {
+        "description": "The extent to which the reasoning trace fully captures all necessary steps for solving the question.",
+        "accepted_values": ["Incomplete", "Partially Complete", "Mostly Complete", "Complete"]
+    },
+    "Accuracy_of_Answers": {
+        "description": "How accurate the final answer is in relation to the expected solution.",
+        "accepted_values": ["Incorrect", "Partially Correct", "Mostly Correct", "Correct"]
+    },
+    "Relevance_and_Utility": {
+        "description": "How relevant and useful the reasoning and final answer are to the question asked.",
+        "accepted_values": ["Not Relevant", "Somewhat Relevant", "Relevant", "Highly Relevant"]
+    },
+    "Complexity_of_Question_Addressed": {
+        "description": "The level of difficulty of the question that the multi-agent system successfully addressed.",
+        "accepted_values": ["Simple", "Moderate", "Complex", "Highly Complex"]
+    },
+    "Originality_of_Solution": {
+        "description": "The level of uniqueness in the approach taken to solve the question.",
+        "accepted_values": ["Generic", "Somewhat Original", "Original", "Highly Original"]
+    },
+    "Efficiency_of_Process": {
+        "description": "The effectiveness and speed with which the multi-agent system arrives at the solution.",
+        "accepted_values": ["Inefficient", "Moderately Efficient", "Efficient", "Highly Efficient"]
+    },
+    "Clarity_of_Communication": {
+        "description": "How clearly and understandably the multi-agent system communicates its reasoning and final answer.",
+        "accepted_values": ["Unclear", "Somewhat Clear", "Clear", "Highly Clear"]
+    },
+    "Compliance_with_Constraints": {
+        "description": "The degree to which the solution adheres to given constraints such as avoiding brute force, preventing data contamination, or adhering to accuracy standards.",
+        "accepted_values": ["Non-Compliant", "Partially Compliant", "Mostly Compliant", "Fully Compliant"]
+    }
+}

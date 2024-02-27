@@ -1,0 +1,35 @@
+
+{
+    "accuracy": {
+        "description": "The correctness of the answers provided by the multi-agent system.",
+        "accepted_values": ["100%", "90-99%", "80-89%", "70-79%", "<70%"]
+    },
+    "completeness": {
+        "description": "The extent to which all required steps are successfully completed.",
+        "accepted_values": ["All steps completed", "Most steps completed", "Some steps completed", "Few steps completed", "No steps completed"]
+    },
+    "reasoning_quality": {
+        "description": "The clarity and traceability of the reasoning process used to arrive at the answer.",
+        "accepted_values": ["Fully traceable and clear", "Mostly clear with minor gaps", "Somewhat clear with some gaps", "Unclear reasoning", "No reasoning provided"]
+    },
+    "execution_speed": {
+        "description": "The time taken to complete the task from start to finish.",
+        "accepted_values": ["<1 minute", "1-5 minutes", "5-15 minutes", "15-30 minutes", ">30 minutes"]
+    },
+    "resource_efficiency": {
+        "description": "The amount of computational or other resources used to complete the task.",
+        "accepted_values": ["Very low", "Low", "Moderate", "High", "Very high"]
+    },
+    "solution_reliability": {
+        "description": "How consistently the solution mechanism provides correct answers upon repeated trials.",
+        "accepted_values": ["Always reliable", "Usually reliable", "Occasionally reliable", "Rarely reliable", "Not reliable"]
+    },
+    "novelty_of_approach": {
+        "description": "The degree of innovation in the methods used to solve the task.",
+        "accepted_values": ["Highly innovative", "Moderately innovative", "Somewhat innovative", "Not very innovative", "Not innovative at all"]
+    },
+    "explanation_quality": {
+        "description": "The clarity of the explanation provided along with the answer.",
+        "accepted_values": ["Very clear", "Clear", "Somewhat clear", "Not very clear", "Not clear at all"]
+    }
+}

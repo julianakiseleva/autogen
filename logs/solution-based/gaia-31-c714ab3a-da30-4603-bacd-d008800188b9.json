@@ -1,0 +1,27 @@
+
+{
+    "Accuracy": {
+        "description": "How correct the final answer is based on logic, reasoning, and provided information.",
+        "accepted_values": {"0%": "Incorrect", "50%": "Partially correct", "100%": "Completely correct"}
+    },
+    "Reasoning Clarity": {
+        "description": "Whether the logical steps to arrive at the answer are explained clearly and coherently.",
+        "accepted_values": {"low": "Unclear reasoning", "moderate": "Some clarity", "high": "Very clear reasoning"}
+    },
+    "Efficiency": {
+        "description": "How efficiently the system reached the conclusion in terms of the number of steps taken.",
+        "accepted_values": {"low": "Many unnecessary steps", "moderate": "Reasonable number of steps", "high": "Minimal number of steps"}
+    },
+    "Reliability": {
+        "description": "The consistency of the multi-agent system in producing correct answers over multiple tasks.",
+        "accepted_values": {"low": "Rarely correct", "moderate": "Occasionally correct", "high": "Frequently correct"}
+    },
+    "Completeness": {
+        "description": "Ensures that the solution covers all necessary aspects and steps required to solve the task.",
+        "accepted_values": {"partial": "Some parts missing", "mostly complete": "Most aspects covered", "complete": "All necessary parts covered"}
+    },
+    "Originality": {
+        "description": "The novelty of the approach taken to solve the task in comparison to common methods.",
+        "accepted_values": {"low": "Common approach", "moderate": "Somewhat novel", "high": "Highly original"}
+    }
+}

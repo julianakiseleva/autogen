@@ -1,0 +1,67 @@
+
+{
+    "completeness": {
+        "description": "The extent to which all required steps are successfully completed",
+        "accepted_values": {
+            "all_steps_completed": "All steps were completed successfully",
+            "partial_completion": "Some steps were not completed or partially completed",
+            "no_completion": "No steps were completed successfully"
+        }
+    },
+    "accuracy": {
+        "description": "The correctness of the provided answer in relation to the real-world question",
+        "accepted_values": {
+            "fully_accurate": "The answer is completely correct",
+            "partially_acurate": "The answer is partially correct; some aspects are inaccurate",
+            "incorrect": "The answer is incorrect"
+        }
+    },
+    "reasoning_traceability": {
+        "description": "The ability to follow and understand the reasoning process of the agent",
+        "accepted_values": {
+            "fully_traceable": "The reasoning process is clear and fully traceable",
+            "partially_traceable": "Parts of the reasoning process are unclear or not easily traceable",
+            "not_traceable": "The reasoning process is not traceable"
+        }
+    },
+    "data_reliability": {
+        "description": "The reliability of data sources used by the agent in deriving the answer",
+        "accepted_values": {
+            "high_reliability": "Only reliable and verified sources were used",
+            "medium_reliability": "Mostly reliable sources used with some unverified information",
+            "low_reliability": "Unreliable or unverified sources were predominantly used"
+        }
+    },
+    "resource_efficiency": {
+        "description": "The efficiency of resource use, including time and computational resources",
+        "accepted_values": {
+            "high_efficiency": "Minimal resources were used, task completed quickly",
+            "medium_efficiency": "A moderate amount of resources were used, task completed in reasonable time",
+            "low_efficiency": "Excessive resources were used, task took a long time to complete"
+        }
+    },
+    "scalability": {
+        "description": "The ability of the solution to handle increasing amounts of work or scope",
+        "accepted_values": {
+            "highly_scalable": "Solution can scale up to handle much larger tasks seamlessly",
+            "moderately_scalable": "Solution has some scalability but may struggle with significantly larger tasks",
+            "not_scalable": "Solution is not scalable, only suitable for small or specific tasks"
+        }
+    },
+    "adaptability": {
+        "description": "The ability of the system to adapt to new or changing tasks and conditions",
+        "accepted_values": {
+            "highly_adaptable": "System easily adapts to new tasks and conditions",
+            "moderately_adaptable": "System can adapt with some effort or limitations",
+            "not_adaptable": "System cannot adapt, is rigid to new tasks or changes"
+        }
+    },
+    "innovativeness": {
+        "description": "The level of creativity or novel approaches employed in the solution",
+        "accepted_values": {
+            "highly_innovative": "Solution includes groundbreaking or highly creative approaches",
+            "moderately_innovative": "Solution includes some new ideas or variations on existing methods",
+            "not_innovative": "Solution relies on well-known or outdated methods without innovation"
+        }
+    }
+}

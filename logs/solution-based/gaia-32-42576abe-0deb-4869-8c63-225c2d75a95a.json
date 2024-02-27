@@ -1,0 +1,39 @@
+
+{
+    "accuracy": {
+        "description": "The correctness of the final answer provided by the agent.",
+        "accepted_values": ["incorrect", "partially_correct", "correct"]
+    },
+    "completeness": {
+        "description": "Whether the answer covers all aspects of the question posed.",
+        "accepted_values": ["incomplete", "mostly_complete", "complete"]
+    },
+    "reasoning_traceability": {
+        "description": "The ability to follow and understand the logic and steps taken by the agent to reach the answer.",
+        "accepted_values": ["untraceable", "traceable_with_difficulty", "easily_traceable"]
+    },
+    "efficiency": {
+        "description": "How effectively the agent uses resources and time to achieve the answer.",
+        "accepted_values": ["inefficient", "moderately_efficient", "highly_efficient"]
+    },
+    "robustness": {
+        "description": "The agent's ability to handle a wide variety of questions without failure.",
+        "accepted_values": ["fragile", "moderately_robust", "highly_robust"]
+    },
+    "explanation_quality": {
+        "description": "The clarity and comprehensiveness of the explanations provided by the agent for its reasoning.",
+        "accepted_values": ["unclear", "somewhat_clear", "very_clear"]
+    },
+    "step_success_rate": {
+        "description": "The proportion of successfully completed steps to the total number of necessary steps to reach the solution.",
+        "accepted_values": ["low_success_rate", "moderate_success_rate", "high_success_rate"]
+    },
+    "novelty": {
+        "description": "The extent to which the agent's solution approach is unique and not derived from pre-existing answers.",
+        "accepted_values": ["not_novel", "somewhat_novel", "highly_novel"]
+    },
+    "resilience_to_data_contamination": {
+        "description": "The agent's ability to provide accurate answers without being influenced by incorrect or misleading data.",
+        "accepted_values": ["susceptible", "moderately_resilient", "highly_resilient"]
+    }
+}

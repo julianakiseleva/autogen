@@ -1,0 +1,35 @@
+
+{
+    "Accuracy": {
+        "description": "Correctness of the final answer provided by the agent considering the task requirements.",
+        "accepted_values": ["correct", "incorrect", "partially correct"]
+    },
+    "Completeness": {
+        "description": "The degree to which all required steps to solve the task were successfully completed.",
+        "accepted_values": ["all steps completed", "some steps missed", "no steps completed"]
+    },
+    "Reasoning_traceability": {
+        "description": "The ability to follow the logical steps taken by the agent to reach the final answer.",
+        "accepted_values": ["fully traceable", "partially traceable", "not traceable"]
+    },
+    "Data_contamination": {
+        "description": "Presence of any information that might have been used inappropriately or improperly from external sources.",
+        "accepted_values": ["none", "minor", "significant"]
+    },
+    "Resource_utilization": {
+        "description": "The amount of computational and other resources used to arrive at the solution.",
+        "accepted_values": ["optimal", "acceptable", "excessive"]
+    },
+    "Adherence_to_instructions": {
+        "description": "How closely the steps performed match the initial instructions provided for the task.",
+        "accepted_values": ["full adherence", "partial adherence", "no adherence"]
+    },
+    "Answering_time": {
+        "description": "The total time taken from the task initiation to the final answer delivery.",
+        "accepted_values": ["fast", "moderate", "slow"]
+    },
+    "Adaptability": {
+        "description": "Agent's ability to adjust its approach based on new information or changes in the environment.",
+        "accepted_values": ["highly adaptive", "somewhat adaptive", "not adaptive"]
+    }
+}

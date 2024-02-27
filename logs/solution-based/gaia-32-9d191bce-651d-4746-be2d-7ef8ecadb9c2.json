@@ -1,0 +1,38 @@
+
+{
+    "correctness": {
+        "description": "The accuracy of the final answer provided by the system.",
+        "accepted_values": {
+            "completely_correct": "The final answer is fully correct and matches the expected outcome.",
+            "partially_correct": "The final answer is partially correct, providing some of the expected information.",
+            "incorrect": "The final answer does not provide the correct information."}
+    },
+    "reasoning_traceability": {
+        "description": "The ability to follow the logical steps taken by agents to reach the final answer.",
+        "accepted_values": {
+            "fully_traceable": "Every step of the reasoning is clear and understandable.",
+            "partially_traceable": "Some steps of the reasoning are clear, but others are not well explained or missing.",
+            "not_traceable": "The reasoning behind the final answer is not understandable or provided."}
+    },
+    "completeness": {
+        "description": "The extent to which the multi-agent system has addressed all required steps in the task.",
+        "accepted_values": {
+            "all_steps_completed": "All steps necessary for answering the question were successfully completed.",
+            "some_steps_completed": "Some steps necessary for answering the question were completed, but not all.",
+            "no_steps_completed": "The agent did not complete any of the steps necessary to answer the question."}
+    },
+    "efficiency": {
+        "description": "Evaluation of how optimally resources like time and computational power were used to arrive at a solution.",
+        "accepted_values": {
+            "highly_efficient": "The solution was achieved rapidly with minimal resource use.",
+            "moderately_efficient": "The solution was achieved with a reasonable amount of time and resources.",
+            "inefficient": "The solution required a large amount of time or resources to achieve."}
+    },
+    "data_contamination": {
+        "description": "Presence of information in the answer that might have been acquired from unverified or unreliable sources.",
+        "accepted_values": {
+            "no_contamination": "The answer is free from unverified or unreliable data sources.",
+            "possible_contamination": "There are some elements in the answer that may be from unverified sources.",
+            "contaminated": "The answer contains data from unverified or unreliable sources."}
+    },
+}

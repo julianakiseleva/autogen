@@ -1,0 +1,43 @@
+
+{
+    "correctness": {
+        "description": "Accuracy of the final answer provided.",
+        "accepted_values": ["correct", "incorrect", "partially_correct"]
+    },
+    "completeness": {
+        "description": "The extent to which all required steps are fulfilled in the solution.",
+        "accepted_values": ["complete", "incomplete", "partially_complete"]
+    },
+    "efficiency": {
+        "description": "The optimality of the steps taken in solving the question (e.g., number of steps, time taken).",
+        "accepted_values": ["efficient", "inefficient", "moderately_efficient"]
+    },
+    "comprehension": {
+        "description": "The agent's ability to understand and interpret the problem correctly.",
+        "accepted_values": ["full_comprehension", "no_comprehension", "partial_comprehension"]
+    },
+    "reasoning_traceability": {
+        "description": "Ability to follow the reasoning process of the agent step by step.",
+        "accepted_values": ["traceable", "untraceable", "partially_traceable"]
+    },
+    "answer_clarity": {
+        "description": "Clarity of the communication in the provided answer.",
+        "accepted_values": ["clear", "unclear", "somewhat_clear"]
+    },
+    "use_of_resources": {
+        "description": "Appropriate use of resources, e.g., whether the agent required unnecessary information or teammates.",
+        "accepted_values": ["optimal_use", "excessive_use", "minimal_use", "insufficient_use"]
+    },
+    "response_time": {
+        "description": "The amount of time taken from receiving the question to providing the answer.",
+        "accepted_values": ["fast", "moderate", "slow"]
+    },
+    "relevance_of_output": {
+        "description": "The relevance and applicability of the solution to the given problem.",
+        "accepted_values": ["highly_relevant", "not_relevant", "somewhat_relevant"]
+    },
+    "innovativeness": {
+        "description": "The level of creativity and uniqueness in the solution approach.",
+        "accepted_values": ["highly_innovative", "not_innovative", "somewhat_innovative"]
+    }
+}

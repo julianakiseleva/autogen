@@ -1,0 +1,43 @@
+
+{
+    "accuracy": {
+        "description": "The degree to which the final answer correctly addresses the question posed, reflecting veracity and factual correctness.",
+        "accepted_values": ["inaccurate", "partially accurate", "mostly accurate", "fully accurate"]
+    },
+    "comprehensiveness": {
+        "description": "The extent to which the response encompasses all relevant aspects of the question and provides a thorough explanation.",
+        "accepted_values": ["incomplete", "moderately comprehensive", "highly comprehensive"]
+    },
+    "efficiency": {
+        "description": "The number of steps and the amount of resources used to arrive at the final answer without unnecessary procedures.",
+        "accepted_values": ["inefficient", "moderate efficiency", "highly efficient"]
+    },
+    "rationale_clarity": {
+        "description": "The clarity of the reasoning trace or the process followed by the agent(s) to reach the answer.",
+        "accepted_values": ["unclear", "somewhat clear", "clear", "very clear"]
+    },
+    "solution_novelty": {
+        "description": "The innovativeness of the approach or methods used by the agent(s) in answering the question.",
+        "accepted_values": ["standard", "somewhat novel", "novel", "highly novel"]
+    },
+    "solution_reliability": {
+        "description": "The consistency of the agent(s) in providing correct and comprehensive answers across multiple instances of the task.",
+        "accepted_values": ["unreliable", "somewhat reliable", "reliable", "highly reliable"]
+    },
+    "source_credibility": {
+        "description": "The trustworthiness and authority of the references or data sources utilized by the agent(s) during the process.",
+        "accepted_values": ["not credible", "somewhat credible", "credible", "highly credible"]
+    },
+    "data_contamination_control": {
+        "description": "How well the process avoids the use of contaminated or biased data sources that could skew the answer.",
+        "accepted_values": ["no control", "some control", "good control", "excellent control"]
+    },
+    "task_complexity_understanding": {
+        "description": "How effectively the agent(s) understand and handle the task's complexity, breaking it down into manageable subtasks.",
+        "accepted_values": ["not understood", "somewhat understood", "well understood", "fully understood"]
+    },
+    "user_satisfaction": {
+        "description": "The degree to which the user is satisfied with the answer provided, based on their expectations and requirements.",
+        "accepted_values": ["not satisfied", "partially satisfied", "mostly satisfied", "fully satisfied"]
+    }
+}

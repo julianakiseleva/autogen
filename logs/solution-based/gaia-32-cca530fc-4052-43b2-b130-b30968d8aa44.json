@@ -1,0 +1,53 @@
+
+{
+    "accuracy": {
+        "description": "The correctness of the final answer provided by the agent, measured against established facts or the expected outcome.",
+        "accepted_values": {
+            "perfect": "The solution provided is correct and fulfills the question's requirements entirely.",
+            "high": "The solution provided is mostly correct with minor inaccuracies that do not significantly affect the outcome.",
+            "medium": "The solution provided is somewhat correct but contains notable inaccuracies or errors.",
+            "low": "The solution provided has significant inaccuracies and fails to meet the question's requirements.",
+            "none": "The solution provided is completely incorrect or irrelevant to the question posed."
+        }
+    },
+    "reasoning_traceability": {
+        "description": "The ability to follow the logical steps or the thought process the agent took to arrive at the solution.",
+        "accepted_values": {
+            "clear": "The reasoning process is transparent and easy to follow, with each step well-documented and justifiable.",
+            "mostly_clear": "Most of the reasoning process is understandable, with some steps requiring clarification.",
+            "somewhat_clear": "The reasoning process is somewhat obscure, with significant effort needed to understand the steps taken.",
+            "unclear": "The reasoning process is mostly unclear, with few if any, understandable or justifiable steps.",
+            "opaque": "The reasoning process is opaque and cannot be traced or justified."
+        }
+    },
+    "solution_uniqueness": {
+        "description": "The uniqueness of the solution provided by the agent, ensuring that it is not a readily available answer from the internet.",
+        "accepted_values": {
+            "unique": "The solution is novel and not found via simple internet searches.",
+            "rare": "The solution is uncommon but may be found with deep internet searches.",
+            "common": "The solution is somewhat common and can be found with moderate effort on the internet.",
+            "frequent": "The solution is widely available and easily found on multiple internet sources.",
+            "ubiquitous": "The solution is ubiquitous, trivially found on the internet without any effort."
+        }
+    },
+    "step_complexity": {
+        "description": "The complexity of the steps taken to reach the solution, indicating the sophistication of the agent's problem-solving capabilities.",
+        "accepted_values": {
+            "very_high": "The agent completes a series of highly complex steps to arrive at the solution.",
+            "high": "The agent performs complex steps that demonstrate advanced problem-solving skills.",
+            "moderate": "The agent's steps are moderately complex, showing a decent level of problem-solving ability.",
+            "low": "The agent takes simple steps that suggest basic problem-solving capabilities.",
+            "very_low": "The agent's steps are rudimentary and show a lack of complexity in problem-solving."
+        }
+    },
+    "data_contamination_safeguard": {
+        "description": "The measures in place to prevent the solution from being influenced by publicly available incorrect data from the internet.",
+        "accepted_values": {
+            "full_immunity": "The solution methodology ensures no risk of data contamination.",
+            "high_resistance": "There are strong safeguards against data contamination, with little risk.",
+            "moderate_resistance": "Some measures are in place to reduce the risk of data contamination.",
+            "low_resistance": "There is minimal protection against data contamination, with notable risk.",
+            "vulnerable": "There are no safeguards in place, leaving the solution highly susceptible to data contamination."
+        }
+    }
+}

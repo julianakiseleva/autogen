@@ -1,0 +1,31 @@
+
+{
+    "Completeness_of_Question_Answering": {
+        "description": "The degree to which the multi-agent system provides a complete and thorough answer to the given real-world question.",
+        "accepted_values": ["Incomplete", "Partially complete", "Complete"]
+    },
+    "Accuracy_of_Facts": {
+        "description": "The correctness of factual information and data provided in the response.",
+        "accepted_values": ["Incorrect", "Partially accurate", "Accurate"]
+    },
+    "Reasoning_Clarity": {
+        "description": "The level of clarity and logical coherence in the reasoning process demonstrated by the agent(s).",
+        "accepted_values": ["Unclear", "Somewhat clear", "Clear"]
+    },
+    "Resource_Credibility": {
+        "description": "The credibility and trustworthiness of sources from which information is retrieved.",
+        "accepted_values": ["Not credible", "Somewhat credible", "Highly credible"]
+    },
+    "Answer_Presentation": {
+        "description": "The organization, readability, and presentation quality of the final answer.",
+        "accepted_values": ["Poorly presented", "Acceptably presented", "Well presented"]
+    },
+    "Timeliness": {
+        "description": "The speed and efficiency of the task execution to arrive at a final answer.",
+        "accepted_values": ["Slow", "Reasonable time", "Fast"]
+    },
+    "Adherence_to_Instructions": {
+        "description": "The level of adherence to specific requirements or directions stated in the task.",
+        "accepted_values": ["Did not adhere", "Partially adhered", "Fully adhered"]
+    }
+}

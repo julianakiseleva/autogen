@@ -1,0 +1,39 @@
+
+{
+    "completeness_of_answer": {
+        "description": "The extent to which the question has been answered in its entirety",
+        "accepted_values": ["Not addressed", "Partially addressed", "Fully addressed"]
+    },
+    "accuracy_of_information": {
+        "description": "The correctness of information provided in response to the question",
+        "accepted_values": ["Incorrect", "Partially correct", "Correct"]
+    },
+    "efficiency_of_solution": {
+        "description": "How effectively the agent navigated the steps needed to reach the answer",
+        "accepted_values": ["Inefficient", "Moderately efficient", "Highly efficient"]
+    },
+    "resource_utilization": {
+        "description": "How well the agent used available resources to obtain the answer",
+        "accepted_values": ["Poor", "Acceptable", "Optimal"]
+    },
+    "adherence_to_instructions": {
+        "description": "The ability of the agent to follow the instructions provided during the task",
+        "accepted_values": ["Did not follow", "Mostly followed", "Strictly followed"]
+    },
+    "reasoning_traceability": {
+        "description": "The clarity of the agent's reasoning trace left for users to follow",
+        "accepted_values": ["Not traceable", "Somewhat traceable", "Fully traceable"]
+    },
+    "communication_clarity": {
+        "description": "How clear and understandable the agent's communications are",
+        "accepted_values": ["Not clear", "Somewhat clear", "Very clear"]
+    },
+    "task_completion_time": {
+        "description": "The duration it takes for the agent to complete the task",
+        "accepted_values": ["Slow", "Average", "Fast"]
+    },
+    "scalability": {
+        "description": "The agent's capability to handle increasingly complex tasks",
+        "accepted_values": ["Not scalable", "Moderately scalable", "Highly scalable"]
+    }
+}

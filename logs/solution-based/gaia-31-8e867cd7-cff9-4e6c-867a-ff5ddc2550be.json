@@ -1,0 +1,31 @@
+
+{
+    "accuracy": {
+        "description": "The degree to which the final answer provided matches the correct answer to the question.",
+        "accepted_values": ["incorrect", "partially correct", "correct"]
+    },
+    "completeness": {
+        "description": "The extent to which the solution addresses all aspects of the question.",
+        "accepted_values": ["incomplete", "mostly complete", "complete"]
+    },
+    "reliability": {
+        "description": "The consistency of the multi-agent system in providing correct and complete answers over multiple instances of the task.",
+        "accepted_values": ["unreliable", "mostly reliable", "reliable"]
+    },
+    "efficiency": {
+        "description": "The amount of time and resources required to arrive at the final answer.",
+        "accepted_values": ["inefficient", "moderately efficient", "efficient"]
+    },
+    "reasoning_traceability": {
+        "description": "The ability to follow the logical steps the agent took to arrive at its conclusion.",
+        "accepted_values": ["non-traceable", "partially traceable", "traceable"]
+    },
+    "handling_ambiguity": {
+        "description": "The system's ability to deal with ambiguous or incomplete information and still provide a relevant response.",
+        "accepted_values": ["poor", "moderate", "excellent"]
+    },
+    "data_sourcing": {
+        "description": "The ability to source data from reliable and appropriate places, avoiding data contamination.",
+        "accepted_values": ["poor sourcing", "good sourcing", "excellent sourcing"]
+    }
+}

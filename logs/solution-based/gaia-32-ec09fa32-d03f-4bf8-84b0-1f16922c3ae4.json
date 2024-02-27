@@ -1,0 +1,35 @@
+
+{
+    "Accuracy": {
+        "description": "The precision of the final answer in relation to the optimal or correct choice based on the game mechanics.",
+        "accepted_values": ["exact_match", "close", "not_close", "incorrect"]
+    },
+    "Solution Completeness": {
+        "description": "Degree to which the proposed solution covers all aspects and steps required to answer the challenge question comprehensively.",
+        "accepted_values": ["all_steps_covered", "some_steps_missing", "no_steps_covered"]
+    },
+    "Reasoning Transparency": {
+        "description": "The clarity and traceability of the reasoning process that has led to the solution.",
+        "accepted_values": ["fully_transparent", "partially_transparent", "opaque"]
+    },
+    "Efficiency": {
+        "description": "The number of steps taken or the time expended to reach a solution in comparison to an expected benchmark.",
+        "accepted_values": ["optimal_time", "acceptable_time", "too_long"]
+    },
+    "Robustness": {
+        "description": "The solution's capability to maintain performance when faced with different or changing inputs.",
+        "accepted_values": ["high_robustness", "medium_robustness", "low_robustness", "not_robust"]
+    },
+    "Reproducibility": {
+        "description": "The ability to reach the same conclusions through the same process by different agents or at different times.",
+        "accepted_values": ["always_reproducible", "usually_reproducible", "rarely_reproducible", "not_reproducible"]
+    },
+    "Innovation": {
+        "description": "The level of creativity or novelty in the approach taken to solve the task.",
+        "accepted_values": ["highly_innovative", "somewhat_innovative", "not_innovative"]
+    },
+    "Ethical Consideration": {
+        "description": "Adherence to ethical standards in the methodology and solution provided for the task.",
+        "accepted_values": ["ethical", "questionable_ethics", "unethical"]
+    }
+}

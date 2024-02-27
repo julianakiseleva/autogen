@@ -1,0 +1,45 @@
+
+{
+    "accuracy": {
+        "description": "The correctness of the provided answer to the real-world question.",
+        "accepted_values": {"perfect": "The answer is completely correct and well-justified.",
+                            "partial": "The answer is partially correct with some missing or incorrect parts.",
+                            "incorrect": "The answer is totally incorrect or irrelevant."
+        }
+    },
+    "completeness": {
+        "description": "The comprehensiveness of the reasoning trace and the completeness of steps taken to find the answer.",
+        "accepted_values": {"complete": "All steps are fully executed and the reasoning trace is comprehensive.",
+                            "incomplete": "Some steps are executed, but others are missing or incomplete.",
+                            "none": "No steps toward the solution or reasoning trace provided."
+        }
+    },
+    "resourcefulness": {
+        "description": "The ability to effectively utilize available resources (e.g., multi-agent systems) to obtain the answer.",
+        "accepted_values": {"optimal": "Resources are used in the most efficient and effective manner.",
+                            "suboptimal": "Resources are used but not in the most efficient way.",
+                            "ineffective": "The use of resources did not contribute to obtaining the answer."
+        }
+    },
+    "novelty": {
+        "description": "The originality of the answer, ensuring it has not been simply retrieved from readily available internet sources.",
+        "accepted_values": {"unique": "The answer is uniquely produced and not found in plain text on the internet.",
+                            "common": "The answer is found with slight modifications from internet sources.",
+                            "copied": "The answer is an exact copy from internet sources."
+        }
+    },
+    "traceability": {
+        "description": "The ability to follow the reasoning process leading to the answer.",
+        "accepted_values": {"clear": "The reasoning process is clear and each step can be easily followed.",
+                            "ambiguous": "The reasoning process is somewhat unclear or difficult to follow.",
+                            "obscure": "The reasoning process is not traceable or lacks any transparent steps."
+        }
+    },
+    "efficiency": {
+        "description": "The speed and the minimal resource usage in reaching the answer.",
+        "accepted_values": {"high": "Answer is reached quickly with minimal resource usage.",
+                            "moderate": "Answer is reached in a reasonable timeframe with reasonable resource usage.",
+                            "low": "Answer takes a long time and/or uses excessive resources."
+        }
+    }
+}

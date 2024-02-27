@@ -1,0 +1,35 @@
+
+{
+    "accuracy": {
+        "description": "The correctness of the final answer provided by the multi-agent system.",
+        "accepted_values": ["correct", "incorrect", "partially_correct"]
+    },
+    "reasoning_traceability": {
+        "description": "The ability to follow the logic and reasoning steps taken by the multi-agent system to arrive at the final answer.",
+        "accepted_values": ["fully_traceable", "partially_traceable", "not_traceable"]
+    },
+    "completeness": {
+        "description": "The extent to which the multi-agent system's response addresses all aspects of the question.",
+        "accepted_values": ["complete", "incomplete", "partially_complete"]
+    },
+    "time_efficiency": {
+        "description": "The amount of time taken by the multi-agent system to provide an answer.",
+        "accepted_values": ["fast", "moderate", "slow"]
+    },
+    "robustness": {
+        "description": "The multi-agent system’s ability to handle diverse and challenging questions without failure.",
+        "accepted_values": ["highly_robust", "moderately_robust", "not_robust"]
+    },
+    "data_quality": {
+        "description": "The quality and reliability of the data sources used by the multi-agent system to inform its reasoning.",
+        "accepted_values": ["high_quality", "moderate_quality", "low_quality"]
+    },
+    "scalability": {
+        "description": "The capability of the multi-agent system to maintain performance as the complexity or number of tasks increases.",
+        "accepted_values": ["highly_scalable", "moderately_scalable", "not_scalable"]
+    },
+    "user_interaction": {
+        "description": "The effectiveness of communication between the multi-agent system and the user throughout the task.",
+        "accepted_values": ["highly_interactive", "moderately_interactive", "not_interactive"]
+    }
+}

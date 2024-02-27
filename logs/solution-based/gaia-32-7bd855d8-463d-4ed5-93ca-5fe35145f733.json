@@ -1,0 +1,57 @@
+
+{
+    "correctness": {
+        "description": "Accuracy of the final answer provided by the GAIA system",
+        "accepted_values": {
+            "correct": "The answer is fully accurate and correct.",
+            "partially_correct": "The answer is somewhat accurate but with minor errors or missing elements.",
+            "incorrect": "The answer is wrong or off-topic.",
+            "n/a": "The correctness cannot be determined (e.g., if the task was not completed)."
+        }
+    },
+    "reasoning_trace_clarity": {
+        "description": "The transparency and understandability of the reasoning steps the system took to reach its answer",
+        "accepted_values": {
+            "clear": "The reasoning trace is fully explained and easy to follow.",
+            "mostly_clear": "The reasoning trace is generally easy to follow with minor ambiguities.",
+            "unclear": "The reasoning is difficult to understand or poorly explained.",
+            "not_provided": "No reasoning trace was provided."
+        }
+    },
+    "completion_time": {
+        "description": "The amount of time taken by the system to reach a solution",
+        "accepted_values": {
+            "fast": "Solution reached significantly faster than expected.",
+            "average": "Solution reached in an average expected time frame.",
+            "slow": "Solution reached, but took longer than expected.",
+            "timeout": "The task was not completed within the allowed time."
+        }
+    },
+    "data_processing_accuracy": {
+        "description": "The precision and correctness in handling and processing the given data",
+        "accepted_values": {
+            "high": "Data processed with high accuracy and no observable errors.",
+            "medium": "Data processed with minor inaccuracies or recoverable errors.",
+            "low": "Data processed with significant errors affecting the outcome.",
+            "not_applicable": "The task did not involve data processing."
+        }
+    },
+    "robustness": {
+        "description": "The ability of the GAIA system to handle unexpected or challenging conditions during the task",
+        "accepted_values": {
+            "very_robust": "The system demonstrated strong capability to handle challenges effectively.",
+            "somewhat_robust": "The system managed challenges with minor difficulties.",
+            "not_robust": "The system failed to manage challenges effectively.",
+            "untested": "Robustness was not tested during the task."
+        }
+    },
+    "solution_reusability": {
+        "description": "The potential to apply the solution or parts of it to similar tasks in the future",
+        "accepted_values": {
+            "fully_reusable": "The solution is generic and can easily be adapted for other tasks.",
+            "partially_reusable": "Parts of the solution can be reused, with some modifications required.",
+            "not_reusable": "The solution is task-specific and not reusable.",
+            "unknown": "Reusability has not been evaluated."
+        }
+    }
+}

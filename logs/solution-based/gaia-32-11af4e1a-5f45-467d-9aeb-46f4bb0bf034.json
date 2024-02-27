@@ -1,0 +1,27 @@
+
+{
+    "answer_correctness": {
+        "description": "The accuracy of the final answer provided by the system in response to the question asked.",
+        "accepted_values": {"incorrect": 0, "partially_correct": 0.5, "correct": 1}
+    },
+    "reasoning_traceability": {
+        "description": "The ability to follow and understand the reasoning process of the system through its provided trace.",
+        "accepted_values": {"not_traceable": 0, "partially_traceable": 0.5, "fully_traceable": 1}
+    },
+    "efficiency": {
+        "description": "How efficiently the system reaches a conclusion without unnecessary steps or iterations.",
+        "accepted_values": {"inefficient": 0, "moderately_efficient": 0.5, "highly_efficient": 1}
+    },
+    "solution_completeness": {
+        "description": "The extent to which the system's solution is complete, addressing all aspects of the question.",
+        "accepted_values": {"incomplete": 0, "mostly_complete": 0.5, "complete": 1}
+    },
+    "autonomy": {
+        "description": "The degree to which the system operates independently without human intervention.",
+        "accepted_values": {"manual": 0, "semi_autonomous": 0.5, "fully_autonomous": 1}
+    },
+    "data_contamination_prevention": {
+        "description": "The system's ability to provide answers without relying on plagiarized or directly copied internet sources.",
+        "accepted_values": {"high_contamination": 0, "some_contamination": 0.5, "no_contamination": 1}
+    }
+}

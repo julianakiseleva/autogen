@@ -1,0 +1,27 @@
+
+{
+    "accuracy": {
+        "description": "The degree to which the final answer correctly responds to the query, based on historical baseball statistics.",
+        "accepted_values": ["incorrect", "partially correct", "mostly correct", "correct"]
+    },
+    "reasoning_traceability": {
+        "description": "The ability to follow the logical reasoning and steps taken by the agents to arrive at the final answer.",
+        "accepted_values": ["not traceable", "somewhat traceable", "clearly traceable", "fully traceable with justifications"]
+    },
+    "efficiency": {
+        "description": "The speed and resource utilization in completing the task, considering the complexity of the steps involved.",
+        "accepted_values": ["inefficient", "moderately efficient", "efficient", "highly efficient"]
+    },
+    "source_reliability": {
+        "description": "The credibility of the sources from which the information is retrieved, impacting the trustworthiness of the answer.",
+        "accepted_values": ["unreliable sources", "somewhat reliable sources", "reliable sources", "highly reliable sources"]
+    },
+    "answer_completeness": {
+        "description": "The extent to which the response provided is comprehensive and addresses all elements of the question posed.",
+        "accepted_values": ["incomplete answer", "partially complete answer", "mostly complete answer", "fully complete answer"]
+    },
+    "data_contamination_prevention": {
+        "description": "Measures taken to ensure that the answer is free from bias or contamination from internet data not relevant to the question context.",
+        "accepted_values": ["no measures taken", "some measures taken", "adequate measures taken", "stringent measures taken"]
+    }
+}

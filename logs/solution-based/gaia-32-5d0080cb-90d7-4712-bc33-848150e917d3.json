@@ -1,0 +1,31 @@
+
+{
+    "correctness": {
+        "description": "The accuracy of the final answer given by the agent.", 
+        "accepted_values": ["completely_correct", "partially_correct", "incorrect", "indeterminable"]
+    },
+    "reasoning_traceability": {
+        "description": "The agent's ability to provide a trace of its reasoning process that led to the answer.",
+        "accepted_values": ["fully_traceable", "partially_traceable", "not_traceable"]
+    },
+    "completeness_of_steps": {
+        "description": "The extent to which all necessary steps to answer the question have been completed by the agent.",
+        "accepted_values": ["all_steps_completed", "some_steps_missing", "no_steps_completed"]
+    },
+    "data_contamination_avoidance": {
+        "description": "Ensuring the answer is not contaminated with plagiarized or straightforwardly copied content from the internet.",
+        "accepted_values": ["no_contamination", "some_contamination", "high_contamination"]
+    },
+    "execution_of_plan": {
+        "description": "How effectively the agent executed the proposed plan to find the solution.",
+        "accepted_values": ["effectively_executed", "partially_executed", "not_executed"]
+    },
+    "resourcefulness": {
+        "description": "The agent's ability to find alternative solutions or paths when encountering obstacles.",
+        "accepted_values": ["highly_resourceful", "moderately_resourceful", "not_resourceful"]
+    },
+    "communication_clarity": {
+        "description": "The clarity of communication from the agent when providing the answer or explaining the solution.",
+        "accepted_values": ["very_clear", "somewhat_clear", "unclear"]
+    }
+}

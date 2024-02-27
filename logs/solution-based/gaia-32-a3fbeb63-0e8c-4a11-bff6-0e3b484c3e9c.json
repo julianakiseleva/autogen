@@ -1,0 +1,53 @@
+
+{
+    "accuracy": {
+        "description": "Correctness of the final answer provided by the agent.",
+        "accepted_values": {
+            "perfect": "The answer provided is 100% correct.",
+            "high": "The answer provided is mostly correct with minor inaccuracies.",
+            "medium": "The answer provided is partially correct with significant inaccuracies or omissions.",
+            "low": "The answer provided is mostly incorrect or irrelevant.",
+            "none": "The answer provided is completely incorrect or unrelated."
+        }
+    },
+    "efficiency": {
+        "description": "The number of steps taken to arrive at the answer relative to the optimal number of steps.",
+        "accepted_values": {
+            "optimal": "The minimum number of necessary steps were taken.",
+            "above_average": "A few extra steps were taken but close to optimal.",
+            "average": "A moderate number of extra steps were taken.",
+            "below_average": "Many unnecessary steps were taken, indicating inefficiency.",
+            "poor": "An excessive number of steps were taken, far from optimal."
+        }
+    },
+    "clarity_of_reasoning_trace": {
+        "description": "The degree to which the agent's reasoning process is understandable and traceable.",
+        "accepted_values": {
+            "clear": "The reasoning trace is fully transparent and easy to understand.",
+            "mostly_clear": "The reasoning trace has minor areas of ambiguity but is generally understandable.",
+            "moderate": "The reasoning trace has some ambiguous parts that affect understanding.",
+            "unclear": "The reasoning trace is largely unclear or difficult to follow.",
+            "opaque": "The reasoning trace is not discernible at all."
+        }
+    },
+    "data_contamination_prevention": {
+        "description": "Effectiveness of preventing the use of data that could contaminate the result.",
+        "accepted_values": {
+            "no_contamination": "There is no evidence of contaminated data influencing the result.",
+            "low_risk": "There is a slight risk of contaminated data, but it has not strongly influenced the result.",
+            "moderate_risk": "There is a moderate risk of contaminated data, which may have influenced the result.",
+            "high_risk": "There is a high risk of contaminated data, which likely has influenced the result.",
+            "full_contamination": "The result is clearly influenced or based on contaminated data."
+        }
+    },
+    "task_completion": {
+        "description": "The extent to which the agent's tasks have been completed.",
+        "accepted_values": {
+            "fully_completed": "All tasks have been completed successfully.",
+            "mostly_completed": "Most of the tasks have been completed with minor outstanding items.",
+            "partially_completed": "Some tasks have been completed, but not all.",
+            "barely_completed": "Few tasks have been completed, most are incomplete.",
+            "not_completed": "No tasks have been completed."
+        }
+    }
+}

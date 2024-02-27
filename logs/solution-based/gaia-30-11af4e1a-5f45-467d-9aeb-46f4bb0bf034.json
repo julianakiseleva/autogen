@@ -1,0 +1,43 @@
+
+{
+    "accuracy": {
+        "description": "The correctness of the final answer provided by the multi-agent system.",
+        "accepted_values": ["incorrect", "partially correct", "correct"]
+    },
+    "completeness": {
+        "description": "The degree to which all necessary steps were completed to arrive at the final answer.",
+        "accepted_values": ["incomplete", "mostly complete", "complete"]
+    },
+    "reasoning_traceability": {
+        "description": "The ability to follow the logic and reasoning process of the multi-agent system.",
+        "accepted_values": ["not traceable", "somewhat traceable", "fully traceable"]
+    },
+    "efficiency": {
+        "description": "The number of steps taken to arrive at the answer relative to the least number of steps possible.",
+        "accepted_values": ["inefficient", "moderate efficiency", "efficient"]
+    },
+    "reliability": {
+        "description": "The consistency of the system in providing accurate answers across various questions.",
+        "accepted_values": ["unreliable", "somewhat reliable", "reliable"]
+    },
+    "diversity_handling": {
+        "description": "The system's ability to handle a wide range of question types and difficulties.",
+        "accepted_values": ["poor", "good", "excellent"]
+    },
+    "data_contamination_control": {
+        "description": "The measures taken to avoid using contaminated data or easily accessible answers from the internet.",
+        "accepted_values": ["no control", "some control", "strict control"]
+    },
+    "time_taken": {
+        "description": "The total time required to produce the final answer from the initial question.",
+        "accepted_values": ["slow", "moderate", "fast"]
+    },
+    "resource_utilization": {
+        "description": "The amount of computational or other resources used by the system to produce an answer.",
+        "accepted_values": ["high usage", "moderate usage", "low usage"]
+    },
+    "user_satisfaction": {
+        "description": "The level of satisfaction of the user with the provided answer and explanation.",
+        "accepted_values": ["dissatisfied", "neutral", "satisfied"]
+    }
+}

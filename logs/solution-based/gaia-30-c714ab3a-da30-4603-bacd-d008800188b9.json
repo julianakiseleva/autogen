@@ -1,0 +1,59 @@
+
+{
+    "correctness": {
+        "description": "Accuracy of the final answer provided by the system.",
+        "accepted_values": {
+            "exact": "The answer is exactly correct.",
+            "partially_correct": "The answer is partially correct; key elements are identified, but minor details may be inaccurate.",
+            "incorrect": "The answer is incorrect or unrelated to the question."
+        }
+    },
+    "logic_soundness": {
+        "description": "The logical soundness of the reasoning trace used to reach the conclusion.",
+        "accepted_values": {
+            "flawless": "The reasoning is logically flawless with no errors in deduction.",
+            "minor_flaws": "The reasoning contains minor logical flaws, but the overall logic is sound.",
+            "major_flaws": "The reasoning contains major logical flaws or fallacies."
+        }
+    },
+    "reasoning_trace_clarity": {
+        "description": "The clarity and understandability of the reasoning trace provided.",
+        "accepted_values": {
+            "very_clear": "The reasoning trace is very clear and easy to follow.",
+            "somewhat_clear": "The reasoning trace is somewhat clear with few ambiguous parts.",
+            "not_clear": "The reasoning trace is not clear or very hard to understand."
+        }
+    },
+    "completeness": {
+        "description": "The extent to which the system's answer addresses all aspects of the task.",
+        "accepted_values": {
+            "fully_complete": "The answer is fully comprehensive, covering all aspects required by the task.",
+            "mostly_complete": "The answer covers most aspects of the task, missing only minor elements.",
+            "incomplete": "The answer is incomplete, missing significant parts of the task requirements."
+        }
+    },
+    "originality": {
+        "description": "The degree of originality and creativity in the system's approach or solution.",
+        "accepted_values": {
+            "highly_original": "The solution or approach shows high originality and novelty.",
+            "somewhat_original": "The solution or approach shows some originality but may be similar to known methods.",
+            "not_original": "The solution or approach lacks originality and closely imitates known methods."
+        }
+    },
+    "steps_efficiency": {
+        "description": "Efficiency in the number of steps taken to reach the final answer.",
+        "accepted_values": {
+            "optimal": "The number of steps taken is optimal or near-optimal.",
+            "acceptable": "The number of steps taken is acceptable, though not minimal.",
+            "inefficient": "The number of steps taken is excessive or inefficient."
+        }
+    },
+    "internet_independence": {
+        "description": "The degree to which the answer was derived without relying on plain text data from the internet.",
+        "accepted_values": {
+            "fully_independent": "The answer is fully independent of internet data, relying on internal logic and processing.",
+            "partially_dependent": "The answer is partially derived from the internet but primarily from internal logic.",
+            "dependent": "The answer relies heavily on information extracted from the internet."
+        }
+    }
+}

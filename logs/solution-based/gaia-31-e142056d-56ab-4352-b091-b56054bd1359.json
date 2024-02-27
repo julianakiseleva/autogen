@@ -1,0 +1,43 @@
+
+{
+    "accuracy": {
+        "description": "Correctness of the answers provided by the system",
+        "accepted_values": ["100%", "90-99%", "80-89%", "70-79%", "<70%"]
+    },
+    "completeness": {
+        "description": "Degree to which the multi-agent system's answer fully addresses the question",
+        "accepted_values": ["complete", "mostly complete", "partially complete", "minimal", "none"]
+    },
+    "efficiency": {
+        "description": "The amount of computational resources and time used by the system to arrive at an answer",
+        "accepted_values": ["<1 second", "1-3 seconds", "4-10 seconds", "10-30 seconds", ">30 seconds"]
+    },
+    "logical_coherence": {
+        "description": "The degree to which the reasoning trace is consistent and logical",
+        "accepted_values": ["fully coherent", "mostly coherent", "somewhat coherent", "not coherent"]
+    },
+    "reliability": {
+        "description": "Consistency of the system's performance over time",
+        "accepted_values": ["always reliable", "usually reliable", "sometimes reliable", "rarely reliable", "never reliable"]
+    },
+    "robustness": {
+        "description": "Ability of the system to handle diverse and complex questions without errors",
+        "accepted_values": ["always robust", "usually robust", "sometimes robust", "rarely robust", "never robust"]
+    },
+    "originality": {
+        "description": "The uniqueness of the answers, indicating that they are not taken directly from data sources such as the internet",
+        "accepted_values": ["completely original", "mostly original", "somewhat original", "little originality", "no originality"]
+    },
+    "traceability": {
+        "description": "The ability to review and understand the reasoning process or steps taken by the system to arrive at an answer",
+        "accepted_values": ["fully traceable", "mostly traceable", "somewhat traceable", "not traceable"]
+    },
+    "complexity_management": {
+        "description": "How well does the system manage and process the complexity inherent in the task",
+        "accepted_values": ["excellent management", "good management", "fair management", "poor management", "fails to manage"]
+    },
+    "data_contamination_prevention": {
+        "description": "Effectiveness of the system in preventing data contamination from unreliable sources",
+        "accepted_values": ["completely prevented", "mostly prevented", "partially prevented", "minimal prevention", "not prevented"]
+    }
+}

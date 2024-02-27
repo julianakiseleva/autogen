@@ -1,0 +1,35 @@
+
+{
+    "completeness": {
+        "description": "Extent to which the solution covers all steps needed to address the question.",
+        "accepted_values": {"none": "No relevant steps covered", "partial": "Some but not all relevant steps covered", "complete": "All relevant steps covered"}
+    },
+    "accuracy": {
+        "description": "Degree of correctness of the final answer provided.",
+        "accepted_values": {"incorrect": "Answer is incorrect", "partially_correct": "Answer is partially correct", "correct": "Answer is fully correct"}
+    },
+    "efficiency": {
+        "description": "How economically the agents have used resources (time, computational power) to solve the question.",
+        "accepted_values": {"low": "Inefficient use of resources", "moderate": "Reasonable use of resources", "high": "Highly efficient use of resources"}
+    },
+    "collaboration": {
+        "description": "Effectiveness of the interaction between the agents in the multi-agent system.",
+        "accepted_values": {"none": "No collaboration observed", "partial": "Some collaboration but suboptimal", "full": "Full and effective collaboration"}
+    },
+    "adaptability": {
+        "description": "Ability of the system to handle unexpected challenges or variations in the task.",
+        "accepted_values": {"none": "No adaptability", "moderate": "Moderate adaptability", "high": "High adaptability"}
+    },
+    "traceability": {
+        "description": "The ability to track and understand the decision-making process of the agents.",
+        "accepted_values": {"opaque": "No reasoning trace available", "partial": "Some reasoning trace available", "transparent": "Full reasoning trace available"}
+    },
+    "reliability": {
+        "description": "Consistency and dependability of the solution over multiple trials or variations of the task.",
+        "accepted_values": {"low": "Not reliable", "moderate": "Moderately reliable", "high": "Highly reliable"}
+    },
+    "compliance_with_specifications": {
+        "description": "The degree to which the solution meets the specified requirements of the task.",
+        "accepted_values": {"none": "No compliance with specifications", "partial": "Partial compliance with specifications", "full": "Full compliance with specifications"}
+    }
+}

@@ -1,0 +1,31 @@
+
+{
+  "correctness": {
+    "description": "The accuracy of the answer given by the agent.",
+    "accepted_values": ["Incorrect", "Partly Correct", "Correct"]
+  },
+  "completeness": {
+    "description": "Whether the answer covers all parts of the question comprehensively.",
+    "accepted_values": ["Incomplete", "Mostly Complete", "Complete"]
+  },
+  "reasoning_traceability": {
+    "description": "Clarity of the steps and logic behind the agent's answer.",
+    "accepted_values": ["Not Traceable", "Partly Traceable", "Traceable"]
+  },
+  "resourcefulness": {
+    "description": "The effectiveness of using given and accessible external data to inform the answer.",
+    "accepted_values": ["Not Resourceful", "Somewhat Resourceful", "Resourceful"]
+  },
+  "diversity_avoidance": {
+    "description": "The efficiency in choosing the most direct path to the answer without unnecessary diversification of steps.",
+    "accepted_values": ["Poor", "Average", "Good"]
+  },
+  "data_contamination_avoidance": {
+    "description": "The integrity of the answer in being free from incorrect data sourced from potentially unreliable locations like the internet.",
+    "accepted_values": ["Contaminated", "Minor Contamination", "Not Contaminated"]
+  },
+  "timeliness": {
+    "description": "How quickly the agent arrives at the answer following the question prompt.",
+    "accepted_values": ["Slow", "Average", "Fast"]
+  }
+}

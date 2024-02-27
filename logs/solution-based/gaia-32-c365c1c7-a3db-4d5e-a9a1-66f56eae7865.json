@@ -1,0 +1,50 @@
+To evaluate the multi-agent system's performance on the task of answering a real-world, challenging question, we can establish a set of criteria. These criteria should help assess whether the agents are effectively working together to generate accurate answers, track their progress, and efficiently navigate and use external information sources. Below is a dictionary of suggested evaluation criteria:
+
+```python
+{
+    "accuracy": {
+        "description": "The correctness of the final answer provided by the multi-agent system.",
+        "accepted_values": ["correct", "incorrect", "partially_correct"]
+    },
+    "completeness": {
+        "description": "The degree to which the multi-agent system's answer fully addresses all parts of the question.",
+        "accepted_values": ["complete", "incomplete", "partially_complete"]
+    },
+    "efficiency": {
+        "description": "The number of steps taken to reach the final answer, indicating the process's efficiency.",
+        "accepted_values": ["optimal", "acceptable", "inefficient"]
+    },
+    "reasoning_trace": {
+        "description": "The ability to track and understand the chain of steps and decisions made by the agents.",
+        "accepted_values": ["clear", "unclear", "ambiguous"]
+    },
+    "data_sourcing": {
+        "description": "The agents' ability to identify and use reliable sources of information external to their own knowledge.",
+        "accepted_values": ["reliable", "unreliable", "mixed"]
+    },
+    "error_recovery": {
+        "description": "The agents' capacity to recognize and correct errors during the task.",
+        "accepted_values": ["successful", "unsuccessful", "partially_successful"]
+    },
+    "collaboration_quality": {
+        "description": "The effectiveness of the interaction and collaboration between the various agents.",
+        "accepted_values": ["effective", "ineffective", "partially_effective"]
+    },
+    "knowledge_utilization": {
+        "description": "How well the multi-agent system uses its current knowledge base to answer the question.",
+        "accepted_values": ["optimal_use", "underutilized", "overreliant"]
+    },
+    "response_format": {
+        "description": "The appropriateness of the answer's format relative to the question's requirements.",
+        "accepted_values": ["appropriate", "inappropriate", "partially_appropriate"]
+    },
+    "progress_tracking": {
+        "description": "The system's ability to assess its own progress towards achieving the task's goal.",
+        "accepted_values": ["accurate", "inaccurate", "partially_accurate"]
+    }
+}
+
+return evaluation_criteria
+```
+
+This dictionary of evaluation criteria can be used to assess how well the multi-agent system is performing based on the given scenario. Each criterion includes a description and a set of accepted values that reflect different levels of performance, allowing for a nuanced appraisal of the agents' actions and outputs.

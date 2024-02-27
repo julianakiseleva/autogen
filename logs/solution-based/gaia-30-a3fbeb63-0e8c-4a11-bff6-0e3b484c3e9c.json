@@ -1,0 +1,19 @@
+
+{
+    "Accuracy_of_Answer": {
+        "description": "Correctness of the final answer provided by the system.",
+        "accepted_values": ["Completely correct", "Partially correct", "Incorrect"]
+    },
+    "Completeness_of_Steps": {
+        "description": "The extent to which all required steps were completed to arrive at the answer.",
+        "accepted_values": ["All steps completed", "Some steps missed", "No steps completed"]
+    },
+    "Efficiency": {
+        "description": "How quickly and resource-efficiently the system can produce the answer.",
+        "accepted_values": ["Highly efficient", "Moderately efficient", "Inefficient"]
+    },
+    "Traceability": {
+        "description": "Ability to follow the reasoning and step-by-step process used by the system.",
+        "accepted_values": ["Fully traceable", "Partially traceable", "Not traceable"]
+    }
+}

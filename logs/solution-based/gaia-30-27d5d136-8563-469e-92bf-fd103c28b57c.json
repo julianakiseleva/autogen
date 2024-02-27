@@ -1,0 +1,27 @@
+
+{
+    "Correctness_of_Analysis": {
+        "description": "Accuracy of the logical analysis provided by the system.",
+        "accepted_values": ["Perfectly Accurate", "Mostly Accurate", "Partially Accurate", "Inaccurate"]
+    },
+    "Completeness_of_Reasoning": {
+        "description": "The extent to which the reasoning trace is complete and covers all necessary logical steps.",
+        "accepted_values": ["Fully Complete", "Mostly Complete", "Partially Complete", "Incomplete"]
+    },
+    "Logical_Consistency": {
+        "description": "Consistency of the reasoning without contradictions or logical fallacies.",
+        "accepted_values": ["Entirely Consistent", "Mostly Consistent", "Somewhat Consistent", "Inconsistent"]
+    },
+    "Explanation_Clarity": {
+        "description": "Clarity of the explanations provided in terms of understandability and transparency.",
+        "accepted_values": ["Highly Clear", "Clear", "Somewhat Clear", "Unclear"]
+    },
+    "Efficiency_of_Steps": {
+        "description": "Efficiency in reaching the solution with a minimal number of logical steps.",
+        "accepted_values": ["Highly Efficient", "Efficient", "Inefficient", "Highly Inefficient"]
+    },
+    "Response_Timeliness": {
+        "description": "Quickness of the system in producing an answer.",
+        "accepted_values": ["Immediate", "Fast", "Acceptable", "Slow"]
+    }
+}

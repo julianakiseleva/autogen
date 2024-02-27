@@ -1,0 +1,57 @@
+
+{
+    "accuracy": {
+        "description": "The degree to which the final answer corresponds to the correct information.",
+        "accepted_values": {
+            "incorrect": "The provided answer is incorrect.",
+            "partially_correct": "The provided answer is partially correct but lacks some details.",
+            "mostly_correct": "The provided answer is mostly correct with minor inaccuracies.",
+            "correct": "The provided answer is completely correct."
+        }
+    },
+    "completeness": {
+        "description": "The extent to which all necessary steps were completed to arrive at the final answer.",
+        "accepted_values": {
+            "incomplete": "Not all necessary steps were taken.",
+            "mostly_complete": "Most steps were completed, but a few were skipped or incomplete.",
+            "complete_with_extras": "All necessary steps were completed, with additional unnecessary steps taken.",
+            "complete": "All necessary steps were completed with no extraneous actions."
+        }
+    },
+    "reasoning_traceability": {
+        "description": "The ability to follow the logic and reasoning of the agents step by step.",
+        "accepted_values": {
+            "opaque": "The reasoning process is not traceable at all.",
+            "vague": "The reasoning process is present but difficult to follow.",
+            "clear_with_gaps": "The reasoning process is mostly clear but has some gaps.",
+            "transparent": "The reasoning process is completely transparent and easy to follow."
+        }
+    },
+    "data_contamination": {
+        "description": "The absence of unverified or false data from external sources in the final answer.",
+        "accepted_values": {
+            "contaminated": "The answer contains unverified or false data.",
+            "potentially_contaminated": "The answer might contain unverified data, not completely certain.",
+            "little_to_no_contamination": "The answer is mostly free of contamination, with minor exceptions.",
+            "uncontaminated": "The answer is completely free of unverified or false data."
+        }
+    },
+    "response_time": {
+        "description": "The amount of time it takes for the multi-agent system to generate a solution.",
+        "accepted_values": {
+            "slow": "The response time is well above the expected timeframe.",
+            "fair": "The response time is somewhat higher than expected.",
+            "good": "The response time is within an acceptable range.",
+            "fast": "The response time is quicker than expected."
+        }
+    },
+    "adherence_to_request": {
+        "description": "How well the solution aligns with the specifics of the task request, such as format or detail requirements.",
+        "accepted_values": {
+            "non_adherent": "The solution does not adhere to the task request.",
+            "partially_adherent": "The solution only partially adheres to the task request.",
+            "mostly_adherent": "The solution mostly adheres to the task request with minor deviations.",
+            "fully_adherent": "The solution fully adheres to all aspects of the task request."
+        }
+    }
+}

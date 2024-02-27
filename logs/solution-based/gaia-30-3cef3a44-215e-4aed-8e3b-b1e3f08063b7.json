@@ -1,0 +1,31 @@
+
+{
+    "accuracy": {
+        "description": "The degree to which the final answer is correct and meets the question's requirements.",
+        "accepted_values": ["incorrect", "partially correct", "mostly correct", "correct"]
+    },
+    "reasoning_clarity": {
+        "description": "How clear and understandable the reasoning or logic behind the answer is.",
+        "accepted_values": ["not clear", "somewhat clear", "clear", "very clear"]
+    },
+    "process_efficiency": {
+        "description": "The effectiveness and economy of the steps taken to arrive at the answer.",
+        "accepted_values": ["inefficient", "somewhat efficient", "efficient", "highly efficient"]
+    },
+    "compliance_with_instructions": {
+        "description": "Extent to which the solution adheres to the task-specific instructions and constraints.",
+        "accepted_values": ["non-compliant", "partially compliant", "mostly compliant", "fully compliant"]
+    },
+    "solution_completeness": {
+        "description": "Whether the solution addresses all aspects of the task and provides a full response.",
+        "accepted_values": ["incomplete", "partially complete", "mostly complete", "complete"]
+    },
+    "communication_effectiveness": {
+        "description": "How effectively the solution is communicated back to the user, including clarity and conciseness.",
+        "accepted_values": ["ineffective", "somewhat effective", "effective", "highly effective"]
+    },
+    "use_of_resources": {
+        "description": "How well the system utilizes available resources (agents, databases, internet, etc.) to solve the task.",
+        "accepted_values": ["poor use", "fair use", "good use", "excellent use"]
+    }
+}

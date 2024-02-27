@@ -1,0 +1,39 @@
+
+{
+    "correctness": {
+        "description": "The degree to which the solution provided is accurate and correct.",
+        "accepted_values": ["Completely incorrect", "Partially correct", "Mostly correct", "Completely correct"]
+    },
+    "completeness": {
+        "description": "The extent to which the solution addresses all elements of the question.",
+        "accepted_values": ["Incomplete", "Mostly complete", "Complete", "Exceeds expectations"]
+    },
+    "logical_consistency": {
+        "description": "The logical soundness of the reasoning provided in the solution.",
+        "accepted_values": ["Not logically consistent", "Somewhat consistent", "Consistent", "Highly consistent"]
+    },
+    "explanation_quality": {
+        "description": "The clarity and detail of the explanation of the reasoning process.",
+        "accepted_values": ["Not clear", "Somewhat clear", "Clear", "Very clear"]
+    },
+    "reasoning_depth": {
+        "description": "The depth of analysis and reasoning shown in reaching the solution.",
+        "accepted_values": ["Superficial", "Basic depth", "Considerable depth", "Deep and thorough"]
+    },
+    "efficiency": {
+        "description": "The efficiency of the reasoning process, considering the steps taken to arrive at the solution.",
+        "accepted_values": ["Inefficient", "Moderately efficient", "Efficient", "Highly efficient"]
+    },
+    "progress_tracking": {
+        "description": "The ability of the system to monitor its progress towards the solution.",
+        "accepted_values": ["No progress tracking", "Some progress tracking", "Good progress tracking", "Excellent progress tracking"]
+    },
+    "collaboration": {
+        "description": "The effectiveness of the interaction among multiple agents to achieve the task.",
+        "accepted_values": ["No collaboration", "Minimal collaboration", "Effective collaboration", "Highly collaborative"]
+    },
+    "diversity_of_approaches": {
+        "description": "The range of different methods or perspectives applied to solve the question.",
+        "accepted_values": ["No diversity", "Limited diversity", "Diverse approaches", "Extremely diverse"]
+    }
+}

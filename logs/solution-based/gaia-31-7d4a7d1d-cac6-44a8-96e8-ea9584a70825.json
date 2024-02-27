@@ -1,0 +1,54 @@
+
+{
+    "accuracy": {
+        "description": "The correctness of the final answer given by the system.",
+        "accepted_values": {
+            "fully_correct": "The answer provided is entirely correct without any inaccuracies.",
+            "partially_correct": "The answer provided is partially correct but with some inaccuracies or missing elements.",
+            "incorrect": "The answer provided is incorrect or unrelated to the question asked."
+        }
+    },
+    "completeness": {
+        "description": "Whether the answer addresses all parts of the question.",
+        "accepted_values": {
+            "fully_addressed": "The answer covers all aspects of the question.",
+            "partially_addressed": "The answer covers some, but not all, aspects of the question.",
+            "not_addressed": "The answer neglects to address the question at all."
+        }
+    },
+    "reasoning_depth": {
+        "description": "The degree to which the system's reasoning process is detailed and justifiable.",
+        "accepted_values": {
+            "deep_reasoning": "The system provides in-depth reasoning with clear justifications for each step.",
+            "some_reasoning": "The system provides some reasoning, but it could be deeper or more detailed.",
+            "no_reasoning": "The system provides no reasoning for its answer."
+        }
+    },
+    "reliability_of_sources": {
+        "description": "The reliability and credibility of sources used to obtain information.",
+        "accepted_values": {
+            "high_reliability": "The sources used are well-known and highly credible.",
+            "moderate_reliability": "The sources used have moderate credibility, or their reliability is mixed.",
+            "low_reliability": "The sources used are not credible or reliable."
+        }
+    },
+    "efficiency": {
+        "description": "How effectively the system uses resources to achieve the answer.",
+        "accepted_values": {
+            "high_efficiency": "The system accomplishes the task using minimal resources and steps.",
+            "moderate_efficiency": "The system accomplishes the task, but could be made more efficient with fewer resources or steps.",
+            "low_efficiency": "The system uses excessive resources or steps to accomplish the task."
+        }
+    },
+    "communication_clarity": {
+        "description": "The clarity with which the system communicates its process and answer.",
+        "accepted_values": {
+            "high_clarity": "The explanation and answer are both clearly communicated and easy to understand.",
+            "some_clarity": "The explanation and answer are understandable but could be clearer or more concise.",
+            "low_clarity": "The explanation and answer are confusing or difficult to follow."
+        }
+    }
+}
+```
+
+This dictionary provides a structured way to assess the multi-agent system's response to a real-world, challenging question, ensuring each criterion is distinct, quantifiable, and not redundant. The accepted values for each key represent multi-graded levels of assessment.

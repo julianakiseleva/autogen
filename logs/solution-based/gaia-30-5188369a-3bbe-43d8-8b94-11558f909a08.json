@@ -1,0 +1,50 @@
+
+{
+    "Accuracy": {
+        "description": "The degree to which the correct answer or appropriate solution is provided by the agent.",
+        "accepted_values": {
+            "Correct": "The answer provided is accurate and complete.",
+            "Partial": "The answer provided is only partially correct or incomplete.",
+            "Incorrect": "The answer provided is incorrect or not relevant.",
+        }
+    },
+    "Completeness": {
+        "description": "The degree to which the response covers all aspects of the task requirements.",
+        "accepted_values": {
+            "Complete": "The provided solution addresses all required steps and aspects of the task.",
+            "Incomplete": "Some required steps or aspects of the task are missing in the provided solution."
+        }
+    },
+    "Reasoning Traceability": {
+        "description": "The ability to follow the multi-agent system's reasoning process leading to the answer.",
+        "accepted_values": {
+            "Clear": "The reasoning process is transparent and easy to follow.",
+            "Vague": "The reasoning process is present but not clear or difficult to follow.",
+            "Absent": "The reasoning process is not provided or is not traceable."
+        }
+    },
+    "Efficiency": {
+        "description": "The number of steps taken to arrive at the solution and the resources used.",
+        "accepted_values": {
+            "Optimal": "The minimum number of steps and resources were used to arrive at the correct solution.",
+            "Above Average": "A moderate number of steps and resources were used to arrive at the correct solution.",
+            "Excessive": "An excessive number of steps and resources were used, or the task was not completed efficiently."
+        }
+    },
+    "Robustness": {
+        "description": "The system's ability to handle different types of questions and unforeseen issues.",
+        "accepted_values": {
+            "High": "The system handles a wide variety of questions and issues effectively.",
+            "Moderate": "The system handles some questions and issues effectively, but struggles with others.",
+            "Low": "The system has difficulty handling different types of questions and issues."
+        }
+    },
+    "Data Contamination Prevention": {
+        "description": "The system's ability to avoid using contaminated data (e.g., directly lifted from the internet when not allowed).",
+        "accepted_values": {
+            "Secure": "No evidence of data contamination; all responses are generated independently.",
+            "Risky": "Some responses may suggest data contamination.",
+            "Contaminated": "Clear evidence of data contamination in the responses."
+        }
+    }
+}

@@ -1,0 +1,43 @@
+
+{
+    "accuracy": {
+        "description": "The correctness of the final answer provided by the system.",
+        "accepted_values": ["incorrect", "partially correct", "correct"]
+    },
+    "completeness": {
+        "description": "The ability of the system to identify and integrate all necessary information to answer the question.",
+        "accepted_values": ["incomplete", "partially complete", "complete"]
+    },
+    "reasoning_traceability": {
+        "description": "How well the system's reasoning process can be followed and understood.",
+        "accepted_values": ["untraceable", "partially traceable", "fully traceable"]
+    },
+    "data_contamination_control": {
+        "description": "The system's success in avoiding the use of contaminated data from the internet.",
+        "accepted_values": ["not controlled", "partially controlled", "fully controlled"]
+    },
+    "response_time": {
+        "description": "The time taken by the system to provide a final answer from the initial query.",
+        "accepted_values": ["slow", "moderate", "fast"]
+    },
+    "diversity_handling": {
+        "description": "The system's ability to handle a diverse set of subtasks within the overall challenge.",
+        "accepted_values": ["poor", "good", "excellent"]
+    },
+    "robustness": {
+        "description": "The system's ability to function correctly in the face of challenging or unexpected inputs.",
+        "accepted_values": ["fragile", "somewhat robust", "highly robust"]
+    },
+    "scalability": {
+        "description": "The system's ability to maintain performance as the complexity or number of subtasks increases.",
+        "accepted_values": ["not scalable", "partially scalable", "highly scalable"]
+    },
+    "user_experience": {
+        "description": "The overall ease of interaction and satisfaction a user has with the system.",
+        "accepted_values": ["unsatisfactory", "average", "excellent"]
+    },
+    "documentation_quality": {
+        "description": "The quality and clarity of documentation for the system's processes and capabilities.",
+        "accepted_values": ["poor", "adequate", "excellent"]
+    }
+}

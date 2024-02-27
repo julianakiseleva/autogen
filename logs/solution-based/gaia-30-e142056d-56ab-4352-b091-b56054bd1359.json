@@ -1,0 +1,44 @@
+
+{
+    "question_complexity": {
+        "description": "The level of difficulty of the questions being posed to the agent.",
+        "accepted_values": {
+            "simple": "Questions with straightforward answers and no need for multi-step reasoning.",
+            "moderate": "Questions that require some reasoning but not extensive analysis.",
+            "complex": "Questions that require multi-step reasoning and significant analysis."
+        }
+    },
+    "reasoning_accuracy": {
+        "description": "The correctness of the agent's reasoning and final answer to the question.",
+        "accepted_values": {
+            "incorrect": "The agent's reasoning or conclusion is incorrect.",
+            "partially_correct": "The agents reasoning is somewhat on track, but there are significant errors.",
+            "mostly_correct": "The agent's reasoning is largely correct with minor errors.",
+            "completely_correct": "The agent's reasoning and conclusion are fully correct."
+        }
+    },
+    "steps_optimization": {
+        "description": "The efficiency of the steps taken by the agent to reach a conclusion or perform the task.",
+        "accepted_values": {
+            "inefficient": "The path to the conclusion is overly complicated or indirect.",
+            "moderately_efficient": "The path to the conclusion is fair but can be optimized.",
+            "efficient": "The path to the conclusion is logical and straightforward with no unnecessary steps."
+        }
+    },
+    "traceability": {
+        "description": "The ability to follow the agent's thought process step-by-step to understand its reasoning.",
+        "accepted_values": {
+            "opaque": "The agent's thought process is unclear or untraceable.",
+            "translucent": "The agent's thought process is partially traceable with some effort.",
+            "transparent": "The agent's thought process is fully traceable and understandable."
+        }
+    },
+    "data_integrity": {
+        "description": "The extent to which the given answer is free from contamination from incorrect or biased sources.",
+        "accepted_values": {
+            "contaminated": "The answer has clear contamination from incorrect or biased sources.",
+            "minor_issues": "The source of the answer raises minor concerns but is generally reliable.",
+            "uncontaminated": "The answer is derived from reputable and correct sources."
+        }
+    }
+}

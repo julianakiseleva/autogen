@@ -1,0 +1,35 @@
+
+{
+    "relevance": {
+        "description": "The solution must directly address the posed question.",
+        "accepted_values": ["highly relevant", "moderately relevant", "irrelevant"]
+    },
+    "correctness": {
+        "description": "The answers provided should be factually correct.",
+        "accepted_values": ["completely correct", "partially correct", "incorrect"]
+    },
+    "completeness": {
+        "description": "The task should be fully completed with no missing information.",
+        "accepted_values": ["complete", "partially complete", "incomplete"]
+    },
+    "reasoning_traceability": {
+        "description": "The reasoning process to arrive at the answer should be clear and traceable.",
+        "accepted_values": ["fully traceable", "somewhat traceable", "not traceable"]
+    },
+    "accuracy": {
+        "description": "The degree of accuracy with which the task is performed.",
+        "accepted_values": ["highly accurate", "moderately accurate", "inaccurate"]
+    },
+    "originality": {
+        "description": "The solution should not be directly copied from existing sources on the internet.",
+        "accepted_values": ["original", "some originality", "copied"]
+    },
+    "step_success": {
+        "description": "Each step required to complete the task must be successfully executed.",
+        "accepted_values": ["all steps successful", "some steps successful", "steps failed"]
+    },
+    "data_contamination_avoidance": {
+        "description": "The solution should prevent data contamination from unverified internet sources.",
+        "accepted_values": ["no contamination", "some contamination", "high contamination"]
+    }
+}

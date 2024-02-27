@@ -1,0 +1,39 @@
+
+{
+    "correctness": {
+        "description": "Accuracy of the provided solution relative to the correct answer.",
+        "accepted_values": ["incorrect", "partially_correct", "correct"]
+    },
+    "completeness": {
+        "description": "The degree to which the solution is complete and all aspects of the question have been addressed.",
+        "accepted_values": ["incomplete", "mostly_complete", "complete"]
+    },
+    "reasoning_depth": {
+        "description": "The extent to which the solution reflects deep and logical reasoning.",
+        "accepted_values": ["surface", "moderate", "deep"]
+    },
+    "efficiency": {
+        "description": "How efficiently the agent completes the task, considering the steps taken to reach the solution.",
+        "accepted_values": ["inefficient", "moderately_efficient", "efficient"]
+    },
+    "robustness": {
+        "description": "The ability of the agent to handle different types of questions and its adaptability to various domains.",
+        "accepted_values": ["brittle", "adaptable", "robust"]
+    },
+    "reliability": {
+        "description": "The consistency of the agent in providing correct solutions over multiple iterations or tasks.",
+        "accepted_values": ["inconsistent", "mostly_reliable", "reliable"]
+    },
+    "traceability": {
+        "description": "The clarity and trackability of the reasoning process the agent followed to arrive at the solution.",
+        "accepted_values": ["obscure", "traceable", "transparent"]
+    },
+    "originality": {
+        "description": "The uniqueness of the solution and the extent to which the answer is not easily found in existing literature or internet sources.",
+        "accepted_values": ["commonplace", "somewhat_original", "highly_original"]
+    },
+    "communication": {
+        "description": "The effectiveness with which the agent communicates the solution and reasoning path.",
+        "accepted_values": ["unclear", "comprehensible", "eloquent"]
+    }
+}

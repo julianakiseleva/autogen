@@ -1,0 +1,35 @@
+
+{
+    "completeness": {
+        "description": "Assesses whether the multi-agent system fully completed the steps necessary to achieve the task.",
+        "accepted_values": {"0": "Not completed", "0.5": "Partially completed", "1": "Fully completed"}
+    },
+    "accuracy": {
+        "description": "Evaluates the correctness of the answer provided by the multi-agent system.",
+        "accepted_values": {"0": "Incorrect", "0.5": "Partially correct", "1": "Fully correct"}
+    },
+    "efficiency": {
+        "description": "Measures how efficiently the multi-agent system used resources to achieve the task.",
+        "accepted_values": {"low": "Inefficient use of resources", "medium": "Moderate efficiency", "high": "Highly efficient"}
+    },
+    "reasoning_traceability": {
+        "description": "Determines the ability to follow the reasoning process of the agents step by step.",
+        "accepted_values": {"0": "Not traceable", "0.5": "Partially traceable", "1": "Fully traceable"}
+    },
+    "adaptability": {
+        "description": "Assesses the system's ability to adapt to new or unexpected task challenges.",
+        "accepted_values": {"0": "Not adaptable", "0.5": "Somewhat adaptable", "1": "Highly adaptable"}
+    },
+    "data_contamination": {
+        "description": "Assesses whether the solution generated is free from data contamination such as reliance on already available internet text answers.",
+        "accepted_values": {"0": "High possibility of contamination", "0.5": "Some possibility of contamination", "1": "Low possibility of contamination"}
+    },
+    "robustness": {
+        "description": "Evaluates the multi-agent system's ability to handle diverse and complex steps without failure.",
+        "accepted_values": {"0": "Not robust", "0.5": "Moderately robust", "1": "Very robust"}
+    },
+    "solution_relevance": {
+        "description": "Determines the relevance of the solution to the original question posed.",
+        "accepted_values": {"0": "Not relevant", "0.5": "Partially relevant", "1": "Highly relevant"}
+    }
+}

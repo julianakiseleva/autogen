@@ -1,0 +1,23 @@
+
+{
+    "accuracy": {
+        "description": "The correctness of the final answer provided by the system.",
+        "accepted_values": ["correct", "incorrect", "partially_correct"]
+    },
+    "efficiency": {
+        "description": "The number of steps and amount of time taken by the agent system to reach the solution.",
+        "accepted_values": {"very_efficient": "fewest_possible_steps", "efficient": "more_than_minimum_but_acceptable_steps", "inefficient": "excessive_steps_with_redundancies"}
+    },
+    "reasoning_trace": {
+        "description": "The clearness and logical coherence of the traceable steps and thought processes leading to the answer.",
+        "accepted_values": {"clear": "all_steps_logical_and_accounted_for", "somewhat_clear": "most_steps_logical_but_some_unclear", "unclear": "many_steps_not_clear_or_missing_logic"}
+    },
+    "internet_independence": {
+        "description": "The independence from direct internet sources to ensure the answer is not simply retrieved from available text on the internet.",
+        "accepted_values": ["independent", "partially_dependent", "dependent"]
+    },
+    "data_contamination": {
+        "description": "Indicates whether the answer provided by the system is free from contamination, i.e., not influenced by incorrect data.",
+        "accepted_values": ["none", "minor", "major"]
+    }
+}

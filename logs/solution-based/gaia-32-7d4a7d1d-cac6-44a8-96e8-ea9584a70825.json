@@ -1,0 +1,31 @@
+
+{
+    "Accuracy": {
+        "description": "The correctness and precision of the final answer.",
+        "accepted_values": ["Correct", "Partially correct", "Incorrect"]
+    },
+    "Completeness": {
+        "description": "Whether every aspect of the task has been considered and addressed in the solution.",
+        "accepted_values": ["Fully complete", "Partially complete", "Incomplete"]
+    },
+    "Efficiency": {
+        "description": "The optimal use of resources and time by agents to solve the task.",
+        "accepted_values": ["Highly efficient", "Moderately efficient", "Inefficient"]
+    },
+    "Reasoning Traceability": {
+        "description": "The ability to understand and follow the thought process and logical steps of the agents.",
+        "accepted_values": ["Fully traceable", "Partially traceable", "Not traceable"]
+    },
+    "Originality": {
+        "description": "The uniqueness of the solution and its independence from existing internet sources.",
+        "accepted_values": ["Highly original", "Some original elements", "Not original"]
+    },
+    "Collaboration": {
+        "description": "How well the agents work in unison to achieve the task's goal.",
+        "accepted_values": ["Highly collaborative", "Moderately collaborative", "Poor collaboration"]
+    },
+    "Responsiveness": {
+        "description": "The promptness of the multi-agent system in processing and responding to the task.",
+        "accepted_values": ["Highly responsive", "Moderately responsive", "Not responsive"]
+    }
+}

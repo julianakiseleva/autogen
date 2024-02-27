@@ -1,0 +1,43 @@
+
+{
+    "Completeness": {
+        "description": "Measures whether the solution addressed all aspects of the task.",
+        "accepted_values": ["Complete", "Partially complete", "Incomplete"]
+    },
+    "Accuracy": {
+        "description": "Assesses the correctness of the information provided in the solution.",
+        "accepted_values": ["Correct", "Mostly correct", "Partially correct", "Incorrect"]
+    },
+    "Efficiency": {
+        "description": "Evaluates the solution's ability to achieve the goal with minimal wasted effort or resources.",
+        "accepted_values": ["Highly efficient", "Moderately efficient", "Inefficient"]
+    },
+    "Adherence to Steps Required": {
+        "description": "Determines if the solution followed the necessary steps outlined for completing the task.",
+        "accepted_values": ["All steps followed", "Some steps skipped", "Did not follow steps"]
+    },
+    "Reasoning Traceability": {
+        "description": "Assesses the transparency and traceability of the reasoning process in the solution.",
+        "accepted_values": ["Fully traceable", "Mostly traceable", "Not traceable"]
+    },
+    "Resource Utilization": {
+        "description": "Measures how well the solution uses available resources.",
+        "accepted_values": ["Optimal use", "Adequate use", "Poor use"]
+    },
+    "Communication Clarity": {
+        "description": "Evaluates how clearly the solution communicates the findings or results.",
+        "accepted_values": ["Very clear", "Somewhat clear", "Unclear"]
+    },
+    "Time Effectiveness": {
+        "description": "Considers the amount of time taken to reach the solution relative to the task's complexity.",
+        "accepted_values": ["Quick", "Reasonable time", "Time-consuming"]
+    },
+    "Innovation": {
+        "description": "Rates the novelty of the approach or methods used in solving the task.",
+        "accepted_values": ["Highly innovative", "Some innovation", "Not innovative"]
+    },
+    "Data Contamination Avoidance": {
+        "description": "Evaluates the solution's success in avoiding the use of contaminated or misleading data.",
+        "accepted_values": ["No contamination", "Minimal contamination", "Some contamination", "Contaminated"]
+    }
+}

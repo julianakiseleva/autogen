@@ -1,0 +1,31 @@
+
+{
+    "solution_correctness": {
+        "description": "Accuracy of the final answer provided by the system.",
+        "accepted_values": ["correct", "partially_correct", "incorrect"]
+    },
+    "reasoning_traceability": {
+        "description": "The ability to track and understand the reasoning process of the agents.",
+        "accepted_values": ["full_trace", "partial_trace", "no_trace"]
+    },
+    "data_verification": {
+        "description": "The capability to check and confirm the validity of data used in reasoning.",
+        "accepted_values": ["verified", "partially_verified", "unverified"]
+    },
+    "handling_ambiguity": {
+        "description": "The system's proficiency in managing and clarifying ambiguous information.",
+        "accepted_values": ["resolved", "partially_resolved", "unresolved"]
+    },
+    "execution_efficiency": {
+        "description": "Efficiency in terms of time and computational resources used to produce the solution.",
+        "accepted_values": ["high_efficiency", "moderate_efficiency", "low_efficiency"]
+    },
+    "error_detection": {
+        "description": "The system's ability to detect and address errors during the task.",
+        "accepted_values": ["error_corrected", "error_identified_not_corrected", "error_missed"]
+    },
+    "robustness": {
+        "description": "The system's capacity to handle diverse and unexpected inputs or scenarios.",
+        "accepted_values": ["high_robustness", "moderate_robustness", "low_robustness"]
+    }
+}

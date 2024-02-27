@@ -1,0 +1,60 @@
+
+{
+    "accuracy": {
+        "description": "The correctness of the answers provided by the agent in relation to the input questions.",
+        "accepted_values": {
+            "high": "The answer is correct and fully addresses the question.",
+            "medium": "The answer is partially correct with some missing or slightly incorrect information.",
+            "low": "The answer has significant inaccuracies or irrelevant to the question.",
+            "none": "The answer is completely incorrect or no answer is provided."
+        }
+    },
+    "completeness": {
+        "description": "The extent to which the agent's response fully addresses all parts of the task.",
+        "accepted_values": {
+            "complete": "All steps of the task have been successfully executed and all parts of the question have been addressed.",
+            "partial": "Some steps of the task have been successfully executed, but not all parts of the question have been addressed.",
+            "incomplete": "Few or none of the steps have been successfully executed, leaving the question largely unaddressed."
+        }
+    },
+    "reasoning_traceability": {
+        "description": "The capacity to follow the agent's logical reasoning process throughout the task.",
+        "accepted_values": {
+            "traceable": "The reasoning process is clear, logical, and well-documented.",
+            "somewhat_traceable": "The reasoning process is somewhat clear but may lack detailed documentation.",
+            "untraceable": "The reasoning process is unclear and not documented, making it hard to follow."
+        }
+    },
+    "internet_dependency": {
+        "description": "The extent to which the agent relies on internet sources for completing the task.",
+        "accepted_values": {
+            "independent": "The agent operates without using direct internet sources, relying on its own knowledge base.",
+            "limited_dependency": "The agent uses internet sources when necessary but attempts to rely on its own knowledge base.",
+            "dependent": "The agent heavily relies on internet sources for information to complete the task."
+        }
+    },
+    "originality": {
+        "description": "The degree of novelty in the agent's answers, ensuring they are not copied directly from existing sources.",
+        "accepted_values": {
+            "high_or_novel": "The answers are unique and show independent thought or synthesis.",
+            "medium": "The answers contain some original components combined with sourced information.",
+            "low": "The answers are largely sourced from existing content with little to no modification."
+        }
+    },
+    "efficiency": {
+        "description": "The speed and resource utilization of the agent while performing the task.",
+        "accepted_values": {
+            "high": "The agent completes the task quickly and uses resources optimally.",
+            "medium": "The agent completes the task in a reasonable time with acceptable resource usage.",
+            "low": "The agent takes a long time to complete the task and/or uses resources poorly."
+        }
+    },
+    "adaptability": {
+        "description": "The ability of the agent to handle various types of questions and adapt its approach if necessary.",
+        "accepted_values": {
+            "high": "The agent successfully handles a wide range of question types and can adapt when faced with obstacles.",
+            "medium": "The agent handles common question types well but struggles with unique or complex scenarios.",
+            "low": "The agent has difficulty with anything beyond basic questions and shows little adaptability."
+        }
+    }
+}

@@ -1,0 +1,43 @@
+
+{
+    "accuracy": {
+        "description": "The correctness of the final answer provided by the system.",
+        "accepted_values": ["exact match", "close approximation", "incorrect"]
+    },
+    "completeness": {
+        "description": "Whether the solution includes all necessary steps and information to reach the final answer.",
+        "accepted_values": ["complete", "partial", "missing steps"]
+    },
+    "efficiency": {
+        "description": "How efficiently the system processed the steps required to reach the final answer.",
+        "accepted_values": ["optimal", "reasonable", "inefficient"]
+    },
+    "reasoning_traceability": {
+        "description": "The ability to follow the logic and reasoning steps that led to the final answer.",
+        "accepted_values": ["fully traceable", "partially traceable", "not traceable"]
+    },
+    "data_handling": {
+        "description": "How well the system managed data extraction, processing, and analysis.",
+        "accepted_values": ["correct and efficient", "correct with minor issues", "incorrect or inefficient"]
+    },
+    "software_requirements": {
+        "description": "Compliance with software requirements for tasks such as data manipulation.",
+        "accepted_values": ["all met", "most met", "not met"]
+    },
+    "robustness": {
+        "description": "The system's ability to handle errors and data anomalies.",
+        "accepted_values": ["highly robust", "moderately robust", "not robust"]
+    },
+    "communication_clarity": {
+        "description": "The clarity of communication between different agents and the output to the user.",
+        "accepted_values": ["very clear", "somewhat clear", "unclear"]
+    },
+    "response_timeliness": {
+        "description": "The speed at which the system provided the final answer.",
+        "accepted_values": ["immediate", "timely", "delayed"]
+    },
+    "scalability": {
+        "description": "The system's capability to handle larger or more complex versions of the task.",
+        "accepted_values": ["highly scalable", "moderately scalable", "not scalable"]
+    }
+}

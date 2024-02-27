@@ -1,0 +1,38 @@
+{
+    "accuracy": {
+        "description": "The correct identification of information or resolution of the task based on the given question.",
+        "accepted_values": {"high": "The information provided is completely accurate.",
+                            "medium": "The information provided is mostly accurate with minor errors.",
+                            "low": "The information provided contains significant inaccuracies."}
+    },
+    "reasoning_traceability": {
+        "description": "The ability to follow the logical steps or thought processes taken by the agents to reach the solution.",
+        "accepted_values": {"traceable": "The reasoning steps can be clearly followed and understood.",
+                            "partially_traceable": "Some of the reasoning steps are evident, but others may not be clear.",
+                            "not_traceable": "The reasoning steps are not clear or not provided."}
+    },
+    "data_integrity": {
+        "description": "Ensuring that the data used to reach the solution is reliable and uncontaminated by external biases or inaccuracies.",
+        "accepted_values": {"intact": "Data used is verified and free from contamination.",
+                            "questionable": "Data integrity is uncertain, with potential biases identified.",
+                            "compromised": "Data is unreliable, with clear signs of biases or contamination."}
+    },
+    "resourcefulness": {
+        "description": "The ability to use available resources efficiently to solve problems or gather information.",
+        "accepted_values": {"high": "Resources are used in an innovative and efficient manner.",
+                            "medium": "Resources are used adequately with some room for improvement.",
+                            "low": "Inefficient or inappropriate use of resources."}
+    },
+    "efficiency": {
+        "description": "The degree to which the task is completed in a timely and cost-effective manner.",
+        "accepted_values": {"high": "Task is completed quickly without unnecessary resource consumption.",
+                            "medium": "Task is completed in a reasonable timeframe with moderate resource use.",
+                            "low": "Task takes a long time to complete with excessive resource consumption."}
+    },
+    "solution_completeness": {
+        "description": "The extent to which the solution provided by the agents addresses all aspects of the task.",
+        "accepted_values": {"complete": "Solution fully addresses the given task with all steps executed.",
+                            "partial": "Solution addresses some aspects of the task but is not fully complete.",
+                            "incomplete": "Solution fails to adequately address the fundamental aspects of the task."}
+}
+

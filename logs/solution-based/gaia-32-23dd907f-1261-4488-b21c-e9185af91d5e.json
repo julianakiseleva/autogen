@@ -1,0 +1,46 @@
+
+{
+    "solution_correctness": {
+        "description": "The degree to which the provided answer is accurate and correct.",
+        "accepted_values": {
+            "fully_correct": "The answer is fully accurate with all necessary details provided.",
+            "partially_correct": "The answer contains most of the required information but may lack some details or contain minor inaccuracies.",
+            "incorrect": "The answer does not correctly address the question or contains significant errors."
+        }
+    },
+    "process_efficiency": {
+        "description": "How efficiently the multi-agent system reaches a solution.",
+        "accepted_values": {
+            "high_efficiency": "Solution reached with minimal steps and optimal use of resources.",
+            "moderate_efficiency": "Solution reached with a reasonable number of steps considering the complexity of the task.",
+            "low_efficiency": "Solution reached with a greater number of steps than necessary, indicating possible improvements in process."
+        }
+    },
+    "reasoning_traceability": {
+        "description": "The clarity and the ability to follow the logic and reasoning path of the agents.",
+        "accepted_values": {
+            "transparent": "The reasoning process and the steps taken are fully traceable and understandable.",
+            "opaque": "Some parts of the reasoning process are not clear or fully explained.",
+            "incomprehensible": "The reasoning process cannot be followed due to lack of information or logic."
+        }
+    },
+    "answer_uniqueness": {
+        "description": "The uniqueness of the solution, indicating the answer is not readily found in existing texts and requires synthesis.",
+        "accepted_values": {
+            "unique": "The answer is a novel synthesis not directly copied from known sources.",
+            "derived": "The answer is based heavily on existing texts with some degree of reinterpretation or rephrasing.",
+            "duplicated": "The answer is an exact copy from an existing text with no original contribution."
+        }
+    },
+    "solution_completeness": {
+        "description": "Whether the answer fully satisfies all aspects of the original question.",
+        "accepted_values": {
+            "complete": "The solution fully addresses all parts of the question.",
+            "partial": "The solution addresses some but not all parts of the question.",
+            "incomplete": "The solution fails to address the question adequately."
+        }
+    }
+}
+```
+
+This dictionary can be used to evaluate how well the task has been accomplished. Each criterion assesses a different aspect of the task, ensuring they are distinguishable, quantifiable, and not redundant. The accepted values provide multi-graded levels, allowing for a nuanced assessment.

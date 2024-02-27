@@ -1,0 +1,27 @@
+
+{
+    "accuracy": {
+        "description": "The correctness of the final answer provided by the multi-agent system.",
+        "accepted_values": ["incorrect", "partially correct", "correct"]
+    },
+    "completeness": {
+        "description": "The extent to which the multi-agent system addressed all components of the question.",
+        "accepted_values": ["incomplete", "mostly complete", "complete"]
+    },
+    "efficiency": {
+        "description": "The number of steps taken to arrive at a solution relative to an optimal process.",
+        "accepted_values": ["inefficient", "moderately efficient", "efficient"]
+    },
+    "reasoning_traceability": {
+        "description": "The ability to follow the logical steps the multi-agent system took to solve the question.",
+        "accepted_values": ["non-traceable", "partially traceable", "fully traceable"]
+    },
+    "data_contamination_avoidance": {
+        "description": "Ensuring the answer is free from internet-based data contamination.",
+        "accepted_values": ["contaminated", "uncertain", "clean"]
+    },
+    "resource_utilization": {
+        "description": "How well the multi-agent system utilized its available resources (agents, information, etc.).",
+        "accepted_values": ["poor", "good", "optimal"]
+    }
+}

@@ -1,0 +1,73 @@
+
+{
+    "correctness": {
+        "description": "The accuracy of the answer provided by the agent.",
+        "accepted_values": {
+            "description": "Levels of correctness",
+            "scale": ["incorrect", "partly correct", "mostly correct", "correct"]
+        }
+    },
+    "completeness": {
+        "description": "The degree to which the final solution covers all aspects of the question.",
+        "accepted_values": {
+            "description": "Levels of completeness",
+            "scale": ["missing information", "mostly incomplete", "partly complete", "complete"]
+        }
+    },
+    "reasoning_traceability": {
+        "description": "The ability to follow the agent's logic and reasoning process.",
+        "accepted_values": {
+            "description": "Ease of tracing reasoning",
+            "scale": ["not traceable", "somewhat traceable", "traceable", "highly traceable"]
+        }
+    },
+    "steps_efficiency": {
+        "description": "The number of steps the agent takes to arrive at a conclusion relative to the task's complexity.",
+        "accepted_values": {
+            "description": "Efficiency in number of steps",
+            "scale": ["inefficient", "less efficient", "efficient", "highly efficient"]
+        }
+    },
+    "diversity_of_approach": {
+        "description": "The range and variety of methods and perspectives the agent uses to solve the question.",
+        "accepted_values": {
+            "description": "Diversity in problem-solving approach",
+            "scale": ["not diverse", "somewhat diverse", "diverse", "highly diverse"]
+        }
+    },
+    "result_replicability": {
+        "description": "The ease with which the result can be duplicated by running the same or similar steps.",
+        "accepted_values": {
+            "description": "Consistency of results upon replication",
+            "scale": ["not replicable", "partly replicable", "mostly replicable", "fully replicable"]
+        }
+    },
+    "explanation_clarity": {
+        "description": "The clarity of the agent's explanation and the ease of understanding for a human.",
+        "accepted_values": {
+            "description": "Clarity of explanations provided",
+            "scale": ["not clear", "somewhat clear", "clear", "highly clear"]
+        }
+    },
+    "robustness": {
+        "description": "The agent's ability to handle various inputs and unexpected situations during the task.",
+        "accepted_values": {
+            "description": "Robustness of solution to different scenarios",
+            "scale": ["not robust", "somewhat robust", "robust", "highly robust"]
+        }
+    },
+    "innovativeness": {
+        "description": "The novelty and creativity of the solutions provided by the agent.",
+        "accepted_values": {
+            "description": "Originality of solutions",
+            "scale": ["not innovative", "somewhat innovative", "innovative", "highly innovative"]
+        }
+    },
+    "data_contamination_avoidance": {
+        "description": "The extent to which the agent avoids using contaminated or biased data in producing the solution.",
+        "accepted_values": {
+            "description": "Prevention of data contamination",
+            "scale": ["not avoided", "partly avoided", "mostly avoided", "completely avoided"]
+        }
+    }
+}

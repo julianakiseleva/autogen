@@ -1,0 +1,66 @@
+
+{
+    "accuracy": {
+        "description": "The degree to which the categorization of items corresponds to botanical definitions.",
+        "accepted_values": {
+            "perfect": "All items are categorized flawlessly.",
+            "minor_errors": "One or two items are misclassified.",
+            "major_errors": "Several items are misclassified.",
+            "incorrect": "Most items are misclassified or the categorization is entirely wrong."
+        }
+    },
+    "completeness": {
+        "description": "The completeness of the task, including all steps required to fully address the question asked.",
+        "accepted_values": {
+            "complete": "All steps are addressed and the task is fully resolved.",
+            "mostly_complete": "Most steps are addressed, but minor aspects are not fully resolved.",
+            "partially_complete": "Some significant steps are missing or incomplete.",
+            "incomplete": "The task is left largely incomplete."
+        }
+    },
+    "logic_traceability": {
+        "description": "The ability to follow the reasoning process of the multi-agent system.",
+        "accepted_values": {
+            "transparent": "Full reasoning trace is provided and easily understood.",
+            "opaque": "Some reasoning is provided but unclear or difficult to follow.",
+            "hidden": "Very little reasoning is provided, hard to follow the logic.",
+            "absent": "No reasoning trace is available."
+        }
+    },
+    "botanical_knowledge_usage": {
+        "description": "Utilization of accurate botanical knowledge in categorizing items.",
+        "accepted_values": {
+            "expert": "Demonstrates expert-level botanical knowledge.",
+            "knowledgeable": "Displays adequate botanical knowledge with minor inaccuracies.",
+            "limited_knowledge": "Shows basic understanding with several inaccuracies.",
+            "incorrect_knowledge": "Displays incorrect or no botanical knowledge."
+        }
+    },
+    "efficient_processing": {
+        "description": "Efficiency in performing the task with minimal unnecessary steps.",
+        "accepted_values": {
+            "highly_efficient": "No unnecessary steps, task performed optimally.",
+            "efficient": "Task performed with minor inefficiencies.",
+            "inefficient": "Several unnecessary or redundant steps present.",
+            "highly_inefficient": "Major inefficiencies dominate task performance."
+        }
+    },
+    "communication": {
+        "description": "Clarity and effectiveness of communication to the user.",
+        "accepted_values": {
+            "clear_concise": "Communication is clear and to the point.",
+            "clear_with_extra_information": "Clear communication but includes unnecessary information.",
+            "unclear": "Communication is not clear and may confuse the user.",
+            "misleading": "Communication is misleading or entirely incorrect."
+        }
+    },
+    "response_format": {
+        "description": "The format in which the response is presented, including alphabetization and list formatting.",
+        "accepted_values": {
+            "correct_format": "The response is properly formatted and alphabetized.",
+            "minor_format_issues": "The response has minor formatting issues but largely correct.",
+            "major_format_issues": "The response has major formatting issues.",
+            "incorrect_format": "The response format does not meet the criteria specified."
+        }
+    }
+}

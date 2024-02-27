@@ -1,0 +1,31 @@
+
+{
+    "accuracy_of_answer": {
+        "description": "Measures whether the information provided is correct and answers the question asked.",
+        "accepted_values": ["completely incorrect", "partially correct", "mostly correct", "completely correct"]
+    },
+    "completeness_of_reasoning_trace": {
+        "description": "Assesses the ability to follow the logical steps or reasoning trace that leads to the answer.",
+        "accepted_values": ["no trace", "partial trace", "full trace with minor gaps", "complete and detailed trace"]
+    },
+    "response_time": {
+        "description": "Measures the amount of time it takes for the agent to provide a final answer after the question is posed.",
+        "accepted_values": ["very slow", "slow", "moderate", "fast", "very fast"]
+    },
+    "resource_efficiency": {
+        "description": "Evaluates how efficiently the agent uses computational and informational resources to arrive at an answer.",
+        "accepted_values": ["very inefficient", "inefficient", "moderate efficiency", "efficient", "highly efficient"]
+    },
+    "adaptability_to_task_diversity": {
+        "description": "Judges the agent’s ability to handle a wide range of questions that require different knowledge domains or problem-solving approaches.",
+        "accepted_values": ["not adaptable", "slightly adaptable", "moderately adaptable", "very adaptable", "extremely adaptable"]
+    },
+    "originality_of_information": {
+        "description": "Assesses the degree to which the information provided by the agent is not found in plain text on the internet.",
+        "accepted_values": ["completely unoriginal", "some original elements", "half original", "mostly original", "completely original"]
+    },
+    "absence_of_data_contamination": {
+        "description": "Evaluates the ability of the system to avoid using incorrect or biased information from unreliable sources.",
+        "accepted_values": ["high contamination", "moderate contamination", "low contamination", "minimal contamination", "no contamination"]
+    }
+}

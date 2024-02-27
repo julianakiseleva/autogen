@@ -1,0 +1,51 @@
+
+{
+    "completeness": {
+        "description": "The degree to which the solution addresses all aspects of the task",
+        "accepted_values": {
+            "complete": "All steps executed and question fully answered",
+            "partial": "Some steps executed but question not fully answered",
+            "incomplete": "Few or no steps executed and question not answered"
+        }
+    },
+    "correctness": {
+        "description": "The accuracy of the final answer provided by the agents",
+        "accepted_values": {
+            "correct": "The answer is accurate and correct",
+            "mostly_correct": "The answer contains minor errors but is mostly correct",
+            "incorrect": "The answer is incorrect or not relevant"
+        }
+    },
+    "efficiency": {
+        "description": "How effectively the agents use resources to achieve the task",
+        "accepted_values": {
+            "optimal": "Least amount of steps used to achieve the task",
+            "moderate": "Reasonable amount of steps used, but could be optimized",
+            "inefficient": "More steps than necessary, inefficient use of resources"
+        }
+    },
+    "reasoning_traceability": {
+        "description": "The ability to follow the reasoning process of the agents",
+        "accepted_values": {
+            "transparent": "Clear and detailed reasoning steps provided",
+            "opaque": "Some reasoning steps provided, but not complete",
+            "untraceable": "No reasoning steps provided, reasoning cannot be followed"
+        }
+    },
+    "originality": {
+        "description": "The uniqueness of the solution with no direct retrieval from existing databases",
+        "accepted_values": {
+            "original": "Solution crafted uniquely without direct copying",
+            "derivative": "Solution based on existing information with some modification",
+            "copied": "Direct copying without original contribution"
+        }
+    },
+    "response_time": {
+        "description": "The amount of time taken by the agents to complete the task",
+        "accepted_values": {
+            "fast": "Answer provided quickly within an acceptable timeframe",
+            "moderate": "Answer provided in a moderate amount of time",
+            "slow": "Answer took longer than expected"
+        }
+    }
+}

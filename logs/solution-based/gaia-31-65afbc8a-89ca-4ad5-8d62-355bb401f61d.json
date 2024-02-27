@@ -1,0 +1,59 @@
+
+{
+    "correctness": {
+        "description": "The accuracy of the final answer provided by the system.",
+        "accepted_values": {
+            "100%": "The answer is completely correct and accurate.",
+            "partially_correct": "The answer demonstrates some correctness but is not fully accurate.",
+            "incorrect": "The answer is incorrect and does not meet the requirements."
+        }
+    },
+    "reasoning_trace": {
+        "description": "The ability of the system to provide a trace of its reasoning process.",
+        "accepted_values": {
+            "full_trace": "A complete trace of reasoning steps is provided.",
+            "partial_trace": "Some reasoning steps are provided, but the trace is incomplete.",
+            "no_trace": "No reasoning trace is provided."
+        }
+    },
+    "problem_solving_steps": {
+        "description": "The number of steps accurately completed by the multi-agent system to reach the solution.",
+        "accepted_values": {
+            "all_steps": "All necessary steps are completed successfully.",
+            "some_steps": "Some steps are completed, but not all necessary for the solution.",
+            "no_steps": "No steps toward the solution are completed."
+        }
+    },
+    "solution_efficiency": {
+        "description": "The efficiency in which the system arrives at a solution.",
+        "accepted_values": {
+            "optimal": "The solution is arrived at in the most efficient manner possible.",
+            "suboptimal": "The solution is arrived at but with unnecessary steps.",
+            "inefficient": "The solution is arrived at but with a lot of unnecessary steps or over-complexity."
+        }
+    },
+    "answer_presentation": {
+        "description": "The clarity and understandability of the answer presented.",
+        "accepted_values": {
+            "clear": "The answer is well-presented and easy to understand.",
+            "ambiguous": "The answer is presented in a way that could lead to misunderstandings.",
+            "unclear": "The answer is poorly presented and difficult to understand."
+        }
+    },
+    "non_redundancy": {
+        "description": "The extent to which the solution avoids redundant actions or steps.",
+        "accepted_values": {
+            "no_redundancy": "The solution includes no redundant actions or steps.",
+            "some_redundancy": "The solution includes some redundant actions or steps.",
+            "high_redundancy": "The solution is highly redundant with many unnecessary actions or steps."
+        }
+    },
+    "internet_dependency": {
+        "description": "The degree to which the solution is dependent on internet-based information.",
+        "accepted_values": {
+            "independent": "The solution does not rely on internet-based information.",
+            "limited_dependency": "The solution relies on some internet-based information but is not critically dependent on it.",
+            "dependent": "The solution is critically dependent on internet-based information."
+        }
+    }
+}

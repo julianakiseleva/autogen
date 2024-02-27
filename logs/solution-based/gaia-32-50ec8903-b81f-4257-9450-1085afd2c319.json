@@ -1,0 +1,63 @@
+
+{
+    "Correctness": {
+        "description": "The degree to which the final answer provided by the agent matches the correct solution to the question posed.",
+        "accepted_values": {
+            "1": "Completely incorrect",
+            "2": "Partially correct",
+            "3": "Mostly correct",
+            "4": "Correct",
+            "5": "Completely correct with thorough justification"
+        }
+    },
+    "Steps Efficiency": {
+        "description": "The number of steps taken to reach the final answer in relation to the minimum necessary steps, reflecting the agent's efficiency.",
+        "accepted_values": {
+            "1": "Significantly more steps than necessary",
+            "2": "More steps than necessary",
+            "3": "Slightly more steps than necessary",
+            "4": "Minimum necessary steps",
+            "5": "Fewer steps than expected with same correctness"
+        }
+    },
+    "Diversity Handling": {
+        "description": "The multi-agent system's ability to handle a wide range of question types and complexities.",
+        "accepted_values": {
+            "1": "Unable to handle diversity",
+            "2": "Struggles with diversity",
+            "3": "Manages diversity adequately",
+            "4": "Handles diversity well",
+            "5": "Excels in diversity handling"
+        }
+    },
+    "Traceability": {
+        "description": "The ability to follow the agents' reasoning process step by step.",
+        "accepted_values": {
+            "1": "Non-existent traceability",
+            "2": "Poor traceability",
+            "3": "Average traceability",
+            "4": "Good traceability",
+            "5": "Excellent traceability with clear reasoning steps"
+        }
+    },
+    "Accuracy Requirement": {
+        "description": "The accuracy standard required in the answers, considering the complexity of the questions.",
+        "accepted_values": {
+            "1": "Answers lack accuracy for the question's complexity",
+            "2": "Answers are less accurate than required",
+            "3": "Answers meet the basic accuracy requirement",
+            "4": "Answers are more accurate than required",
+            "5": "Answers exceed accuracy expectations"
+        }
+    },
+    "Data Contamination Avoidance": {
+        "description": "The extent to which the agent's answers are free from contaminated data, which may include plagiarized content or unverified information.",
+        "accepted_values": {
+            "1": "High risk of data contamination",
+            "2": "Some evidence of data contamination",
+            "3": "Minimal data contamination",
+            "4": "Data mostly uncontaminated",
+            "5": "No data contamination detected"
+        }
+    }
+}

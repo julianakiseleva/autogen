@@ -1,0 +1,51 @@
+
+{
+    "Correctness": {
+        "description": "The accuracy of the answer provided by the agent(s) involved in the task.",
+        "accepted_values": {
+            "Perfect": "The answer is fully accurate and meets all requirements.",
+            "Minor Inaccuracies": "The answer contains only minor inaccuracies but still fulfills the main requirements.",
+            "Major Inaccuracies": "The answer contains major inaccuracies, failing to satisfy key requirements."
+        }
+    },
+    "Reasoning Traceability": {
+        "description": "The ability to follow the logic or reasoning chain used by the agent(s) to arrive at the solution.",
+        "accepted_values": {
+            "Clear": "The reasoning process is well-documented and easy to follow.",
+            "Unclear": "The reasoning process is documented but is hard to follow or understand.",
+            "Not Traceable": "The reasoning process is not documented, making it impossible to trace the steps taken."
+        }
+    },
+    "Efficiency": {
+        "description": "The computational efficiency of the solution, including runtime and resource usage.",
+        "accepted_values": {
+            "Optimal": "The solution is optimized for runtime and resource usage.",
+            "Suboptimal": "The solution has room for efficiency improvements but operates within acceptable limits.",
+            "Inefficient": "The solution is not optimized, leading to excessive runtime or resource usage."
+        }
+    },
+    "Robustness": {
+        "description": "The ability of the solution to handle different scenarios and inputs without failure.",
+        "accepted_values": {
+            "High": "The solution reliably handles a wide range of scenarios and inputs.",
+            "Moderate": "The solution handles common scenarios well but may fail with edge cases or uncommon inputs.",
+            "Low": "The solution is prone to failure and cannot reliably handle diverse scenarios and inputs."
+        }
+    },
+    "Adherence to Requirements": {
+        "description": "How well the solution aligns with the specified task requirements.",
+        "accepted_values": {
+            "Full": "The solution meets all specified task requirements.",
+            "Partial": "The solution meets some but not all task requirements.",
+            "None": "The solution does not meet the task requirements."
+        }
+    },
+    "Error Handling": {
+        "description": "The solution's capability to handle and recover from errors.",
+        "accepted_values": {
+            "Graceful": "The solution handles errors effectively and recovers smoothly.",
+            "Manageable": "The solution recognizes errors and provides ways to manage them, though not always gracefully.",
+            "Poor": "The solution does not adequately handle errors, often leading to crashes or failures."
+        }
+    }
+}

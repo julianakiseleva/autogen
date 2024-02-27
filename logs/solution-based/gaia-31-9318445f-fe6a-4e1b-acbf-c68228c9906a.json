@@ -1,0 +1,35 @@
+
+criteria_dict = {
+    "correctness": {
+        "description": "The accuracy of the final answer or solution provided by the system.",
+        "accepted_values": ["incorrect", "partially_correct", "correct"]
+    },
+    "reasoning_traceability": {
+        "description": "The ability to follow the logical steps the system took to arrive at the solution.",
+        "accepted_values": ["none", "partial", "full"]
+    },
+    "efficiency": {
+        "description": "The number of steps and resources used by the agents to reach the solution.",
+        "accepted_values": ["low", "medium", "high"]
+    },
+    "completeness": {
+        "description": "The extent to which the system's solution addresses the full scope of the presented task.",
+        "accepted_values": ["incomplete", "mostly_complete", "complete"]
+    },
+    "robustness": {
+        "description": "The system's ability to handle diverse and complex tasks without failure.",
+        "accepted_values": ["brittle", "some_resilience", "robust"]
+    },
+    "response_time": {
+        "description": "The time it takes for the system to provide a solution from the moment the task is given.",
+        "accepted_values": ["<1 min", "1-3 mins", ">3 mins"]
+    },
+    "scalability": {
+        "description": "The system's capability to handle increasing amounts or sizes of tasks effectively.",
+        "accepted_values": ["not_scalable", "moderately_scalable", "highly_scalable"]
+    },
+    "explainability": {
+        "description": "The clarity of the system's explanations for the reasoning behind its actions or decisions.",
+        "accepted_values": ["not_explainable", "somewhat_explainable", "highly_explainable"]
+    }
+}

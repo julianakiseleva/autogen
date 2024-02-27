@@ -1,0 +1,43 @@
+
+{
+    "Correctness": {
+        "description": "Accuracy of the final answer provided by the agents.",
+        "accepted_values": ["correct", "incorrect", "partially_correct"]
+    },
+    "Completeness": {
+        "description": "The degree to which all required information is included in the response.",
+        "accepted_values": ["complete", "incomplete", "partially_complete"]
+    },
+    "ReasoningTraceability": {
+        "description": "Clarity and traceability of the reasoning process performed by the agents.",
+        "accepted_values": ["clear_trace", "unclear_trace", "no_trace"]
+    },
+    "SourceReliability": {
+        "description": "Reliability of the sources used by the agents to gather information.",
+        "accepted_values": ["reliable_sources", "unreliable_sources", "mixed_reliability"]
+    },
+    "ResponseTime": {
+        "description": "Time taken by the agent system to provide an answer to the question.",
+        "accepted_values": ["fast", "moderate", "slow"]
+    },
+    "DataContaminationControl": {
+        "description": "The system's capability to prevent data leakage or contamination.",
+        "accepted_values": ["controlled", "uncontrolled", "partially_controlled"]
+    },
+    "ResourceEfficiency": {
+        "description": "How efficiently the system uses computational and informational resources.",
+        "accepted_values": ["efficient", "inefficient", "moderately_efficient"]
+    },
+    "Scalability": {
+        "description": "The system's ability to handle a growing amount of information or transactions.",
+        "accepted_values": ["scalable", "not_scalable", "partially_scalable"]
+    },
+    "ProcessTransparency": {
+        "description": "Transparency of the internal processes and decision-making within the system.",
+        "accepted_values": ["transparent", "opaque", "partially_transparent"]
+    },
+    "Adaptability": {
+        "description": "The system's ability to adapt to new, different, or changing requirements.",
+        "accepted_values": ["adaptable", "non_adaptable", "partially_adaptable"]
+    }
+}

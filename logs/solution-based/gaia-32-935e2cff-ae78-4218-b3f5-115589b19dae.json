@@ -1,0 +1,35 @@
+
+{
+    "Accuracy": {
+        "description": "Measures how correct and relevant the answer is to the question asked.",
+        "accepted_values": {0: "Completely incorrect", 0.5: "Partially correct", 1: "Fully correct"}
+    },
+    "Completeness": {
+        "description": "Evaluates if the answer provided is comprehensive and includes all necessary reasoning.",
+        "accepted_values": {0: "Incomplete", 0.5: "Moderately complete", 1: "Complete"}
+    },
+    "Reasoning Clarity": {
+        "description": "Assesses the clarity of the reasoning process used to arrive at the answer.",
+        "accepted_values": {0: "Not clear", 0.5: "Somewhat clear", 1: "Very clear"}
+    },
+    "Efficiency": {
+        "description": "Refers to the number of steps taken to reach the solution compared to the optimal number.",
+        "accepted_values": {"<Optimal steps": "More efficient", "=Optimal steps": "Optimal efficiency", ">Optimal steps": "Less efficient"}
+    },
+    "Process Traceability": {
+        "description": "Measures how easily one can follow and verify each step taken by the agents.",
+        "accepted_values": {0: "Not traceable", 0.5: "Partially traceable", 1: "Fully traceable"}
+    },
+    "Data Reliability": {
+        "description": "Assesses the reliability and credibility of data sources used in reasoning.",
+        "accepted_values": {0: "Unreliable", 0.5: "Moderately reliable", 1: "Highly reliable"}
+    },
+    "Response Time": {
+        "description": "The time taken for the multi-agent system to generate a solution.",
+        "accepted_values": {"Fast": "Significantly quicker than expected", "Moderate": "Within expected time frame", "Slow": "Slower than expected"}
+    },
+    "Adherence to Policies": {
+        "description": "The degree to which the answer complies with relevant content policies.",
+        "accepted_values": {0: "Does not adhere", 0.5: "Partially adheres", 1: "Fully adheres"}
+    }
+}

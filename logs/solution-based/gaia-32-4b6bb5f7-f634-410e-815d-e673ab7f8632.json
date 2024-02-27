@@ -1,0 +1,39 @@
+
+{
+    "accuracy": {
+        "description": "The correctness and precision of the provided solution based on the real-world information.",
+        "accepted_values": ["correct", "incorrect", "partially_correct", "irrelevant"]
+    },
+    "completeness": {
+        "description": "The degree to which the solution addresses all parts of the task and question.",
+        "accepted_values": ["complete", "incomplete", "overly_detailed", "insufficient_detail"]
+    },
+    "relevance": {
+        "description": "The appropriateness of the solution to the specific question posed.",
+        "accepted_values": ["highly_relevant", "relevant", "somewhat_relevant", "not_relevant"]
+    },
+    "timeliness": {
+        "description": "The efficiency of the agent system in providing a solution within a reasonable time frame.",
+        "accepted_values": ["immediate", "reasonable_time", "slow", "unacceptable_delay"]
+    },
+    "traceability": {
+        "description": "The ability to follow the reasoning process of the agent steps leading to the solution.",
+        "accepted_values": ["fully_traceable", "mostly_traceable", "partially_traceable", "not_traceable"]
+    },
+    "resource_utilization": {
+        "description": "The effectiveness of the system in using resources (like web searches) to obtain the solution.",
+        "accepted_values": ["optimal", "adequate", "inefficient", "wasteful"]
+    },
+    "adaptability": {
+        "description": "The system's ability to handle a diversity of tasks and its flexibility in problem-solving.",
+        "accepted_values": ["highly_adaptable", "adaptable", "somewhat_adaptable", "not_adaptable"]
+    },
+    "originality": {
+        "description": "The uniqueness of the solution provided, especially in the context of data not available in plain text from the internet.",
+        "accepted_values": ["highly_original", "original", "somewhat_original", "not_original"]
+    },
+    "clarity": {
+        "description": "How understandable and clear the solution is presented.",
+        "accepted_values": ["very_clear", "clear", "somewhat_clear", "unclear"]
+    }
+}

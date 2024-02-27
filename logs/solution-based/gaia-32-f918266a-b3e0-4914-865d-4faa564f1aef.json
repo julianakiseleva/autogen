@@ -1,0 +1,35 @@
+
+{
+    "accuracy": {
+        "description": "The correctness of the final answer provided by the agent system.",
+        "accepted_values": {"perfect": "Completely accurate", "partial": "Partially accurate", "incorrect": "Not accurate"}
+    },
+    "efficiency": {
+        "description": "The number of steps taken to arrive at the solution and the optimization of these steps.",
+        "accepted_values": {"optimal": "Least steps possible", "acceptable": "Reasonable number of steps", "inefficient": "More steps than necessary"}
+    },
+    "robustness": {
+        "description": "The ability of the system to handle diverse inputs and provide consistent outputs.",
+        "accepted_values": {"high": "Performs well under various conditions", "medium": "Generally consistent", "low": "Poor handling of diverse inputs"}
+    },
+    "traceability": {
+        "description": "The extent to which the reasoning process of the agents can be traced and understood.",
+        "accepted_values": {"full": "Complete trace of reasoning", "partial": "Some trace of reasoning", "none": "No reasoning trace"}
+    },
+    "execution_time": {
+        "description": "The time taken by the agent system to generate a solution.",
+        "accepted_values": {"fast": "< 1 sec", "moderate": "1-5 sec", "slow": "> 5 sec"}
+    },
+    "resilience": {
+        "description": "The system's ability to avoid or handle errors during the execution process.",
+        "accepted_values": {"excellent": "No errors encountered", "good": "Minor errors, handled well", "poor": "Errors that impacted performance"}
+    },
+    "resource_usage": {
+        "description": "The amount of computational resources used to complete the task.",
+        "accepted_values": {"low": "Minimal resources used", "moderate": "Reasonable resources used", "high": "Excessive resources used"}
+    },
+    "user_feedback": {
+        "description": "The clarity and usefulness of the feedback provided to the user during the process.",
+        "accepted_values": {"informative": "Clear and helpful", "basic": "Minimal information provided", "confusing": "Unclear or misleading"}
+    }
+}

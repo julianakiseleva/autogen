@@ -1,0 +1,59 @@
+
+{
+    "accuracy": {
+        "description": "Correctness of the final answer provided by the system.",
+        "accepted_values": {
+            "correct": "The answer is fully correct and complete.",
+            "partially_correct": "The answer is partially correct with some missing or inaccurate aspects.",
+            "incorrect": "The answer is incorrect or irrelevant to the provided question."
+        }
+    },
+    "completeness": {
+        "description": "The extent to which all aspects of the question are addressed in the final response.",
+        "accepted_values": {
+            "all_aspects_addressed": "Every part of the question has been answered.",
+            "some_aspects_addressed": "Some parts of the question have been answered but not others.",
+            "no_aspects_addressed": "No relevant parts of the question have been addressed."
+        }
+    },
+    "reasoning_traceability": {
+        "description": "Ability to follow the logical steps taken by the system to reach the conclusion.",
+        "accepted_values": {
+            "fully_traceable": "The system provides a clear and understandable trace of the reasoning process.",
+            "partially_traceable": "Some of the reasoning steps are unclear or missing.",
+            "not_traceable": "The reasoning process is not clear or documented at all."
+        }
+    },
+    "resource_efficiency": {
+        "description": "Efficient use of computational resources during the task execution.",
+        "accepted_values": {
+            "high_efficiency": "Resources are used optimally, with no unnecessary steps or computations.",
+            "moderate_efficiency": "Some resources may be used sub-optimally, but overall efficiency is reasonable.",
+            "low_efficiency": "Resources are used poorly with a lot of wasted computations or redundant steps."
+        }
+    },
+    "response_time": {
+        "description": "The amount of time taken by the system to arrive at the final answer.",
+        "accepted_values": {
+            "fast": "The answer is provided in a timely manner.",
+            "average": "The answer is provided in a reasonable amount of time.",
+            "slow": "The answer takes longer than expected to be provided."
+        }
+    },
+    "adaptability": {
+        "description": "The system's ability to handle unexpected issues or novel aspects of the task.",
+        "accepted_values": {
+            "highly_adaptable": "System handles novel issues smoothly and adjusts its approach as needed.",
+            "somewhat_adaptable": "System can handle some unexpected aspects but may struggle with others.",
+            "not_adaptable": "System fails to adapt to unexpected issues and cannot adjust its approach."
+        }
+    },
+    "data_contamination_avoidance": {
+        "description": "Ensuring that the answers provided by the system do not contain plagiarized or directly copied content from online sources.",
+        "accepted_values": {
+            "no_contamination": "The content is original and not plagiarized.",
+            "some_contamination": "There may be some incidental similarities to online content, but no direct copying.",
+            "high_contamination": "The content is clearly copied from online sources."
+        }
+    }
+}

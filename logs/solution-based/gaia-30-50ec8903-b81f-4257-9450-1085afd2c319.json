@@ -1,0 +1,43 @@
+
+{
+    "solution_correctness": {
+        "description": "Accuracy of the final answer provided by the agent.",
+        "accepted_values": ["incorrect", "partially correct", "correct"]
+    },
+    "reasoning_traceability": {
+        "description": "Ability to trace and understand the reasoning process of the agent.",
+        "accepted_values": ["not traceable", "partially traceable", "fully traceable"]
+    },
+    "data_contamination_avoidance": {
+        "description": "Ensuring the agent's response is not influenced by pre-existing internet data.",
+        "accepted_values": ["contaminated", "uncertain", "clean"]
+    },
+    "logical_step_count": {
+        "description": "Number of logical steps taken to reach the conclusion.",
+        "accepted_values": ["1-5", "6-10", "11-15", "16-20", ">20"]
+    },
+    "diversity_of_steps": {
+        "description": "Variety of different approaches and strategies used in solving the question.",
+        "accepted_values": ["none", "low", "moderate", "high", "very high"]
+    },
+    "brute_force_avoidance": {
+        "description": "Ability to answer the question without exhaustive search or trial-and-error methods.",
+        "accepted_values": ["full brute force", "some brute force", "minimal brute force", "no brute force"]
+    },
+    "solution_efficiency": {
+        "description": "Efficiency of the process taken to reach the solution, considering time and resources used.",
+        "accepted_values": ["inefficient", "below average", "average", "above average", "highly efficient"]
+    },
+    "confidence_in_solution": {
+        "description": "Level of confidence the agent has in its provided solution.",
+        "accepted_values": ["not confident", "somewhat confident", "confident", "very confident", "extremely confident"]
+    },
+    "explainability": {
+        "description": "Clarity and understandability of the solution's explanation.",
+        "accepted_values": ["not understandable", "somewhat understandable", "clear", "very clear", "extremely clear"]
+    },
+    "novelty_of_solution": {
+        "description": "Degree to which the solution is novel or unique.",
+        "accepted_values": ["not novel", "slightly novel", "moderately novel", "very novel", "extremely novel"]
+    }
+}

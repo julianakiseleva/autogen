@@ -1,0 +1,50 @@
+
+{
+    "information_accuracy": {
+        "description": "Accuracy of the factual information retrieved and used in the reasoning process.",
+        "accepted_values": ["correct", "partially incorrect", "incorrect"]
+    },
+    "reasoning_clarity": {
+        "description": "Clarity and transparency of the agents' reasoning trace.",
+        "accepted_values": ["clear", "somewhat clear", "unclear"]
+    },
+    "execution_success": {
+        "description": "Successful execution of the plan by the agents without errors.",
+        "accepted_values": ["successful", "partial success", "unsuccessful"]
+    },
+    "result_accuracy": {
+        "description": "Correctness of the final answer provided by the agents.",
+        "accepted_values": ["correct", "close", "incorrect"]
+    },
+    "step_efficiency": {
+        "description": "Efficiency in the number of steps taken to achieve the solution.",
+        "accepted_values": ["optimal", "reasonable", "inefficient"]
+    },
+    "solution_relevance": {
+        "description": "Relevance of the solution steps to the problem being solved.",
+        "accepted_values": ["highly relevant", "relevant", "irrelevant"]
+    },
+    "completion_time": {
+        "description": "Time taken to arrive at the final solution from the starting point.",
+        "accepted_values": ["fast", "moderate", "slow"]
+    },
+    "process_robustness": {
+        "description": "Robustness of the solution process against potential errors and obstacles.",
+        "accepted_values": ["robust", "moderately robust", "fragile"]
+    },
+    "teamwork_effectiveness": {
+        "description": "Effectiveness of the coordination among different agents in the system.",
+        "accepted_values": ["highly effective", "moderately effective", "ineffective"]
+    },
+    "result_presentation": {
+        "description": "The manner and clarity with which the result is presented to the end-user.",
+        "accepted_values": ["clear and precise", "understandable", "confusing"]
+    }
+}
+
+return evaluation_criteria
+```
+
+Each criterion is narrowly defined to assess a specific part of the task execution or the outcome, ensuring that they are distinguishable, quantifiable, and not redundant. The "accepted_values" provide a multi-graded level of responses for each criterion to facilitate fine-grained evaluation.
+
+(Note: Since the task involves a real-world and complex calculation, not all criteria may be applicable to every step of the solution. However, the above list should cover the major aspects of evaluating the complete end-to-end process.)

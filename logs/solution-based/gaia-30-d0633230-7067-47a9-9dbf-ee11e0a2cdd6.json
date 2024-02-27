@@ -1,0 +1,35 @@
+
+{
+    "correctness": {
+        "description": "Accuracy of the final answer provided by the system.",
+        "accepted_values": {"Incorrect": 0, "Partially Correct": 0.5, "Correct": 1}
+    },
+    "reasoning_traceability": {
+        "description": "The ability to follow the logical steps taken by the agents to reach the answer.",
+        "accepted_values": {"Not Traceable": 0, "Partially Traceable": 0.5, "Fully Traceable": 1}
+    },
+    "steps_efficiency": {
+        "description": "Number of steps taken to reach the final answer relative to the minimum number of necessary steps.",
+        "accepted_values": {"Inefficient": 0, "Moderately Efficient": 0.5, "Highly Efficient": 1}
+    },
+    "resilience_to_data_contamination": {
+        "description": "The system's ability to avoid incorporating incorrect or misleading data from the internet into its reasoning.",
+        "accepted_values": {"Not Resilient": 0, "Moderately Resilient": 0.5, "Highly Resilient": 1}
+    },
+    "web_search_effectiveness": {
+        "description": "The effectiveness of the web surfer agent at finding relevant and accurate information online.",
+        "accepted_values": {"Ineffective": 0, "Moderately Effective": 0.5, "Highly Effective": 1}
+    },
+    "info_extraction_accuracy": {
+        "description": "The accuracy of extracting relevant data from the web search results by the system.",
+        "accepted_values": {"Inaccurate": 0, "Partially Accurate": 0.5, "Accurate": 1}
+    },
+    "task_completion": {
+        "description": "The agent system's success in fully addressing the task requirements and goals.",
+        "accepted_values": {"Not Completed": 0, "Partially Completed": 0.5, "Fully Completed": 1}
+    },
+    "response_time": {
+        "description": "The time taken to provide the final answer from the moment the question was posed.",
+        "accepted_values": {"Slow": 0, "Average": 0.5, "Fast": 1}
+    }
+}

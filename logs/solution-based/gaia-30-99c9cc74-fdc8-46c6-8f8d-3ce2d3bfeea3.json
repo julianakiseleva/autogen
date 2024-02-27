@@ -1,0 +1,27 @@
+
+{
+    "accuracy": {
+        "description": "The correctness of the final answer provided by the agent(s), evaluated against the expected outcome.",
+        "accepted_values": ["incorrect", "partially correct", "fully correct"]
+    },
+    "completeness": {
+        "description": "The extent to which the agent(s) fulfilled all requirements of the task, including identifying all necessary steps and providing a complete solution.",
+        "accepted_values": ["incomplete", "mostly complete", "complete"]
+    },
+    "efficiency": {
+        "description": "How effectively the agent(s) utilized resources and time to arrive at the solution.",
+        "accepted_values": ["inefficient", "average efficiency", "highly efficient"]
+    },
+    "reasoning_traceability": {
+        "description": "The ability to follow the reasoning process of the agent(s) that led to the final answer.",
+        "accepted_values": ["not traceable", "somewhat traceable", "fully traceable"]
+    },
+    "originality": {
+        "description": "The uniqueness of the solution and the ability to provide an answer not easily found in existing databases or the Internet.",
+        "accepted_values": ["common", "uncommon", "unique"]
+    },
+    "understandability": {
+        "description": "How well a human can understand the solution and the steps that were taken by the agent(s) to reach it.",
+        "accepted_values": ["not understandable", "understandable with effort", "easily understandable"]
+    }
+}

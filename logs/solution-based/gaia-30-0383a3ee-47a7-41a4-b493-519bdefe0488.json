@@ -1,0 +1,43 @@
+
+{
+    "accuracy": {
+        "description": "The correctness of the final answer and the steps leading to it.",
+        "accepted_values": ["incorrect", "partially_correct", "correct"]
+    },
+    "reasoning_quality": {
+        "description": "The logical coherence and relevance of the reasoning trace.",
+        "accepted_values": ["poor", "adequate", "good", "excellent"]
+    },
+    "comprehensiveness": {
+        "description": "The extent to which important steps and aspects are considered and addressed.",
+        "accepted_values": ["incomplete", "moderately_comprehensive", "comprehensive"]
+    },
+    "source_reliability": {
+        "description": "The credibility of sources used to identify information.",
+        "accepted_values": ["unreliable", "somewhat_reliable", "reliable"]
+    },
+    "execution_efficiency": {
+        "description": "How efficiently the agents execute the task with minimal unnecessary steps.",
+        "accepted_values": ["inefficient", "moderate_efficiency", "efficient", "highly_efficient"]
+    },
+    "communication_clarity": {
+        "description": "Clarity of the instructions and communications between agents.",
+        "accepted_values": ["unclear", "somewhat_clear", "clear", "very_clear"]
+    },
+    "timeliness": {
+        "description": "The speed of the process in producing a solution.",
+        "accepted_values": ["slow", "reasonable", "fast", "real_time"]
+    },
+    "adaptability": {
+        "description": "The system's ability to handle unforeseen variables or issues.",
+        "accepted_values": ["rigid", "somewhat_adaptable", "adaptable", "highly_adaptable"]
+    },
+    "resource_utilization": {
+        "description": "Effectiveness in utilizing given resources without waste.",
+        "accepted_values": ["poor_utilization", "adequate_utilization", "good_utilization", "excellent_utilization"]
+    },
+    "user_experience": {
+        "description": "Ease of use and satisfaction from the user's perspective.",
+        "accepted_values": ["frustrating", "usable", "comfortable", "delightful"]
+    }
+}

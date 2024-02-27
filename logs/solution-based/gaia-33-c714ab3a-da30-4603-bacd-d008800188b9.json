@@ -1,0 +1,43 @@
+
+{
+  "accuracy": {
+    "description": "The correctness of the final answer provided by the system.",
+    "accepted_values": {
+      "correct": "The final answer is accurate and logically sound.",
+      "partially_correct": "The final answer is partially correct with minor logical flaws.",
+      "incorrect": "The final answer is incorrect and does not follow logical reasoning."
+    }
+  },
+  "reasoning_trace": {
+    "description": "The ability to follow the logical steps taken by the system to arrive at the final answer.",
+    "accepted_values": {
+      "clear": "The reasoning trace is clear, well-documented, and easy to follow.",
+      "ambiguous": "The reasoning trace contains some ambiguity, but can be followed with effort.",
+      "unclear": "The reasoning trace is unclear, undocumented, or too convoluted to follow."
+    }
+  },
+  "diversity_of_approach": {
+    "description": "The range of different problem-solving strategies used by the system.",
+    "accepted_values": {
+      "wide": "The system utilizes a wide range of problem-solving strategies.",
+      "moderate": "The system shows moderate diversity in problem-solving strategies.",
+      "low": "The system has a low diversity in problem-solving strategies, often relying on similar approaches."
+    }
+  },
+  "robustness": {
+    "description": "The system's ability to handle a variety of questions without relying on data that may be contaminated or easily accessible on the internet.",
+    "accepted_values": {
+      "high": "The system is highly robust and does not depend on potentially contaminated data.",
+      "medium": "The system is moderately robust with some reliance on external data sources.",
+      "low": "The system has low robustness and significantly depends on potentially contaminated data."
+    }
+  },
+  "step_efficiency": {
+    "description": "The number of steps the system takes to arrive at the final answer and the relevance of each step.",
+    "accepted_values": {
+      "optimal": "The system takes the fewest possible steps with each step being relevant.",
+      "reasonable": "The system takes a reasonable number of steps with most steps being relevant.",
+      "inefficient": "The system takes more steps than necessary with some irrelevant steps."
+    }
+  }
+}

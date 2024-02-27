@@ -1,0 +1,27 @@
+
+{
+  "accuracy": {
+    "description": "The correctness of the answers provided by the system.",
+    "accepted_values": ["correct", "mostly_correct", "partly_correct", "incorrect"]
+  },
+  "reasoning_trace": {
+    "description": "The ability to follow the system's logical steps leading to the answer.",
+    "accepted_values": ["complete_trace", "partial_trace", "minimal_trace", "no_trace"]
+  },
+  "relevance": {
+    "description": "The relevance of the system's answer to the posed question.",
+    "accepted_values": ["highly_relevant", "somewhat_relevant", "barely_relevant", "not_relevant"]
+  },
+  "response_time": {
+    "description": "The time taken by the system to generate an answer.",
+    "accepted_values": ["instant", "fast", "moderate", "slow"]
+  },
+  "novelty": {
+    "description": "The uniqueness of the system's answer compared to information readily available on the internet.",
+    "accepted_values": ["high_novelty", "moderate_novelty", "low_novelty", "no_novelty"]
+  },
+  "explanation_clarity": {
+    "description": "The clarity of the explanation accompanying the system's answers.",
+    "accepted_values": ["very_clear", "clear", "somewhat_clear", "not_clear"]
+  }
+}

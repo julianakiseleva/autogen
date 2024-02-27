@@ -1,0 +1,43 @@
+
+{
+    "accuracy": {
+        "description": "The degree to which the provided answer matches the correct information.",
+        "accepted_values": ["exact", "mostly correct", "partially correct", "incorrect"]
+    },
+    "completeness": {
+        "description": "The extent to which all parts of the answer are provided.",
+        "accepted_values": ["complete", "mostly complete", "incomplete", "no answer"]
+    },
+    "reasoning_traceability": {
+        "description": "How easily the reasoning and steps taken to reach the answer can be followed and understood.",
+        "accepted_values": ["fully traceable", "mostly traceable", "somewhat traceable", "not traceable"]
+    },
+    "timeliness": {
+        "description": "The amount of time taken to provide the final answer.",
+        "accepted_values": ["instant", "fast", "moderate", "slow", "very slow"]
+    },
+    "data_confidentiality": {
+        "description": "Ensuring the answer does not include sensitive or private data that should not be disclosed.",
+        "accepted_values": ["no breach", "minor breach", "moderate breach", "major breach"]
+    },
+    "uniqueness": {
+        "description": "The degree to which the answer or solution is not easily found or replicated elsewhere, indicating a custom solution.",
+        "accepted_values": ["unique", "mostly unique", "common", "widely known"]
+    },
+    "diversity_of_steps": {
+        "description": "The range of different steps or methods used by agents in the multi-agent system to solve the task.",
+        "accepted_values": ["highly diverse", "diverse", "somewhat diverse", "monotonous"]
+    },
+    "correctness_of_methodology": {
+        "description": "The appropriateness and correctness of the approach and methods used to solve the task.",
+        "accepted_values": ["fully correct", "mostly correct", "partially correct", "incorrect"]
+    },
+    "responsiveness_to_user_input": {
+        "description": "How well the system responds to the user's inputs or redirections during the task.",
+        "accepted_values": ["highly responsive", "responsive", "somewhat responsive", "unresponsive"]
+    },
+    "clarity_of_communication": {
+        "description": "How clear and understandable the communications are from the agents to the user.",
+        "accepted_values": ["very clear", "clear", "somewhat clear", "confusing"]
+    }
+}

@@ -1,0 +1,43 @@
+
+{
+  "relevance": {
+    "description": "The solution must address the specific question asked.",
+    "accepted_values": {
+      "Yes": "The provided answer is directly relevant to the question.",
+      "Partially": "The provided answer is partially relevant, some information may be missing or not fully aligned with the question's context.",
+      "No": "The provided answer does not relate to the original question."
+    }
+  },
+  "accuracy": {
+    "description": "The information given must be accurate and factual.",
+    "accepted_values": {
+      "Correct": "The data or information provided is factually correct.",
+      "Mostly Correct": "The data or information provided is mostly correct with minor inaccuracies.",
+      "Incorrect": "The data or information provided contains significant inaccuracies or is wrong."
+    }
+  },
+  "completeness": {
+    "description": "The answer must be complete, providing all the information that is required to fully answer the question.",
+    "accepted_values": {
+      "Complete": "The solution provides all the necessary information to fully answer the question.",
+      "Needs More Info": "The solution is missing some necessary information to fully answer the question.",
+      "Incomplete": "The solution does not provide the necessary information and is incomplete."
+    }
+  },
+  "clarity": {
+    "description": "The solution should be presented in a clear, comprehensible manner without causing confusion.",
+    "accepted_values": {
+      "Very Clear": "The solution is presented in a very clear and understandable manner.",
+      "Clear": "The solution is clear with minor ambiguities.",
+      "Not Clear": "The solution is not clear or is confusing."
+    }
+  },
+  "source_reliability": {
+    "description": "The solution should be based on reliable sources of information.",
+    "accepted_values": {
+      "Reliable": "Information is obtained from highly reliable and trusted sources.",
+      "Moderately Reliable": "Some sources may not have established credibility but the information aligns with reliable sources.",
+      "Unreliable": "Information is obtained from sources that are not trustworthy or reliable."
+    }
+  }
+}

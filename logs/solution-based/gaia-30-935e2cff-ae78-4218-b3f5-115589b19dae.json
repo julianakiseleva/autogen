@@ -1,0 +1,43 @@
+
+{
+    "accuracy": {
+        "description": "The correctness of the provided answer in relation to the real-world facts and available information.",
+        "accepted_values": [0, 25, 50, 75, 100]  # Percentages representing the level of accuracy.
+    },
+    "comprehensiveness": {
+        "description": "The extent to which the answer covers all facets of the question.",
+        "accepted_values": ["basic", "partial", "substantial", "complete"]
+    },
+    "reasoning_depth": {
+        "description": "The level of depth and detail in the reasoning provided by the agents.",
+        "accepted_values": ["surface", "moderate", "deep", "exceptional"]
+    },
+    "step_efficiency": {
+        "description": "The number of steps taken to reach the conclusion, assessing whether it was done with the minimum required.",
+        "accepted_values": ["more_than_necessary", "necessary", "optimal"]
+    },
+    "policy_comprehension": {
+        "description": "Understanding of Wikipedia's Core Content Policies as exhibited by the agents' responses.",
+        "accepted_values": ["none", "basic", "intermediate", "advanced"]
+    },
+    "source_reliability": {
+        "description": "The agents' ability to discern and select reliable sources in their reasoning.",
+        "accepted_values": ["unreliable", "questionable", "reliable", "verifiable"]
+    },
+    "execution_time": {
+        "description": "The amount of time taken by the agents to provide an answer.",
+        "accepted_values": ["slow", "average", "fast", "instant"]
+    },
+    "adaptability": {
+        "description": "The agents' ability to handle diverse and changing question contexts.",
+        "accepted_values": ["inflexible", "somewhat_adaptable", "adaptable", "highly_adaptable"]
+    },
+    "failure_recovery": {
+        "description": "The agents' effectiveness in adjusting their approach after an unsuccessful attempt or error.",
+        "accepted_values": ["none", "partial", "full", "proactive"]
+    },
+    "communication_clarity": {
+        "description": "The degree to which the agents' reasoning and conclusion can be easily understood by humans.",
+        "accepted_values": ["confusing", "unclear", "clear", "very_clear"]
+    }
+}

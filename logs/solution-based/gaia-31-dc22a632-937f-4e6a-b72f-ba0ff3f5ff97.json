@@ -1,0 +1,39 @@
+
+{
+    "accuracy": {
+        "description": "The precision of the answer provided in relation to the question asked.",
+        "accepted_values": ["incorrect", "partially correct", "correct"]
+    },
+    "completeness": {
+        "description": "The answer should address all parts of the question.",
+        "accepted_values": ["incomplete", "mostly complete", "complete"]
+    },
+    "relevance": {
+        "description": "The information provided in the answer must be relevant to the question.",
+        "accepted_values": ["irrelevant", "somewhat relevant", "highly relevant"]
+    },
+    "source_reliability": {
+        "description": "The reliability of sources used to gather information for the answer.",
+        "accepted_values": ["unreliable", "somewhat reliable", "reliable"]
+    },
+    "reasoning_traceability": {
+        "description": "The ability to follow the logical steps or reasoning the agent took to arrive at the answer.",
+        "accepted_values": ["not traceable", "partially traceable", "fully traceable"]
+    },
+    "steps_efficiency": {
+        "description": "The number of steps taken to answer the question relative to the expected number for efficient problem-solving.",
+        "accepted_values": ["inefficient", "reasonable efficiency", "highly efficient"]
+    },
+    "diversity_of_steps": {
+        "description": "Variety and difference in the nature of steps taken to ensure a wide coverage and prevent brute forcing.",
+        "accepted_values": ["monotonous", "somewhat diverse", "highly diverse"]
+    },
+    "answer_presentation": {
+        "description": "Clarity and coherence in the way the answer is presented.",
+        "accepted_values": ["unclear", "understandable", "crystal clear"]
+    },
+    "data_contamination_prevention": {
+        "description": "Measures taken to ensure that the answer is not a result of data contamination, i.e., it does not come from plain text found on the internet.",
+        "accepted_values": ["not prevented", "partially prevented", "fully prevented"]
+    }
+}

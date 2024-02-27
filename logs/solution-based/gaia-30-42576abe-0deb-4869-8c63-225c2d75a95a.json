@@ -1,0 +1,51 @@
+
+{
+    "Accuracy": {
+        "description": "Measure of correctness in the translation and adherence to the provided rules",
+        "accepted_values": {
+            "High": "Completely accurate with no errors",
+            "Medium": "Minor inaccuracies present",
+            "Low": "Significant errors in translation"
+        }
+    },
+    "Completeness": {
+        "description": "Extent to which the solution covers all aspects of the problem",
+        "accepted_values": {
+            "Full": "Every step is completed",
+            "Partial": "Some steps are completed",
+            "None": "No relevant steps completed"
+        }
+    },
+    "Reasoning Clarity": {
+        "description": "Ease of following the reasoning trail the agents have used",
+        "accepted_values": {
+            "Clear": "Reasoning process is easily traceable and understandable",
+            "Somewhat Clear": "Reasoning process is somewhat traceable but might have ambiguous parts",
+            "Unclear": "Reasoning process is confusing or not traceable"
+        }
+    },
+    "Efficiency": {
+        "description": "Efficiency in terms of the number of steps and time taken to reach the solution",
+        "accepted_values": {
+            "High Efficiency": "Solution reached with minimum steps in shortest time",
+            "Medium Efficiency": "Solution reached with reasonable steps and time",
+            "Low Efficiency": "Solution requires many steps and takes long time"
+        }
+    },
+    "Response to Correction": {
+        "description": "Measure of how well the system can correct itself when given feedback",
+        "accepted_values": {
+            "Excellent": "Corrects errors promptly and accurately",
+            "Good": "Corrects errors with minor follow-up needed",
+            "Poor": "Struggles to correct errors even with feedback"
+        }
+    },
+    "Creativity": {
+        "description": "Indicator of originality and creativity in problem-solving approach",
+        "accepted_values": {
+            "Highly Creative": "Approach is novel and unique",
+            "Moderately Creative": "Some original elements in approach",
+            "Not Creative": "Approach is commonplace and lacks originality"
+        }
+    }
+}

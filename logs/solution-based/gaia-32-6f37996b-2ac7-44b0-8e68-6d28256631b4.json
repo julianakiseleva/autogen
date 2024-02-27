@@ -1,0 +1,35 @@
+
+{
+    "Accuracy": {
+        "description": "Correctness of the final answer with respect to the given question.",
+        "accepted_values": ["Fully Correct", "Partially Correct", "Incorrect"]
+    },
+    "Completeness": {
+        "description": "The degree to which the solution addresses all parts of the question.",
+        "accepted_values": ["Completely Addressed", "Partially Addressed", "Not Addressed"]
+    },
+    "Reasoning Traceability": {
+        "description": "The ability to follow the logical steps taken by the agents to arrive at the final answer.",
+        "accepted_values": ["Fully Traceable", "Partially Traceable", "Not Traceable"]
+    },
+    "Efficiency": {
+        "description": "The amount of time and computational resources used to reach the solution.",
+        "accepted_values": ["Highly Efficient", "Moderately Efficient", "Inefficient"]
+    },
+    "Originality": {
+        "description": "The uniqueness of the solution, ensuring it was not copied from available sources.",
+        "accepted_values": ["Completely Original", "Partially Original", "Not Original"]
+    },
+    "Communication Clarity": {
+        "description": "The clearness and understandability of the interactions between agents, and the explanation provided.",
+        "accepted_values": ["Highly Clear", "Moderately Clear", "Not Clear"]
+    },
+    "Robustness": {
+        "description": "The system's ability to deal with diverse and unexpected types of questions without failure.",
+        "accepted_values": ["Highly Robust", "Moderately Robust", "Not Robust"]
+    },
+    "Scalability": {
+        "description": "The capability of the system to handle an increasing number of complex questions.",
+        "accepted_values": ["Highly Scalable", "Moderately Scalable", "Not Scalable"]
+    }
+}

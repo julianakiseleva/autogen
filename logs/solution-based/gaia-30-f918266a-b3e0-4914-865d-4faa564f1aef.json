@@ -1,0 +1,47 @@
+
+{
+    "correctness": {
+        "description": "Accuracy of the final output relative to the expected result.",
+        "accepted_values": ["correct", "incorrect", "partially_correct"]
+    },
+    "efficiency": {
+        "description": "How efficiently the task was performed in terms of computational resources and time.",
+        "accepted_values": ["optimal", "acceptable", "inefficient"]
+    },
+    "error_handling": {
+        "description": "Ability to handle errors or unexpected input during execution.",
+        "accepted_values": ["excellent", "satisfactory", "poor"]
+    },
+    "reasoning_traceability": {
+        "description": "Clarity and availability of the reasoning trace or steps taken to reach the final output.",
+        "accepted_values": ["transparent", "opaque", "partial"]
+    },
+    "problem_solving_steps": {
+        "description": "Number of steps executed correctly in problem-solving process.",
+        "accepted_values": ["all_correct", "some_incorrect", "many_incorrect"]
+    },
+    "data_contamination": {
+        "description": "Prevention of data contamination from the internet or other external sources.",
+        "accepted_values": ["none", "minimal", "some", "significant"]
+    },
+    "execution": {
+        "description": "Successful execution of the code or script without crashes or infinite loops.",
+        "accepted_values": ["success", "failure_with_recovery", "critical_failure"]
+    },
+    "communication": {
+        "description": "Effectiveness of communication between agents or system components.",
+        "accepted_values": ["effective", "adequate", "ineffective"]
+    },
+    "user_feedback": {
+        "description": "Quality of feedback given to the user during execution.",
+        "accepted_values": ["informative", "minimal", "absent"]
+    },
+    "compliance_with_procedure": {
+        "description": "Adherence to the predefined plan or procedure provided for the agents.",
+        "accepted_values": ["full_compliance", "partial_compliance", "non_compliant"]
+    },
+    "request_satisfaction": {
+        "description": "The degree to which the initial request was satisfied.",
+        "accepted_values": ["fully_satisfied", "partially_satisfied", "not_satisfied"]
+    }
+}

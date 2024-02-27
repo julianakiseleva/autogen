@@ -1,0 +1,43 @@
+
+{
+    "Accuracy": {
+        "description": "The correctness of the final answer provided by the agents in relation to the question asked.",
+        "accepted_values": ["Highly accurate", "Accurate", "Partially accurate", "Inaccurate"]
+    },
+    "Completeness": {
+        "description": "The extent to which the provided answer addresses all parts of the question.",
+        "accepted_values": ["Fully complete", "Mostly complete", "Partially complete", "Incomplete"]
+    },
+    "Reasoning Traceability": {
+        "description": "The ability to follow the reasoning process leading to the final answer for transparency and understanding.",
+        "accepted_values": ["Fully traceable", "Mostly traceable", "Partially traceable", "Not traceable"]
+    },
+    "Step Complexity": {
+        "description": "The complexity of the steps taken by the agents to arrive at the final answer.",
+        "accepted_values": ["Very complex", "Moderately complex", "Somewhat complex", "Straightforward"]
+    },
+    "Execution Time": {
+        "description": "The total time taken to complete the task from start to finish.",
+        "accepted_values": ["Very fast", "Fast", "Moderate", "Slow", "Very slow"]
+    },
+    "Data Originality": {
+        "description": "The degree to which the information used to answer the question is original and not a direct copy from existing internet sources.",
+        "accepted_values": ["Completely original", "Mostly original", "Some originality", "No originality"]
+    },
+    "Response to Ambiguity": {
+        "description": "The system's ability to handle ambiguous information and still provide relevant answers.",
+        "accepted_values": ["Excellently handled", "Adequately handled", "Poorly handled", "Not handled"]
+    },
+    "Agent Collaboration": {
+        "description": "The effectiveness of the interaction between multiple agents to complete the task.",
+        "accepted_values": ["Highly collaborative", "Collaborative", "Minimally collaborative", "Not collaborative"]
+    },
+    "Fallback Handling": {
+        "description": "The system's capability to recover from errors or dead ends during the reasoning process.",
+        "accepted_values": ["Excellent recovery", "Adequate recovery", "Poor recovery", "No recovery"]
+    },
+    "Adaptability": {
+        "description": "The system's ability to adapt to new and diverse types of questions without significant reprogramming.",
+        "accepted_values": ["Highly adaptable", "Adaptable", "Slightly adaptable", "Not adaptable"]
+    }
+}

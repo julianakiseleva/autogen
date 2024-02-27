@@ -1,0 +1,31 @@
+
+{
+    "Solution Accuracy": {
+        "description": "The degree to which the final answer is correct and matches the expected outcome.",
+        "accepted_values": [0, 1, 2, 3]
+    },
+    "Reasoning Clarity": {
+        "description": "The clarity and traceability of the logical steps taken by the agents to arrive at the solution.",
+        "accepted_values": [0, 1, 2, 3]
+    },
+    "Efficiency": {
+        "description": "How quickly and with how few steps the agents were able to solve the problem, considering the complexity of the task.",
+        "accepted_values": [0, 1, 2, 3]
+    },
+    "Innovation": {
+        "description": "The level of creativity and originality in the problem-solving approach.",
+        "accepted_values": [0, 1, 2, 3]
+    },
+    "Robustness": {
+        "description": "The ability of the system to handle different types and variations of questions within the given scope.",
+        "accepted_values": [0, 1, 2, 3]
+    },
+    "Linguistic Competence": {
+        "description": "The ability to use and understand the language correctly in the context of the problem.",
+        "accepted_values": [0, 1, 2, 3]
+    },
+    "Agent Cooperation": {
+        "description": "The effectiveness of the agents working together to solve the task.",
+        "accepted_values": [0, 1, 2, 3]
+    }
+}

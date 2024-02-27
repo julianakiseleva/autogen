@@ -1,0 +1,35 @@
+
+{
+    "accuracy": {
+        "description": "Correctness of the final answer and information provided during reasoning",
+        "accepted_values": {"0": "completely incorrect", "1": "partially correct", "2": "mostly correct", "3": "fully correct"}
+    },
+    "efficiency": {
+        "description": "How quickly and with how few steps the correct answer was obtained relative to the complexity of the task",
+        "accepted_values": {"high": "optimal number of steps and speed", "moderate": "reasonable number of steps and speed", "low": "more steps and time taken than necessary"}
+    },
+    "communication_clarity": {
+        "description": "Clarity and effectiveness of the communication between different agents involved in the task",
+        "accepted_values": {"excellent": "clear and concise", "good": "mostly clear with minor ambiguities", "fair": "some confusion that needed clarification", "poor": "significant confusion and miscommunication"}
+    },
+    "reasoning_depth": {
+        "description": "Depth and complexity of reasoning demonstrated by the agents for answering the question",
+        "accepted_values": {"surface": "basic reasoning with little depth", "moderate": "adequate reasoning with some depth", "deep": "thorough and complex reasoning"}
+    },
+    "resource_utilization": {
+        "description": "How well the system utilized available data and resources to form the answer",
+        "accepted_values": {"optimal": "Only relevant resources used effectively", "acceptable": "Majority relevant resources used with some excess", "inefficient": "Many irrelevant resources used or relevant ones overlooked"}
+    },
+    "traceability": {
+        "description": "Ability to trace the reasoning steps taken by the agents to reach the final answer",
+        "accepted_values": {"transparent": "all steps clearly documented and traceable", "opaque": "some steps documented, but not fully traceable", "obscure": "many steps undocumented or poorly traced"}
+    },
+    "adaptability": {
+        "description": "Ability of the agents to handle unexpected situations or questions not explicitly covered by the available data",
+        "accepted_values": {"flexible": "Handled unexpected aspects with ease", "rigid": "Struggled with or ignored unexpected aspects"}
+    },
+    "informativeness": {
+        "description": "The degree to which the answer and reasoning provide valuable and relevant information",
+        "accepted_values": {"highly informative": "Provides comprehensive and relevant information", "moderately informative": "Provides a fair amount of relevant information", "minimally informative": "Provides some information, but not very detailed or relevant", "not informative": "Provides no useful or relevant information"}
+    }
+}

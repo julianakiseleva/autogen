@@ -1,0 +1,35 @@
+
+{
+    "accuracy": {
+        "description": "The correctness of the retrieved information and final answer provided by the system.",
+        "accepted_values": ["incorrect", "partially correct", "fully correct"]
+    },
+    "completeness": {
+        "description": "The extent to which all required information for the task has been retrieved and presented.",
+        "accepted_values": ["missing information", "some information", "all information"]
+    },
+    "relevance": {
+        "description": "The pertinence of the information retrieved to the question asked.",
+        "accepted_values": ["irrelevant", "somewhat relevant", "highly relevant"]
+    },
+    "timeliness": {
+        "description": "The speed at which the system provides the final answer from the start of the task.",
+        "accepted_values": ["slow", "medium", "fast"]
+    },
+    "efficiency": {
+        "description": "The number of steps taken to reach the final answer in relation to the least number of steps possible.",
+        "accepted_values": ["inefficient", "moderately efficient", "highly efficient"]
+    },
+    "traceability": {
+        "description": "The ability to follow the reasoning path or steps taken by the agents to reach the final answer.",
+        "accepted_values": ["non-traceable", "partially traceable", "fully traceable"]
+    },
+    "clarity": {
+        "description": "How clearly the final answer and the information are presented to the user.",
+        "accepted_values": ["confusing", "understandable", "very clear"]
+    },
+    "data_contamination": {
+        "description": "Ensuring that the agents' responses are free from contamination with plain text from the Internet.",
+        "accepted_values": ["contaminated", 'possibly contaminated', "not contaminated"]
+    }
+}

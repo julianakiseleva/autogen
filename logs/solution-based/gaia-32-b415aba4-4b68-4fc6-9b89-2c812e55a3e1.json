@@ -1,0 +1,31 @@
+
+{
+    "understanding_and_following_instructions": {
+        "description": "Assesses the system's capability to comprehend and adhere to the task's specific requirements.",
+        "accepted_values": ["Fully Understood", "Partially Understood", "Not Understood"]
+    },
+    "research_capability": {
+        "description": "Evaluates the ability of the system to conduct research and navigate through relevant sources.",
+        "accepted_values": ["Excellent", "Good", "Average", "Poor"]
+    },
+    "analytical_capability": {
+        "description": "Evaluates the system's ability to analyze information and extract relevant data.",
+        "accepted_values": ["Excellent", "Good", "Average", "Poor"]
+    },
+    "correctness_of_solution": {
+        "description": "Assesses the accuracy of the compound identified by the system.",
+        "accepted_values": ["Correct", "Partially Correct", "Incorrect"]
+    },
+    "relevance_of_solution": {
+        "description": "Measures the relevance of the proposed compound in relation to the task's criteria.",
+        "accepted_values": ["Highly Relevant", "Somewhat Relevant", "Not Relevant"]
+    },
+    "transparency_of_reasoning": {
+        "description": "Evaluates how clearly the system's reasoning and decision-making process is documented.",
+        "accepted_values": ["Fully Transparent", "Partially Transparent", "Not Transparent"]
+    },
+    "traceability_of_steps": {
+        "description": "Determines if the steps taken can be traced and understood logically.",
+        "accepted_values": ["Fully Traceable", "Partially Traceable", "Not Traceable"]
+    }
+}

@@ -1,0 +1,47 @@
+
+{
+    "accuracy": {
+        "description": "The degree to which the solution's final answer is correct with respect to the real-world problem posed.",
+        "accepted_values": ["false", "partially true", "true"]
+    },
+    "completeness": {
+        "description": "The extent to which the solution addresses all components of the task, including the steps required and the analysis of the provided data.",
+        "accepted_values": ["not addressed", "partially addressed", "fully addressed"]
+    },
+    "efficiency": {
+        "description": "How effectively the multi-agent system utilizes resources (e.g., time, computational power) to solve the problem.",
+        "accepted_values": ["inefficient", "moderate efficiency", "highly efficient"]
+    },
+    "logical_coherence": {
+        "description": "The soundness of the reasoning process and whether the solution's reasoning trace follows a logical sequence.",
+        "accepted_values": ["not logical", "mostly logical", "fully logical"]
+    },
+    "error_handling": {
+        "description": "The system's ability to handle and respond to discrepancies, such as the described empty file conflict.",
+        "accepted_values": ["ineffective", "partially effective", "effective"]
+    },
+    "adaptability": {
+        "description": "The system's capability to adapt its approach when encountering unforeseen issues or incomplete information.",
+        "accepted_values": ["not adaptable", "somewhat adaptable", "highly adaptable"]
+    },
+    "data_handling": {
+        "description": "The proficiency with which the system processes and analyzes data, even when faced with challenges like empty or incorrectly described files.",
+        "accepted_values": ["poor", "adequate", "excellent"]
+    },
+    "communication_clarity": {
+        "description": "The clarity and conciseness of the responses and instructions shared among agents.",
+        "accepted_values": ["unclear", "mostly clear", "very clear"]
+    },
+    "use_of_resources": {
+        "description": "The system's ability to leverage available agents and their capabilities effectively.",
+        "accepted_values": ["ineffective use", "moderate use", "optimized use"]
+    },
+    "progress_tracking": {
+        "description": "The ability to monitor and report on the progress being made toward achieving the goal.",
+        "accepted_values": ["no tracking", "intermittent tracking", "continuous tracking"]
+    },
+    "question_handling": {
+        "description": "The system's capability to appropriately address and analyze the complexities of the posed question.",
+        "accepted_values": ["inadequate", "satisfactory", "thorough"]
+    }
+}

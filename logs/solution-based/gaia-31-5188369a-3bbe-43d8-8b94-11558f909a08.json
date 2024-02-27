@@ -1,0 +1,43 @@
+
+{
+    "accuracy": {
+        "description": "The correctness of the answer provided by the agent.",
+        "accepted_values": ["incorrect", "partially correct", "correct"]
+    },
+    "completeness": {
+        "description": "The extent to which all required steps to answer the question were successfully completed.",
+        "accepted_values": ["incomplete", "mostly complete", "complete"]
+    },
+    "relevance": {
+        "description": "The relevance of the answer and its components to the question asked.",
+        "accepted_values": ["not relevant", "somewhat relevant", "highly relevant"]
+    },
+    "traceability": {
+        "description": "The ability to trace and understand the reasoning process of the agent.",
+        "accepted_values": ["untraceable", "traceable with effort", "easily traceable"]
+    },
+    "efficiency": {
+        "description": "How efficiently the agent completes the task in terms of resources used, such as time and computational power.",
+        "accepted_values": ["inefficient", "moderately efficient", "highly efficient"]
+    },
+    "resourcefulness": {
+        "description": "The agent's ability to overcome obstacles and use available resources effectively to achieve the goal.",
+        "accepted_values": ["unresourceful", "somewhat resourceful", "highly resourceful"]
+    },
+    "robustness": {
+        "description": "The agent's ability to handle different types of questions and unforeseen situations without failing.",
+        "accepted_values": ["not robust", "moderately robust", "highly robust"]
+    },
+    "originality": {
+        "description": "The level of creativity and original thinking in the agent's approach to solving the task.",
+        "accepted_values": ["not original", "somewhat original", "highly original"]
+    },
+    "data_contamination": {
+        "description": "The extent to which the solution derived from the agent is free of data contamination from internet plain text or other sources.",
+        "accepted_values": ["high contamination", "some contamination", "no contamination"]
+    },
+    "interpretability": {
+        "description": "The extent to which the agent’s actions and outputs can be understood and interpreted by humans.",
+        "accepted_values": ["not interpretable", "moderately interpretable", "highly interpretable"]
+    }
+}

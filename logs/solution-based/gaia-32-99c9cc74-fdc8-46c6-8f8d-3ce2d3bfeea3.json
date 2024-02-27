@@ -1,0 +1,39 @@
+
+{
+    "accuracy": {
+        "description": "The degree to which the answered question matches the expected correct response based on the provided information or data.",
+        "accepted_values": ["incorrect", "partially correct", "mostly correct", "correct"]
+    },
+    "completeness": {
+        "description": "The extent to which all required steps were performed and all necessary elements were included in the response.",
+        "accepted_values": ["incomplete", "partially complete", "mostly complete", "complete"]
+    },
+    "reasoning_traceability": {
+        "description": "The ability to follow the logic and steps taken by the agent to arrive at the final answer.",
+        "accepted_values": ["not traceable", "barely traceable", "traceable", "clearly traceable"]
+    },
+    "adherence_to_instructions": {
+        "description": "How closely the agent followed the specific instructions provided in the task, such as formatting and listing requirements.",
+        "accepted_values": ["did not adhere", "partially adhered", "mostly adhered", "fully adhered"]
+    },
+    "diversity_of_steps": {
+        "description": "The variety of the steps taken to answer the question, demonstrating that the solution could not have been brute-forced.",
+        "accepted_values": ["monotonous", "some variety", "diverse", "highly diverse"]
+    },
+    "non_redundancy": {
+        "description": "Ensuring that steps taken do not repeat unnecessarily and contribute to the final outcome.",
+        "accepted_values": ["redundant", "minor redundancy", "some redundancy", "non-redundant"]
+    },
+    "data_contamination_avoidance": {
+        "description": "The extent to which the solution avoids using information that could be contaminated, such as direct internet search results.",
+        "accepted_values": ["high contamination", "some contamination", "minimal contamination", "no contamination"]
+    },
+    "speed_of_execution": {
+        "description": "The time taken to perform the task, from start to completion.",
+        "accepted_values": ["very slow", "slow", "reasonable", "fast"]
+    },
+    "novelty_of_approach": {
+        "description": "The uniqueness and originality of the method used to solve the task.",
+        "accepted_values": ["not novel", "slightly novel", "moderately novel", "highly novel"]
+    }
+}

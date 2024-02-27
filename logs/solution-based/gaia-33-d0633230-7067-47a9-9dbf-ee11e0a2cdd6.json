@@ -1,0 +1,35 @@
+
+{
+    "accuracy": {
+        "description": "The correctness of the final answer provided by the agent.",
+        "accepted_values": ["incorrect", "partially_correct", "correct"]
+    },
+    "steps_completed": {
+        "description": "The number of steps successfully completed by the agent to arrive at the answer.",
+        "accepted_values": ["none", "some", "all_required"]
+    },
+    "reasoning_traceability": {
+        "description": "The ability to follow the agent's reasoning process step-by-step.",
+        "accepted_values": ["not_traceable", "partially_traceable", "fully_traceable"]
+    },
+    "originality": {
+        "description": "The degree to which the answer provided by the agent is original and not a direct copy from existing sources.",
+        "accepted_values": ["copied", "modified", "original"]
+    },
+    "diversity_of_steps": {
+        "description": "The variety of different types of steps taken by the agent, reflecting the diversity of tasks it can handle.",
+        "accepted_values": ["low_diversity", "moderate_diversity", "high_diversity"]
+    },
+    "reliability": {
+        "description": "The consistency of the agent in providing accurate and complete answers over multiple queries.",
+        "accepted_values": ["unreliable", "somewhat_reliable", "reliable"]
+    },
+    "execution_time": {
+        "description": "The amount of time taken by the agent to execute the tasks and provide an answer.",
+        "accepted_values": ["slow", "moderate", "fast"]
+    },
+    "comprehensiveness": {
+        "description": "The extent to which the agent's answer covers all aspects of the question.",
+        "accepted_values": ["incomplete", "mostly_complete", "comprehensive"]
+    }
+}

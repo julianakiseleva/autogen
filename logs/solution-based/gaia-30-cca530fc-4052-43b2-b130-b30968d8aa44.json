@@ -1,0 +1,31 @@
+
+{
+    "Accuracy of Solution": {
+        "description": "The correctness and precision of the answer provided by the agent.",
+        "accepted_values": ["Incorrect", "Partially correct", "Correct"]
+    },
+    "Reasoning Traceability": {
+        "description": "The ability to follow the logical steps the agent took to arrive at the answer.",
+        "accepted_values": ["Non-traceable", "Partially traceable", "Fully traceable"]
+    },
+    "Execution Steps": {
+        "description": "The number of steps the agent needed to take to complete the task.",
+        "accepted_values": ["Too many", "As expected", "Fewer than expected"]
+    },
+    "Problem Complexity": {
+        "description": "The level of difficulty of the question posed to the agent.",
+        "accepted_values": ["Simple", "Moderate", "Complex", "Very complex"]
+    },
+    "Uniqueness of Solution": {
+        "description": "The degree to which the provided solution is not readily found in existing data sources like the internet.",
+        "accepted_values": ["Common", "Somewhat unique", "Unique"]
+    },
+    "Time Efficiency": {
+        "description": "The amount of time it took for the agent to provide a solution.",
+        "accepted_values": ["Slow", "Reasonable", "Fast"]
+    },
+    "Data Integrity": {
+        "description": "Ensuring that the response does not contain any form of contamination from existing data sources.",
+        "accepted_values": ["Contaminated", "Possible contamination", "Clean"]
+    }
+}

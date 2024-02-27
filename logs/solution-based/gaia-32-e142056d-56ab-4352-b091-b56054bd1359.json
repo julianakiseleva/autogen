@@ -1,0 +1,43 @@
+
+{
+    "accuracy": {
+        "description": "The correctness of the final answer provided by the agent.",
+        "accepted_values": ["correct", "incorrect", "partially correct"]
+    },
+    "reasoning_depth": {
+        "description": "The depth and complexity of the reasoning process used by the agent to arrive at the solution.",
+        "accepted_values": ["simple", "moderate", "complex", "very complex"]
+    },
+    "steps_efficiency": {
+        "description": "The number of steps taken by the agent to reach the solution and its efficiency in reaching the answer.",
+        "accepted_values": ["few", "moderate", "many", "excessive"]
+    },
+    "reasoning_traceability": {
+        "description": "The ability to follow and understand the reasoning process of the agent.",
+        "accepted_values": ["traceable", "not traceable", "partially traceable"]
+    },
+    "solution_uniqueness": {
+        "description": "The uniqueness of the solution provided, assessing whether the solution is a generic response or tailored to the specific question.",
+        "accepted_values": ["unique", "generic", "partially unique"]
+    },
+    "robustness_to_variability": {
+        "description": "The robustness of the solution when faced with diverse and varying input questions.",
+        "accepted_values": ["robust", "moderately robust", "not robust"]
+    },
+    "problem_comprehension": {
+        "description": "The accuracy with which the agent understands the problem constraints and premises.",
+        "accepted_values": ["fully comprehended", "partially comprehended", "misunderstood"]
+    },
+    "strategy_optimality": {
+        "description": "The optimality of the strategy or algorithm used to solve the problem.",
+        "accepted_values": ["optimal", "suboptimal", "inefficient"]
+    },
+    "execution_time": {
+        "description": "The time taken by the agent to execute the tasks and produce a solution.",
+        "accepted_values": ["instant", "quick", "moderate", "slow", "too slow"]
+    },
+    "solution_complexity": {
+        "description": "The complexity of the solution in terms of the resources used and the sophistication of the algorithm or model.",
+        "accepted_values": ["simple", "moderate", "complex", "highly complex"]
+    }
+}

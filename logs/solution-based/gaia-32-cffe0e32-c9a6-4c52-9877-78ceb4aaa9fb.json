@@ -1,0 +1,35 @@
+
+{
+    "correctness": {
+        "description": "Accuracy of the final answer in relation to the task's requirements and available data.",
+        "accepted_values": ["completely correct", "partially correct", "incorrect"]
+    },
+    "reasoning_traceability": {
+        "description": "The clarity and follow-ability of the logical steps taken to reach the conclusion.",
+        "accepted_values": ["fully traceable", "partially traceable", "not traceable"]
+    },
+    "completion_time": {
+        "description": "The amount of time taken to complete the task from start to finish.",
+        "accepted_values": ["fast", "moderate", "slow", "did not complete"]
+    },
+    "data_independence": {
+        "description": "The solution's reliance on the data provided without needing external information or resources.",
+        "accepted_values": ["fully independent", "partially independent", "dependent on external data"]
+    },
+    "novelty_of_approach": {
+        "description": "The uniqueness or innovativeness of the method used to solve the task.",
+        "accepted_values": ["highly novel", "somewhat novel", "not novel"]
+    },
+    "steps_completion": {
+        "description": "How many of the required steps have been successfully accomplished.",
+        "accepted_values": ["all steps completed", "some steps completed", "no steps completed"]
+    },
+    "solution_efficiency": {
+        "description": "The efficiency of the process, including the use of resources and avoiding redundant actions.",
+        "accepted_values": ["highly efficient", "moderately efficient", "inefficient"]
+    },
+    "multi_agent_collaboration": {
+        "description": "The effectiveness of the interaction between different agents involved in the problem-solving process.",
+        "accepted_values": ["highly collaborative", "partially collaborative", "not collaborative"]
+    }
+}

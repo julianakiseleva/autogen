@@ -1,0 +1,35 @@
+
+{
+    "reasoning_correctness": {
+        "description": "Accuracy of the reasoning process used to reach the conclusion",
+        "accepted_values": {"0": "Completely incorrect", "1": "Partially correct", "2": "Mostly correct", "3": "Entirely correct"}
+    },
+    "compliance_with_instructions": {
+        "description": "Adherence to the given instructions for the task",
+        "accepted_values": {"0": "Not compliant", "1": "Partially compliant", "2": "Fully compliant"}
+    },
+    "solution_efficiency": {
+        "description": "How efficiently the multi-agent system works to provide the solution",
+        "accepted_values": {"0": "Inefficient", "1": "Moderately efficient", "2": "Highly efficient"}
+    },
+    "accuracy_of_final_answer": {
+        "description": "Correctness of the final answer provided by the agents",
+        "accepted_values": {"0": "Incorrect", "1": "Partially correct", "2": "Correct within acceptable bounds", "3": "Fully correct"}
+    },
+    "data_contamination_avoidance": {
+        "description": "Effectiveness in preventing data contamination by not drawing from the internet verbatim",
+        "accepted_values": {"0": "High contamination", "1": "Some contamination", "2": "Minimal contamination", "3": "No contamination"}
+    },
+    "steps_completion": {
+        "description": "Number of steps successfully completed by the agent to provide the answer",
+        "accepted_values": {"0": "No steps completed", "1": "Some steps completed", "2": "Most steps completed", "3": "All steps completed as required"}
+    },
+    "progress_made": {
+        "description": "Progression towards the task goal without unnecessary looping or barriers",
+        "accepted_values": {"0": "No progress", "1": "Limited progress", "2": "Significant progress", "3": "Goal achieved"}
+    },
+    "traceability": {
+        "description": "Ability to follow the reasoning trace of the multi-agent system to understand decision-making",
+        "accepted_values": {"0": "Not traceable", "1": "Partially traceable", "2": "Mostly traceable", "3": "Fully traceable"}
+    }
+}

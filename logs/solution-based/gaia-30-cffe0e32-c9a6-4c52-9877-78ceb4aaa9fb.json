@@ -1,0 +1,38 @@
+
+{
+    "reasoning_accuracy": {
+        "description": "Accuracy of the logical reasoning and the correct identification of the employee who did not give a gift.",
+        "accepted_values": {
+            "correct": "The reasoning led to the correct answer.",
+            "incorrect": "The reasoning did not lead to the correct answer."
+        }
+    },
+    "reasoning_completeness": {
+        "description": "Completeness in identifying and considering all relevant information to make the inference.",
+        "accepted_values": ["all_info", "partial_info", "no_info"]
+    },
+    "step_execution": {
+        "description": "Efficiency and correctness in executing the steps outlined in the plan towards the goal.",
+        "accepted_values": {
+            "all_steps_correct": "All steps were executed correctly.",
+            "some_steps_incorrect": "Some steps were executed incorrectly.",
+            "no_steps_correct": "No steps were executed correctly."
+        }
+    },
+    "request_satisfaction": {
+        "description": "Whether the original request to determine who did not give a gift has been satisfied.",
+        "accepted_values": {
+            "satisfied": "The request was fully satisfied.",
+            "partially_satisfied": "The request was partially satisfied.",
+            "not_satisfied": "The request was not satisfied."
+        }
+    },
+    "progress_made": {
+        "description": "Assessment of whether progress towards answering the question has been made.",
+        "accepted_values": {
+            "progress": "Progress has been made.",
+            "stagnant": "No progress; task is stagnant.",
+            "regress": "Task has regressed from the goal."
+        }
+    }
+}

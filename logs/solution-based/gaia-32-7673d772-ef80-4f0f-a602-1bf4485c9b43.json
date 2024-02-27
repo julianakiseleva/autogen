@@ -1,0 +1,27 @@
+
+{
+    "Accuracy": {
+        "description": "The correctness of the final response regarding the deleted word.",
+        "accepted_values": ["Correct", "Incorrect", "Partially correct"]
+    },
+    "Completeness": {
+        "description": "Whether all necessary steps were taken to reach the final answer.",
+        "accepted_values": ["Complete", "Incomplete", "Partially complete"]
+    },
+    "Reasoning Traceability": {
+        "description": "The ability to follow the agent's reasoning process through the steps taken.",
+        "accepted_values": ["Traceable", "Not traceable", "Partially traceable"]
+    },
+    "Resource Utilization": {
+        "description": "Efficiency in terms of resources used by the agent (e.g., time, computational resources).",
+        "accepted_values": ["Optimal", "Acceptable", "Inefficient"]
+    },
+    "Adherence to Instructions": {
+        "description": "The degree to which the agent followed the given task instructions.",
+        "accepted_values": ["Full adherence", "Partial adherence", "No adherence"]
+    },
+    "Timeliness": {
+        "description": "How quickly the solution was provided.",
+        "accepted_values": ["Immediate", "Reasonable delay", "Excessive delay"]
+    }
+}

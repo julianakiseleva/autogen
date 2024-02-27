@@ -1,0 +1,43 @@
+
+{
+  "accuracy": {
+    "description": "The correctness of the final answer provided by the agent.",
+    "accepted_values": ['correct', 'incorrect', 'partially correct']
+  },
+  "completeness": {
+    "description": "The extent to which the agent's solution covers all the steps required to solve the task.",
+    "accepted_values": ['complete', 'incomplete', 'partially complete']
+  },
+  "efficiency": {
+    "description": "The amount of resources (e.g., time, computational steps) used by the agent to arrive at a solution.",
+    "accepted_values": ['optimal', 'acceptable', 'inefficient']
+  },
+  "robustness": {
+    "description": "The agent's ability to handle different types of inputs and unexpected scenarios without failure.",
+    "accepted_values": ['high', 'medium', 'low']
+  },
+  "traceability": {
+    "description": "The ability to follow the reasoning path of the agent to understand how the solution was derived.",
+    "accepted_values": ['transparent', 'opaque', 'partially transparent']
+  },
+  "novelty": {
+    "description": "The innovation and uniqueness of the solution approach taken by the agent.",
+    "accepted_values": ['highly novel', 'somewhat novel', 'not novel']
+  },
+  "adherence_to_rules": {
+    "description": "The extent to which the agent's solution follows the defined rules and constraints of the task.",
+    "accepted_values": ['strict adherence', 'minor deviations', 'major deviations']
+  },
+  "generalizability": {
+    "description": "The applicability of the agent's solution approach to a wide range of similar tasks.",
+    "accepted_values": ['broadly applicable', 'limited applicability', 'not applicable']
+  },
+  "scalability": {
+    "description": "The agent's capacity to maintain performance when scaled to larger or more complex versions of the task.",
+    "accepted_values": ['scalable', 'moderately scalable', 'not scalable']
+  },
+  "interpretability": {
+    "description": "The ease with which humans can understand and interpret the agent's actions and solutions.",
+    "accepted_values": ['interpretable', 'somewhat interpretable', 'not interpretable']
+  }
+}

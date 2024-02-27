@@ -1,0 +1,35 @@
+
+{
+    "Solution_Accuracy": {
+        "description": "The degree to which the final answer meets the task requirements and is correct based on the given inputs.",
+        "accepted_values": ["incorrect", "partially_correct", "correct"]
+    },
+    "Solution_Efficiency": {
+        "description": "How efficiently the multi-agent system generates the solution, optimizing for the least amount of computational resources.",
+        "accepted_values": ["inefficient", "moderate_efficiency", "high_efficiency"]
+    },
+    "Step_Completeness": {
+        "description": "The extent to which all necessary steps are completed to achieve the task goal.",
+        "accepted_values": ["incomplete", "partially_complete", "complete"]
+    },
+    "Reasoning_Transparency": {
+        "description": "The clarity of the logical steps and reasoning leading to the final outcome, and whether the system provides a traceable path from question to answer.",
+        "accepted_values": ["opaque", "partially_transparent", "transparent"]
+    },
+    "Diversity_Of_Steps": {
+        "description": "Measurement of how diverse and varied are the necessary steps to complete the task, indicating the complexity involved.",
+        "accepted_values": ["low_diversity", "moderate_diversity", "high_diversity"]
+    },
+    "Data_Contamination_Risk": {
+        "description": "The potential risk of incorporating incorrect or misleading data from external sources into the solution process.",
+        "accepted_values": ["high_risk", "moderate_risk", "low_risk"]
+    },
+    "Solution_Documentation": {
+        "description": "The thoroughness and clarity of the written explanation covering the solution process and results.",
+        "accepted_values": ["poor_documentation", "adequate_documentation", "excellent_documentation"]
+    },
+    "Adherence_To_Constraints": {
+        "description": "How well the solution respects and works within the defined problem constraints, such as coverage radius and placement rules.",
+        "accepted_values": ["does_not_adhere", "partially_adheres", "fully_adheres"]
+    },
+}

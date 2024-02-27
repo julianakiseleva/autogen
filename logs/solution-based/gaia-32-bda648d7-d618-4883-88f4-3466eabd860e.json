@@ -1,0 +1,57 @@
+
+{
+    "reasoning_traceability": {
+        "description": "Ability to track and verify the reasoning steps taken by the agents to arrive at an answer.",
+        "accepted_values": {
+            "1": "No traceability",
+            "2": "Partial traceability with significant gaps",
+            "3": "Mostly traceable with minor gaps",
+            "4": "Fully traceable with clear, logical steps"
+        }
+    },
+    "answer_accuracy": {
+        "description": "Correctness of the answer provided by the agents, including the handling of specific instructions such as 'no abbreviations'.",
+        "accepted_values": {
+            "1": "Incorrect answer",
+            "2": "Partially correct answer",
+            "3": "Mostly correct but lacking some details",
+            "4": "Fully correct answer"
+        }
+    },
+    "answer_relevance": {
+        "description": "The degree to which the answer is relevant and directly addresses the question posed.",
+        "accepted_values": {
+            "1": "Irrelevant answer",
+            "2": "Somewhat relevant answer",
+            "3": "Relevant answer with some additional unnecessary info",
+            "4": "Directly relevant and concise answer"
+        }
+    },
+    "internet_dependency": {
+        "description": "Extent to which the agent relies on verbatim internet sources versus original reasoning to formulate an answer.",
+        "accepted_values": {
+            "1": "Answer copied verbatim from internet sources",
+            "2": "Answer heavily relies on internet sources with some original thought",
+            "3": "Answer moderately informed by internet sources but mostly original reasoning",
+            "4": "Answer based on original reasoning with internet sources only used for factual verification"
+        }
+    },
+    "step_completion": {
+        "description": "The effectiveness of completing required steps to address the question satisfactorily.",
+        "accepted_values": {
+            "1": "No steps completed",
+            "2": "Some steps completed but critical ones missing",
+            "3": "Most steps completed but minor ones missing",
+            "4": "All steps completed effectively"
+        }
+    },
+    "data_contamination_avoidance": {
+        "description": "Effectiveness in avoiding data contamination by ensuring answers are not easily found in plain text on the internet.",
+        "accepted_values": {
+            "1": "High risk of data contamination, answer easily found online",
+            "2": "Moderate risk of data contamination",
+            "3": "Low risk of data contamination",
+            "4": "No risk of data contamination, answer uniquely synthesized"
+        }
+    }
+}

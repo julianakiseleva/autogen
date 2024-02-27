@@ -1,0 +1,45 @@
+
+{
+    "Accuracy of Solution": {
+        "description": "The correctness of the final answer provided by the agents.",
+        "accepted_values": {
+            "Perfect": "The solution is entirely correct.",
+            "Partial": "The solution is partially correct; some elements are accurate, but others are not.",
+            "Incorrect": "The solution is incorrect.",
+            "N/A": "The task was not completed, so accuracy is not applicable."
+        }
+    },
+    "Reasoning Traceability": {
+        "description": "The ability to follow the logical steps the agents took to reach the solution.",
+        "accepted_values": {
+            "Full traceability": "Every step of the reasoning process is clearly documented and can be followed.",
+            "Partial traceability": "Most steps are documented, but some gaps in the reasoning process exist.",
+            "Minimal traceability": "Very few reasoning steps are documented, making traceability difficult.",
+            "No traceability": "No reasoning process is provided."
+        }
+    },
+    "Time Taken to Reach Solution": {
+        "description": "The amount of time it took for the agents to complete the task.",
+        "accepted_values": {
+            "Rapid": "< 5 minutes",
+            "Moderate": "5-15 minutes",
+            "Slow": "15-30 minutes",
+            "Very slow": "> 30 minutes"
+        }
+    },
+    "Compliance with Instructions": {
+        "description": "How well the agents followed the given instructions and constraints.",
+        "accepted_values": {
+            "Full compliance": "All instructions and constraints were followed accurately.",
+            "Partial compliance": "Most instructions were followed, but some were not or were misinterpreted.",
+            "Non-compliance": "Instructions and constraints were largely ignored or misunderstood."
+        }
+    },
+    "Solution Uniqueness": {
+        "description": "Whether the solution provided is unique or could easily be found with a simple internet search.",
+        "accepted_values": {
+            "Unique": "The solution could not have been found using a simple internet search and is the result of the agents' processing.",
+            "Non-unique": "The solution is a common one or easily accessible via a quick internet search."
+        }
+    }
+}

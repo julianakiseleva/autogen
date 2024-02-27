@@ -1,0 +1,39 @@
+
+{
+    "accuracy": {
+        "description": "The degree to which the final answer provided by the system matches the correct and factual answer.",
+        "accepted_values": ["incorrect", "partially correct", "correct"]
+    },
+    "completeness": {
+        "description": "The extent to which the provided answer covers all aspects of the asked question.",
+        "accepted_values": ["incomplete", "mostly complete", "complete"]
+    },
+    "reasoning_depth": {
+        "description": "The level of sophistication and depth of the agents' reasoning processes.",
+        "accepted_values": ["shallow", "moderate", "deep"]
+    },
+    "speed": {
+        "description": "The amount of time taken to arrive at the final answer.",
+        "accepted_values": ["slow", "medium", "fast"]
+    },
+    "collaboration": {
+        "description": "How well the agents in the multi-agent system work together to solve the task.",
+        "accepted_values": ["poor", "good", "excellent"]
+    },
+    "adaptability": {
+        "description": "The agents' ability to handle a variety of questions and adapt their strategies accordingly.",
+        "accepted_values": ["rigid", "flexible", "highly adaptable"]
+    },
+    "transparency": {
+        "description": "The capability of the system to provide a traceable and understandable reasoning path.",
+        "accepted_values": ["opaque", "translucent", "transparent"]
+    },
+    "data_reliability": {
+        "description": "The reliability of the external data sources the agents depend on to derive the answer.",
+        "accepted_values": ["unreliable", "mostly reliable", "reliable"]
+    },
+    "usage_of_resources": {
+        "description": "The efficiency of the system in terms of computational and other resource use.",
+        "accepted_values": ["inefficient", "balanced", "efficient"]
+    }
+}

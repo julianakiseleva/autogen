@@ -1,0 +1,43 @@
+
+{
+    "completeness": {
+        "description": "The degree to which the given task has been fully addressed by the proposed solution.",
+        "accepted_values": ["not addressed", "partially addressed", "fully addressed"]
+    },
+    "correctness": {
+        "description": "The accuracy of the solution provided by the multi-agent system.",
+        "accepted_values": ["incorrect", "partly correct", "correct"]
+    },
+    "efficiency": {
+        "description": "The efficiency of the solution in terms of the steps taken and resources used.",
+        "accepted_values": ["inefficient", "moderately efficient", "highly efficient"]
+    },
+    "relevance": {
+        "description": "How relevant the steps taken by the agent are in relation to the final goal.",
+        "accepted_values": ["irrelevant", "somewhat relevant", "highly relevant"]
+    },
+    "traceability": {
+        "description": "The ability to follow the logical reasoning or path taken by the agent to arrive at the solution.",
+        "accepted_values": ["not traceable", "partly traceable", "fully traceable"]
+    },
+    "adaptability": {
+        "description": "How well the system can adapt to new or changing information as the task progresses.",
+        "accepted_values": ["not adaptable", "somewhat adaptable", "highly adaptable"]
+    },
+    "robustness": {
+        "description": "The multi-agent system's ability to handle errors, unexpected inputs, or challenging situations without failing.",
+        "accepted_values": ["not robust", "moderately robust", "highly robust"]
+    },
+    "clarity": {
+        "description": "The clarity of communication between agents and the transparency of the process.",
+        "accepted_values": ["not clear", "moderately clear", "highly clear"]
+    },
+    "originality": {
+        "description": "The level of creativity and originality in the approach to finding the solution.",
+        "accepted_values": ["not original", "somewhat original", "highly original"]
+    },
+    "scalability": {
+        "description": "The ability of the multi-agent system to handle scaling up, in terms of handling more complex tasks or a greater number of tasks.",
+        "accepted_values": ["not scalable", "moderately scalable", "highly scalable"]
+    }
+}

@@ -1,0 +1,43 @@
+
+{
+    "Accuracy": {
+        "description": "The extent to which the solution is correct and precise.",
+        "accepted_values": ["completely accurate", "mostly accurate", "partially accurate", "minimally accurate", "not accurate"]
+    },
+    "Completeness": {
+        "description": "The degree to which all steps and necessary information are included to fully address the question.",
+        "accepted_values": ["fully complete", "mostly complete", "partially complete", "minimally complete", "not complete"]
+    },
+    "Reasoning Traceability": {
+        "description": "The clarity and correctness of the reasoning steps leading to the solution.",
+        "accepted_values": ["fully traceable", "mostly traceable", "partially traceable", "minimally traceable", "not traceable"]
+    },
+    "Resource Identification": {
+        "description": "Effectiveness in identifying and using the right resources to solve the task.",
+        "accepted_values": ["excellent resource identification", "good resource identification", "fair resource identification", "poor resource identification", "no resource identification"]
+    },
+    "Efficiency": {
+        "description": "How economically the agents use time and resources to solve the task.",
+        "accepted_values": ["highly efficient", "efficient", "moderately efficient", "inefficient", "highly inefficient"]
+    },
+    "Question Understanding": {
+        "description": "The ability to understand the question’s complexity and requirements.",
+        "accepted_values": ["complete understanding", "substantial understanding", "average understanding", "limited understanding", "misunderstanding"]
+    },
+    "Solution Novelty": {
+        "description": "The uniqueness of the solution provided by the multi-agent system.",
+        "accepted_values": ["highly novel", "novel", "somewhat novel", "not very novel", "not novel"]
+    },
+    "Data Contamination Prevention": {
+        "description": "Measures taken to ensure the solution does not rely on potentially contaminated or directly lifted data.",
+        "accepted_values": ["fully prevented", "mostly prevented", "partially prevented", "minimally prevented", "not prevented"]
+    },
+    "Response Clarity": {
+        "description": "The clarity and understandability of the response given.",
+        "accepted_values": ["extremely clear", "clear", "somewhat clear", "unclear", "very unclear"]
+    },
+    "Depth of Analysis": {
+        "description": "How deeply the agents analyze information to reach a solution.",
+        "accepted_values": ["very deep", "deep", "moderate depth", "shallow", "very shallow"]
+    }
+}

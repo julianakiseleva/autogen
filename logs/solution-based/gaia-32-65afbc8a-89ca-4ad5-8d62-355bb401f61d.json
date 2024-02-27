@@ -1,0 +1,35 @@
+
+{
+    "Accuracy": {
+        "description": "Correctness of the answers provided by the agent.",
+        "accepted_values": ["Incorrect", "Partially Correct", "Correct"]
+    },
+    "Completeness": {
+        "description": "Completion of all required steps to answer the question.",
+        "accepted_values": ["Incomplete", "Partially Complete", "Complete"]
+    },
+    "Efficiency": {
+        "description": "Resource usage efficiency, including time and computational resources.",
+        "accepted_values": ["Low", "Medium", "High"]
+    },
+    "Robustness": {
+        "description": "System's adaptability to different types of questions and unexpected situations.",
+        "accepted_values": ["Non-Adaptive", "Somewhat Adaptive", "Fully Adaptive"]
+    },
+    "Traceability": {
+        "description": "Clarity of the reasoning trace for validation or learning purposes.",
+        "accepted_values": ["Opaque", "Somewhat Clear", "Transparent"]
+    },
+    "Compliance with Constraints": {
+        "description": "Adherence to movement rules and avoidance of data contamination.",
+        "accepted_values": ["Non-Compliant", "Partially Compliant", "Fully Compliant"]
+    },
+    "Scalability": {
+        "description": "System's ability to maintain performance with increasing workload.",
+        "accepted_values": ["Non-Scalable", "Moderately Scalable", "Highly Scalable"]
+    },
+    "User Satisfaction": {
+        "description": "Users' subjective assessment based on ease of use and answer satisfaction.",
+        "accepted_values": ["Dissatisfied", "Neutral", "Satisfied"]
+    }
+}
