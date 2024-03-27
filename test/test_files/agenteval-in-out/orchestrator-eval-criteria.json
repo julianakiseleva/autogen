@@ -1,0 +1,278 @@
+{
+    "completeness": {
+        "description": "the extent to which the solution addresses all parts of the task.",
+        "accepted_values": [
+            "complete",
+            "incomplete"
+        ]
+    },
+    "correctness": {
+        "description": "the answers provided should be factually correct.",
+        "accepted_values": [
+            "completely correct",
+            "partially correct",
+            "incorrect"
+        ]
+    },
+    "efficiency": {
+        "description": "the number of steps and amount of time taken by the agent system to reach the solution.",
+        "accepted_values": {
+            "very_efficient": "fewest_possible_steps",
+            "efficient": "more_than_minimum_but_acceptable_steps",
+            "inefficient": "excessive_steps_with_redundancies"
+        }
+    },
+    "originality": {
+        "description": "the solution should not be directly copied from existing sources on the internet.",
+        "accepted_values": [
+            "original",
+            "some originality",
+            "copied"
+        ]
+    },
+    "accuracy": {
+        "description": "the correctness of the final answer provided by the system.",
+        "accepted_values": [
+            "correct",
+            "incorrect",
+            "partially_correct"
+        ]
+    },
+    "response to correction": {
+        "description": "measure of how well the system can correct itself when given feedback",
+        "accepted_values": {
+            "excellent": "corrects errors promptly and accurately",
+            "good": "corrects errors with minor follow-up needed",
+            "poor": "struggles to correct errors even with feedback"
+        }
+    },
+    "creativity": {
+        "description": "indicator of originality and creativity in problem-solving approach",
+        "accepted_values": {
+            "highly creative": "approach is novel and unique",
+            "moderately creative": "some original elements in approach",
+            "not creative": "approach is commonplace and lacks originality"
+        }
+    },
+    "resourcefulness": {
+        "description": "the ability to effectively utilize available resources (e.g., multi-agent systems) to obtain the answer.",
+        "accepted_values": {
+            "optimal": "resources are used in the most efficient and effective manner.",
+            "suboptimal": "resources are used but not in the most efficient way.",
+            "ineffective": "the use of resources did not contribute to obtaining the answer."
+        }
+    },
+    "novelty": {
+        "description": "the originality of the answer, ensuring it has not been simply retrieved from readily available internet sources.",
+        "accepted_values": {
+            "unique": "the answer is uniquely produced and not found in plain text on the internet.",
+            "common": "the answer is found with slight modifications from internet sources.",
+            "copied": "the answer is an exact copy from internet sources."
+        }
+    },
+    "collaboration": {
+        "description": "the effectiveness of the interaction among multiple agents to achieve the task.",
+        "accepted_values": [
+            "no collaboration",
+            "minimal collaboration",
+            "effective collaboration",
+            "highly collaborative"
+        ]
+    },
+    "adaptability": {
+        "description": "ability of the agents to handle unexpected situations or questions not explicitly covered by the available data",
+        "accepted_values": {
+            "flexible": "handled unexpected aspects with ease",
+            "rigid": "struggled with or ignored unexpected aspects"
+        }
+    },
+    "reliability": {
+        "description": "the consistency of the agent in providing correct solutions over multiple iterations or tasks.",
+        "accepted_values": [
+            "inconsistent",
+            "mostly_reliable",
+            "reliable"
+        ]
+    },
+    "understandability": {
+        "description": "how well a human can understand the solution and the steps that were taken by the agent(s) to reach it.",
+        "accepted_values": [
+            "not understandable",
+            "understandable with effort",
+            "easily understandable"
+        ]
+    },
+    "execution steps": {
+        "description": "the number of steps the agent needed to take to complete the task.",
+        "accepted_values": [
+            "too many",
+            "as expected",
+            "fewer than expected"
+        ]
+    },
+    "problem complexity": {
+        "description": "the level of difficulty of the question posed to the agent.",
+        "accepted_values": [
+            "simple",
+            "moderate",
+            "complex",
+            "very complex"
+        ]
+    },
+    "uniqueness of solution": {
+        "description": "the degree to which the provided solution is not readily found in existing data sources like the internet.",
+        "accepted_values": [
+            "common",
+            "somewhat unique",
+            "unique"
+        ]
+    },
+    "time efficiency": {
+        "description": "the amount of time it took for the agent to provide a solution.",
+        "accepted_values": [
+            "slow",
+            "reasonable",
+            "fast"
+        ]
+    },
+    "data integrity": {
+        "description": "ensuring that the response does not contain any form of contamination from existing data sources.",
+        "accepted_values": [
+            "contaminated",
+            "possible contamination",
+            "clean"
+        ]
+    },
+    "resource identification": {
+        "description": "effectiveness in identifying and using the right resources to solve the task.",
+        "accepted_values": [
+            "excellent resource identification",
+            "good resource identification",
+            "fair resource identification",
+            "poor resource identification",
+            "no resource identification"
+        ]
+    },
+    "question understanding": {
+        "description": "the ability to understand the question\u2019s complexity and requirements.",
+        "accepted_values": [
+            "complete understanding",
+            "substantial understanding",
+            "average understanding",
+            "limited understanding",
+            "misunderstanding"
+        ]
+    },
+    "depth of analysis": {
+        "description": "how deeply the agents analyze information to reach a solution.",
+        "accepted_values": [
+            "very deep",
+            "deep",
+            "moderate depth",
+            "shallow",
+            "very shallow"
+        ]
+    },
+    "communication": {
+        "description": "the effectiveness with which the agent communicates the solution and reasoning path.",
+        "accepted_values": [
+            "unclear",
+            "comprehensible",
+            "eloquent"
+        ]
+    },
+    "diversity and complexity coverage": {
+        "description": "the extent to which the solution covers diverse and complex aspects inherent in the task.",
+        "accepted_values": {
+            "low": "the solution covers only simple or a limited range of aspects.",
+            "medium": "the solution covers a moderate range of diverse and complex aspects.",
+            "high": "the solution thoroughly covers a wide range of diverse and complex aspects."
+        }
+    },
+    "internet independence": {
+        "description": "the degree to which the solution can be derived without reliance on plain text answers from the internet.",
+        "accepted_values": {
+            "dependent": "the solution is derived from plain text found directly on the internet.",
+            "partially_independent": "the solution references the internet but also demonstrates independent reasoning or computations.",
+            "independent": "the solution is independent of internet search results and demonstrates original reasoning or computations."
+        }
+    },
+    "relevance": {
+        "description": "the solution must directly address the posed question.",
+        "accepted_values": [
+            "highly relevant",
+            "moderately relevant",
+            "irrelevant"
+        ]
+    },
+    "innovation": {
+        "description": "the level of creativity and originality in the problem-solving approach.",
+        "accepted_values": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    "robustness": {
+        "description": "ability of the multi-agent system to handle diverse and unexpected inputs without errors.",
+        "accepted_values": [
+            "non-robust",
+            "moderately robust",
+            "highly robust"
+        ]
+    },
+    "linguistic competence": {
+        "description": "the ability to use and understand the language correctly in the context of the problem.",
+        "accepted_values": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    "agent cooperation": {
+        "description": "the effectiveness of the agents working together to solve the task.",
+        "accepted_values": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    "scalability": {
+        "description": "the ability of the solution to handle increasing amounts of work or scope",
+        "accepted_values": {
+            "highly_scalable": "solution can scale up to handle much larger tasks seamlessly",
+            "moderately_scalable": "solution has some scalability but may struggle with significantly larger tasks",
+            "not_scalable": "solution is not scalable, only suitable for small or specific tasks"
+        }
+    },
+    "informativeness": {
+        "description": "the degree to which the answer and reasoning provide valuable and relevant information",
+        "accepted_values": {
+            "highly informative": "provides comprehensive and relevant information",
+            "moderately informative": "provides a fair amount of relevant information",
+            "minimally informative": "provides some information, but not very detailed or relevant",
+            "not informative": "provides no useful or relevant information"
+        }
+    },
+    "reasoning traceability": {
+        "description": "the ability to follow the logical reasoning and steps taken to arrive at the final answer.",
+        "accepted_values": {
+            "none": "no reasoning trace is provided.",
+            "partial": "a partial reasoning trace is provided, but some steps or logic are unclear.",
+            "complete": "a complete and clear reasoning trace is provided for all steps."
+        }
+    },
+    "data contamination prevention": {
+        "description": "measures taken to ensure the solution does not rely on potentially contaminated or directly lifted data.",
+        "accepted_values": [
+            "fully prevented",
+            "mostly prevented",
+            "partially prevented",
+            "minimally prevented",
+            "not prevented"
+        ]
+    }
+}
